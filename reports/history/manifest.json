@@ -1,0 +1,408 @@
+[
+  {
+    "id": "R01",
+    "title": "Orca 与 Dolphin 胸鳍几何比较",
+    "source": "orca_dolphin_20261008/comparison_report.html",
+    "sha256": "99b7082b8054cde9809e00bbc8ce84589f6cbb77c34524bf10f761f26f2dc3cd",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R02",
+    "title": "Orca 压力来源方法与验证",
+    "source": "orca_pressure_origin_20261022/Orca_压力来源_方法与验证.html",
+    "sha256": "8d126e4275734baae520002a58db2828fa0d7f9b14b3a2235eb24e639534588f",
+    "duplicate_locations": [
+      "pressure_origin_v7/Orca_压力来源_方法与验证.html"
+    ],
+    "missing_images": [],
+    "local_only_links": [
+      "Orca_压力来源_精简报告.html",
+      "data/vorticity_pressure_link.json",
+      "data/incident_removed_momentum.json",
+      "data/verification.json"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R03",
+    "title": "Orca 上表面吸力来源",
+    "source": "orca_pressure_origin_20261022/Orca_压力来源_精简报告.html",
+    "sha256": "a40cd8cbaf5e6453e21d54fbfcf179934d8514d9075e3bc109c2fe3183718d2c",
+    "duplicate_locations": [
+      "pressure_origin_v7/Orca_压力来源_精简报告.html"
+    ],
+    "missing_images": [],
+    "local_only_links": [
+      "Orca_压力来源_方法与验证.html",
+      "data/incident_pressure_phases.csv",
+      "data/paired_pressure_budget_phases.csv",
+      "pressure_mechanism.pdf"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R04",
+    "title": "Baseline–NoFin：两条论文问题的原始数据检验",
+    "source": "mechanism/report.html",
+    "sha256": "5e36860b36f702e789ec86a7372703c77794bd9c17cb7227e4748c478dd8c741",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "mechanism_summary.json",
+      "matched_inflow_probes.csv",
+      "nonpectoral_axial_distribution.csv",
+      "nonpectoral_reference_sensitivity.csv",
+      "tail_patch_contributions.csv",
+      "../report.html"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R05",
+    "title": "Baseline 与 NoFin：受力和俯仰力矩实算",
+    "source": "baseline_nofin_loads_20261008/report.html",
+    "sha256": "27a3e62957a4f07dd1ffaf7cb8291578ea35ed540c7a644e4aa6656824b7b709",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "mechanism/report.html",
+      "regional_means.csv",
+      "phase_loads.csv",
+      "moment_variance_budget.csv",
+      "reference_sensitivity.csv",
+      "summary.json"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R06",
+    "title": "均匀密度质心处的俯仰载荷",
+    "source": "uniform_density/report.html",
+    "sha256": "ec4283263c7e52d08f30fcddba36bd656932d35e143e466970e42f87d15d4238",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "summary.json",
+      "centroid_geometry.csv",
+      "moment_statistics.csv",
+      "../mechanism/report.html"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R07",
+    "title": "Orca 胸鳍增升：涡机制、惯性响应与几何放大的定量区分",
+    "source": "force_partition_v2/Orca_涡与放大机制_定量研究.html",
+    "sha256": "a77d32e5a87be11887103a9db24b270d40bf18fbb2aafc4027d5668a9db14a57",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "../mechanism_chain_v5/Orca_涡_压力_升力_机制研究.html"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R08",
+    "title": "Orca 胸鳍增升：涡机制、惯性响应与几何放大的定量区分",
+    "source": "force_partition_v2/内部草稿_涡与放大机制.html",
+    "sha256": "887525ee8dc103dcfc2e84b7a205070dbebdb374340fa0f05f8a2f43b7c50faf",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R09",
+    "title": "Orca：涡、压力与胸鳍增升的机制证据",
+    "source": "mechanism_chain_v5/Orca_机制研究_完整分析与验证.html",
+    "sha256": "b9c1a68e894430f4c363590cc281921ef9820df5b4835f585f276b5aa1067356",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "Orca_涡_压力_升力_机制研究.html",
+      "../force_partition_v2/Orca_涡与放大机制_定量研究.html"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R10",
+    "title": "Orca 胸鳍增升机制｜精简报告",
+    "source": "mechanism_chain_v5/Orca_涡_压力_升力_机制研究.html",
+    "sha256": "fd526310322fe3972a6cdaa3f1f5f7be1310716ec231d24dcf2a63f7c0f13206",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "Orca_机制研究_完整分析与验证.html",
+      "../vortex_identity_v6/Orca_涡命名与新颖性核查.html"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R11",
+    "title": "Orca 胸鳍增升机制：原始数据定量研究",
+    "source": "body_fin_mechanism_20261022/Orca_胸鳍增升机制研究.html",
+    "sha256": "9ce4ae5c04a7d709fb9ffe7715759abb93b6cc733c4fe0b4aaffa77b6b285848",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "sources/prior_circulation_load_audit.json",
+      "sources/prior_circulation_notes.txt",
+      "load_summary.json",
+      "load_signals.csv",
+      "section_metrics.csv",
+      "diagnostics_summary.json",
+      "validation.json",
+      "pressure_datum_audit.json",
+      "q_common_grid_validation.json",
+      "source_manifest.json",
+      "sources/literature_read.json"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R12",
+    "title": "naming_section",
+    "source": "vortex_atlas_v10/naming_section.html",
+    "sha256": "a1ea14b4a7b695672b8242b91a5004b688944602872ac6cb6fe4ca7d5d46d832",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "positive_branch_connectivity.json"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R13",
+    "title": "Orca：主要涡结构逐支分类与对应",
+    "source": "vortex_atlas_v10/Orca_主要涡结构分类与逐支对应.html",
+    "sha256": "efb4a8b5044247e72d63d47f5cf5b63af5a8016d08d355aff5a00f5f8077559c",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "positive_branch_connectivity.json",
+      "figures/01_major_vortex_atlas.png",
+      "figures/01_major_vortex_atlas.pdf",
+      "figures/01_major_vortex_atlas.svg",
+      "figures/01_major_vortex_atlas.png",
+      "figures/03_individual_core_sections.png",
+      "figures/03_individual_core_sections.pdf",
+      "figures/03_individual_core_sections.svg",
+      "figures/03_individual_core_sections.png",
+      "figures/02_root_and_body_controls.png",
+      "figures/02_root_and_body_controls.pdf",
+      "figures/02_root_and_body_controls.svg",
+      "figures/02_root_and_body_controls.png",
+      "../vortex_identity_v6/literature/curated_evidence.json",
+      "vortex_labels.csv",
+      "identities.json",
+      "../vortex_source_v8/enhanced_tev_sources.json",
+      "../vortex_discovery_v9/Orca_身体涡核查与流向旋转反转.html",
+      "../vortex_identity_v6/figures/user_vortex_figure.png"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R14",
+    "title": "涡结构调查已更新",
+    "source": "vortex_candidates_v7/Orca_未解涡结构与研究候选.html",
+    "sha256": "1cedeadafd7baadf16c69beabf9d081d683d61522545599c939cf3ba00db59f1",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "../vortex_source_v8/Orca_涡结构来源与机制结论.html"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R15",
+    "title": "Orca｜身体涡质疑核查与旋向反转发现",
+    "source": "vortex_discovery_v9/Orca_身体涡核查与流向旋转反转.html",
+    "sha256": "5f46ee678c12e74ad70d91ac2a26b219693ec605456b9ddc316fa2ec47c164ad",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "../vortex_atlas_v10/Orca_主要涡结构分类与逐支对应.html",
+      "report_metrics.json",
+      "C473_closed_contour_controls.json",
+      "body_vortex_alternatives.json",
+      "candidate_source_paths.json",
+      "identical_release_comparison.json",
+      "rotation_reversal_verification.json",
+      "material_static_branch_controls.json",
+      "targeted_novelty_audit.json"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R16",
+    "title": "Orca 涡结构：来源、命名与机制结论",
+    "source": "vortex_identity_v6/Orca_涡命名与新颖性核查.html",
+    "sha256": "7f467c72c0d1737884b6ad922ebf893a354b552c93c7a0064acc868c26758dbf",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "../vortex_atlas_v10/Orca_主要涡结构分类与逐支对应.html",
+      "../vortex_discovery_v9/Orca_身体涡核查与流向旋转反转.html",
+      "../pressure_origin_v7/Orca_压力来源_精简报告.html",
+      "../vortex_source_v8/verdict_metrics.json",
+      "../vortex_source_v8/material_source_locations.json",
+      "../vortex_source_v8/enhanced_tev_sources.json",
+      "../vortex_source_v8/half_cycle_feeding_summary.json",
+      "../vortex_source_v8/static_material_control.json",
+      "../vortex_source_v8/resolved_vorticity_transport.json",
+      "../vortex_source_v8/literature_verdict.json",
+      "../Orca_涡命名核查_报告与依据.zip",
+      "Orca_涡命名核查_方法与文献.html"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R17",
+    "title": "Orca 涡命名核查：方法与文献",
+    "source": "vortex_identity_v6/Orca_涡命名核查_方法与文献.html",
+    "sha256": "e4200dc414be8849a1d3553ad6ce263311b3c3d995da3044cf1fedba2cbdf143",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "../vortex_atlas_v10/Orca_主要涡结构分类与逐支对应.html",
+      "../vortex_source_v8/Orca_涡结构来源与机制结论.html",
+      "../vortex_candidates_v7/Orca_未解涡结构与研究候选.html",
+      "Orca_涡命名与新颖性核查.html",
+      "instantaneous_vorticity_lines.json",
+      "vorticity_line_step_check.json",
+      "original_label_map.json",
+      "section_core_correspondence.json",
+      "track_sensitivity.json",
+      "display_and_data_audit.json",
+      "junction_circulation.json",
+      "file:///[local path omitted]",
+      "file:///[local path omitted]",
+      "file:///[local path omitted]",
+      "file:///[local path omitted]",
+      "literature/dong_2016_2026_screening.csv",
+      "literature/curated_evidence.json",
+      "junction_region.json"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R18",
+    "title": "Orca 涡命名与新颖性核查",
+    "source": "previous_report/Orca_涡命名与新颖性核查.html",
+    "sha256": "9964c4f15a07972bed3ffe5967d26fbec7b305e6ba38717a9ed2bcef07f55fcf",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "Orca_涡命名核查_方法与文献.html",
+      "../mechanism_chain_v5/Orca_涡_压力_升力_机制研究.html",
+      "naming_recommendations.csv"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R19",
+    "title": "Orca 涡命名核查：方法与文献",
+    "source": "previous_report/Orca_涡命名核查_方法与文献.html",
+    "sha256": "24650f9fce8a312a2fc84250edafb7c72707321d2cf4aeabea828be1c2345603",
+    "duplicate_locations": [],
+    "missing_images": [
+      "figures/geometric_phase_check.png",
+      "figures/section_core_tracks.png"
+    ],
+    "local_only_links": [
+      "Orca_涡命名与新颖性核查.html",
+      "section_core_correspondence.json",
+      "track_sensitivity.json",
+      "display_and_data_audit.json",
+      "junction_circulation.json",
+      "file:///[local path omitted]",
+      "file:///[local path omitted]",
+      "file:///[local path omitted]",
+      "file:///[local path omitted]",
+      "literature/dong_2016_2026_screening.csv",
+      "literature/curated_evidence.json",
+      "junction_region.json"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R20",
+    "title": "Orca 涡结构：来源、命名与机制结论",
+    "source": "vortex_source_v8/Orca_涡结构来源与机制结论.html",
+    "sha256": "d366b2ce920bde3ac5cf4630fd83d7f06c427b400c4fb63418c1ca54da50507d",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "../vortex_atlas_v10/Orca_主要涡结构分类与逐支对应.html",
+      "../vortex_discovery_v9/Orca_身体涡核查与流向旋转反转.html",
+      "../pressure_origin_v7/Orca_压力来源_精简报告.html",
+      "verdict_metrics.json",
+      "material_source_locations.json",
+      "enhanced_tev_sources.json",
+      "half_cycle_feeding_summary.json",
+      "static_material_control.json",
+      "resolved_vorticity_transport.json",
+      "literature_verdict.json",
+      "../Orca_涡命名核查_报告与依据.zip",
+      "../vortex_identity_v6/Orca_涡命名核查_方法与文献.html"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R21",
+    "title": "胸鳍引起的推进与俯仰载荷重分配",
+    "source": "integrated_research_20261009/report.html",
+    "sha256": "6f2267a6d55838aedeff881e71949807e42ccd2c7e0c6fd0684958287c90a4c8",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "Orca_integrated_research.pdf",
+      "integrated_findings.json",
+      "paired_patch_phase_force_moment.csv",
+      "paired_interface_coverage.csv"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R22",
+    "title": "Orca 分部 POD 与稀疏重建研究",
+    "source": "orca_pod_20261008/report.html",
+    "sha256": "f844485b8a77bc34e97357205647a5ea34ce86cdeb905e14ee66340614c7a55a",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [
+      "05_reconstruction.pdf",
+      "06_dense_scores.pdf",
+      "01_data_audit.pdf",
+      "02_spatial_pod_energy.pdf",
+      "03_temporal_modes.pdf",
+      "10_spatial_modes.pdf",
+      "delay_pod_energy.csv",
+      "11_delay_pod.pdf",
+      "04_similarity.pdf",
+      "09_sampling_limit.pdf",
+      "07_sample_sensitivity.pdf",
+      "08_regional_reconstruction.pdf",
+      "audit.json",
+      "dense_metrics.csv",
+      "sparse_nested_cv.csv",
+      "pod_energy.csv",
+      "regional_samples.csv",
+      "moment_rank_scores.csv"
+    ],
+    "status": "historical; consult current synthesis for claim corrections"
+  },
+  {
+    "id": "R23",
+    "title": "audit_binary_findings",
+    "source": "solver_groundtruth_20261003/audit_binary_findings.md",
+    "sha256": "093814a1f56ced26a0b502ef85ef96c77575e15876a9bf1323e13f65dcfe0d2d",
+    "duplicate_locations": [],
+    "missing_images": [],
+    "local_only_links": [],
+    "status": "historical; consult current synthesis for claim corrections"
+  }
+]

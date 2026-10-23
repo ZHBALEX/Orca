@@ -10,3 +10,8 @@
 - No scheduled/background synchronization was requested.
 - Build/test commands: not yet established; verify commands for each scoped code change. Repository setup is not a CFD validation.
 - Repository created and cloned by the user on 2026-10-23. Source code checkout: GitHub/Orca; research data remains in the existing Pj_Orca_3D directory. Existing research scripts have not been bulk migrated.
+
+- Research continuation authorized on 2026-10-23: organize existing assistant reports, analyze the evidence and novelty, create scientific figures and an English draft, and progress the Orca mechanism study.
+- Current research entry: reports/LATEST.md. The bounded next analysis is documented in reports/2026-10-23-evidence-audit/NEXT.md.
+- Validation commands: python code/run__evidenceAudit.py; python code/run__localPressureBridge.py. Both passed using the local scientific environment; input profile data remains local.
+- code/vortex_atlas is a copied maintained plotting snapshot; its pipeline was not rerun during the v11 audit.
