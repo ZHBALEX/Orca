@@ -4,10 +4,13 @@
 
 ## 从这里开始
 
+- **[v17：周期稳定性、采样误差与发表证据边界](reports/2026-10-23-cycle-evidence/README.md)**
+- [v17 英文结果草稿](reports/2026-10-23-cycle-evidence/MANUSCRIPT_DRAFT.md)
+
 - **[v16：把旋转相关压差增量追到剪切与法向速度变化](reports/2026-10-23-rotation-origin/README.md)**
 - [v16 英文论证](reports/2026-10-23-rotation-origin/MANUSCRIPT_DRAFT.md)
 
-最新推进：在同一1071个上下配对面上，正Lamb增量由涡量变化项提供，速度变化项部分抵消；进一步定位到上侧解析层的法向剪切和法向速度弦向梯度。NoFin同位置压力向近表面减弱，而B−I增量增强。分析范围和动量余项见v16。
+v16 结果：在同一1071个上下配对面上，正Lamb增量由涡量变化项提供，速度变化项部分抵消；进一步定位到上侧解析层的法向剪切和法向速度弦向梯度。NoFin同位置压力向近表面减弱，而B−I增量增强。分析范围和动量余项见v16。
 
 
 - **[v15：为什么平均鳍载荷增大——四算例对照与机制解释](reports/2026-10-23-lift-cause-controls/README.md)**
