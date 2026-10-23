@@ -1,3 +1,5 @@
+> v13 修正：按用户确认的 Neumann 压力边界，跨算例单侧压力残差的绝对值不能直接解释为额外吸力；以 [零点无关的上下表面压差分析](../2026-10-23-pressure-gauge/README.md) 为准。旧版开放面片载荷与残差比例不构成独立力归因。
+
 # Spatially distributed pressure changes in body–fin coupling
 
 Internal mechanism draft, 23 October 2026. Exploratory results for the present case; not a submission-ready manuscript. Source IDs L01–L08 refer to [the literature matrix](LITERATURE_MATRIX.md). Numerical results refer to [the spatial-control output](spatial_controls.json) unless specified otherwise.

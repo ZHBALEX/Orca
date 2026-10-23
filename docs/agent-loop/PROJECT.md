@@ -17,3 +17,5 @@
 - code/vortex_atlas is a copied maintained plotting snapshot; its pipeline was not rerun during the v11 audit.
 
 - v12 completed ORCA-EVIDENCE-012: literature-informed spatial controls and exact midpoint Lamb expansion. Latest report: reports/2026-10-23-mechanism-logic/README.md. New validation: python code/run__spatialControls.py; local consistency checks passed. ORCA-EVIDENCE-013 remains a defined next analysis, not a completed result.
+
+- User clarification, 2026-10-23: pressure has Neumann boundary conditions. Prioritize within-case upper/lower pressure differences or explicitly referenced relative pressure, then compare cases. Do not interpret cross-case single-surface absolute pressure residuals or open-surface pressure integrals as gauge-independent load changes. v13 implements material-chart pressure jumps and independent time-dependent gauge-shift tests; full junction/load closure remains pending.

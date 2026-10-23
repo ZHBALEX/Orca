@@ -1,9 +1,11 @@
-# 最新进度：v12，2026-10-23
+# 最新进度：v13，2026-10-23
 
-[中文研究报告](2026-10-23-mechanism-logic/README.md) · [文献矩阵](2026-10-23-mechanism-logic/LITERATURE_MATRIX.md) · [英文草稿](2026-10-23-mechanism-logic/MANUSCRIPT_DRAFT.md)
+[Neumann 压力边界下的压差分析](2026-10-23-pressure-gauge/README.md) · [英文修订](2026-10-23-pressure-gauge/MANUSCRIPT_NOTE.md)
 
-完成 ORCA-EVIDENCE-012：等面积区域、非重叠敏感性、全有效上表面压力图，以及 Lamb 速度/涡量差分展开。结果不支持所选 RV+ 区域具有唯一最强吸力；速度/涡量项抵消使单项解释不足。
+主量改为 J=(p_lower−p_upper)/(0.5ρU²)，然后比较 ΔJ。独立时变压力偏移检验通过，最大变化 2.22e-15。完整孤立鳍闭合，而组合算例现有鳍标签区域在根部开放；该差别必须进入载荷解释。
 
-下一项 [ORCA-EVIDENCE-013](2026-10-23-mechanism-logic/NEXT.md)：压力参考审查与完整双面鳍载荷闭合；尚未声称完成。
+v12 的原始残差绝对值不能直接视为额外吸力，“幅值高19.3%”撤回；区域残差差值及法向层内压差仍不依赖压力零点。新增 J 对照同样显示上游压差增量大于 RV+ 邻区。
 
-[v11 审核](2026-10-23-evidence-audit/README.md) · [历史报告](history/README.md)
+ORCA-EVIDENCE-013：压力参考和开放面片审查已完成本轮诊断；根部闭合定义、完整载荷比较仍未完成。下一步先明确该物理约定，再计算载荷桥梁。
+
+[文献矩阵](2026-10-23-mechanism-logic/LITERATURE_MATRIX.md) · [历史报告](history/README.md)

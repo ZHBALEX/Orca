@@ -1,3 +1,5 @@
+> v13 修正：按用户确认的 Neumann 压力边界，跨算例单侧压力残差的绝对值不能直接解释为额外吸力；以 [零点无关的上下表面压差分析](../2026-10-23-pressure-gauge/README.md) 为准。旧版开放面片载荷与残差比例不构成独立力归因。
+
 # Draft results and discussion — not submission-ready
 
 Working title: **Spatial organization of body–fin interaction and suction enhancement in an undulating orca configuration**
