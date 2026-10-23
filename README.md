@@ -4,10 +4,16 @@
 
 ## 从这里开始
 
+- **[v15：为什么平均鳍载荷增大——四算例对照与机制解释](reports/2026-10-23-lift-cause-controls/README.md)**
+- [v15 英文论证](reports/2026-10-23-lift-cause-controls/MANUSCRIPT_DRAFT.md)
+
+最新结果：将运动冻结于平均姿态后，共同鳍面压差载荷的身体效应下降 76.55%；内侧 60% 共同展向贡献 84.73%。增益体现为平均压差改变，平均迎角增大与直接加速度均值均不能解释；已解析旋转相关压力源项在六种设置中保持正贡献。具体范围与限定见 v15。
+
+
 - **[v14：压力差—载荷—机制的完整核验](reports/2026-10-23-integrated-chain/README.md)**
 - [v14 英文结果](reports/2026-10-23-integrated-chain/MANUSCRIPT_DRAFT.md) · [实际执行记录](reports/2026-10-23-integrated-chain/pipeline_run.json) · [已执行清单与未闭合问题](reports/2026-10-23-integrated-chain/TODO.md)
 
-本轮完整跑通原始接口重读、密集载荷、配对压力载荷、动量预算及既有力分解审计。系统平均压力对照差 +0.006120；区域压差能较好解释同范围载荷，但不能解释整个系统波形。正 Lamb 项受到动能和非定常项抵消，单涡因果归因仍未闭合。
+v14 完整跑通原始接口重读、密集载荷、配对压力载荷、动量预算及既有力分解审计。系统平均压力对照差 +0.006120；区域压差能较好解释同范围载荷，但不能解释整个系统波形。正 Lamb 项受到动能和非定常项抵消，单涡因果归因仍未闭合。
 
 
 - **[v13：Neumann 边界下的压差关系与修正](reports/2026-10-23-pressure-gauge/README.md)**
@@ -25,6 +31,9 @@ v13 结论：以各算例内部的上下表面压差 J 为主变量，再比较 
 ![上下表面压差](reports/2026-10-23-pressure-gauge/08_pressure_jump.png)
 
 ## 代码与复算
+
+- `code/run__liftCauseControls.py`：v15 四算例运动/静止对照、压差与投影恒等式、来流检验、源项敏感性和图 12–13；已运行通过。
+
 
 - `code/run__researchPipeline.py`：v14 一键流程，原始数据→压力/载荷→预算审计→图 9–11→中英文报告；本机完整执行通过。
 
