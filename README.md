@@ -4,23 +4,26 @@
 
 ## 从这里开始
 
-- **[最新研究进度、创新点与新增分析](reports/2026-10-23-evidence-audit/README.md)**
-- **[23 份去重历史报告目录](reports/history/README.md)**：包含历史草稿与片段，已标明不能代替最新结论。
-- **[英文论文结果与讨论草稿](reports/2026-10-23-evidence-audit/MANUSCRIPT_DRAFT.md)**
-- **[下一步研究任务与验收标准](reports/2026-10-23-evidence-audit/NEXT.md)**
+- **[v12 最新研究报告：文献、空间对照与机制论证](reports/2026-10-23-mechanism-logic/README.md)**
+- **[8 篇原文的证据矩阵与推荐阅读顺序](reports/2026-10-23-mechanism-logic/LITERATURE_MATRIX.md)**
+- **[按组内论证方式重写的英文草稿](reports/2026-10-23-mechanism-logic/MANUSCRIPT_DRAFT.md)**
+- [v11：平均/瞬态闭合、配对轨迹与局部压力](reports/2026-10-23-evidence-audit/README.md)
+- [23 份去重历史报告目录](reports/history/README.md)：包含旧版、草稿和片段；最新结论优先。
+- [下一步：压力到完整鳍载荷的闭合](reports/2026-10-23-mechanism-logic/NEXT.md)
 
-本轮完成：平均/相位压力闭合复核、RV⁺ 同点释放检查、固定材料邻域的压力与受力检验，以及小/大邻域动量项比较。最重要的进展是将涡结构和局部表面压力建立空间联系，同时发现不能把全上表面 Lamb 主导的均值结论直接套到最靠近涡核的小邻域。
+本轮结论：RV+ 邻近区域存在额外吸力，但等面积、完全不重叠的上游区域吸力更强。参考区较小的 Lamb 合量包含速度差项与涡量差项的较大抵消。因此，研究主线应是体鳍耦合如何重排鳍根压力，而不能直接将总增益归因于所选分支。
 
-![局部压力和材料面片分析](reports/2026-10-23-evidence-audit/03_local_pressure_bridge.png)
+![等面积空间对照](reports/2026-10-23-mechanism-logic/05_spatial_controls.png)
 
-## 代码
+## 代码与复算
 
-- `code/run__evidenceAudit.py`：读取保存结果，复核平均量、相位闭合及轨迹，生成图 1–2。
-- `code/run__localPressureBridge.py`：读取本地 profile 数据，生成固定材料邻域及动量预算图 3–4。
-- `code/vortex_atlas/run__vortexAtlas.py`：既有 v10 三幅涡结构图的维护版代码快照。它使用本地缓存；本轮未重新运行该图谱流程。
+- `code/run__evidenceAudit.py`：复核均值、相位闭合和轨迹，图 1–2。
+- `code/run__localPressureBridge.py`：固定材料邻域压力与动量预算，图 3–4。
+- `code/run__spatialControls.py`：等面积空间对照、非重叠敏感性、压力分布和 Lamb 中点展开，图 5–7。
+- `code/vortex_atlas/run__vortexAtlas.py`：v10 涡图维护代码快照；本轮未重跑其流程。
 
-先在 runner 的 `main()` 设置本机数据路径，再运行。新分析依赖 NumPy 和 Matplotlib；图谱还需要 SciPy。输入文件未随仓库上传；报告中的输入哈希和方法说明用于核对来源，不表示任意机器可无数据复算。
+先在 runner 的 main() 设置本机输入路径。新分析依赖 NumPy 和 Matplotlib，图谱还需要 SciPy。原始输入未上传；JSON 中记录输入哈希，结果不代表无输入数据也能复算。
 
-图内科学内容以栅格层嵌入 PDF/SVG，文字和坐标保留可编辑元素；图像是报告的一部分。GitHub 可直接阅读 Markdown 与 PNG；HTML 报告可下载后打开。
+图内数据以栅格层嵌入 PDF/SVG，文字和坐标保留可编辑元素，另有 600 dpi PNG。GitHub 可直接阅读 Markdown 与 PNG；下载合集后可打开 INDEX.html 查看图件及历史报告。代码内部一致性检查通过不等于 CFD 网格收敛或实验验证。
 
-项目规则见 [PROJECT.md](docs/agent-loop/PROJECT.md)。研究记录与英文草稿均非投稿定稿。
+项目规则见 [PROJECT.md](docs/agent-loop/PROJECT.md)。报告与英文草稿均非投稿定稿。

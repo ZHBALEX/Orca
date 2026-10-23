@@ -1,3 +1,5 @@
+> 更新：本项空间对照已完成，见 [v12](../2026-10-23-mechanism-logic/README.md)。后续任务见 [ORCA-EVIDENCE-013](../2026-10-23-mechanism-logic/NEXT.md)。
+
 # ORCA-EVIDENCE-012 — spatial specificity and pressure maps
 
 Status: ready within the user's 2026-10-23 instruction to continue Orca research. This records a bounded next analysis; it is not an unbounded autonomous simulation mandate or a scheduled run.

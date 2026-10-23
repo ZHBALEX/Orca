@@ -15,3 +15,5 @@
 - Current research entry: reports/LATEST.md. The bounded next analysis is documented in reports/2026-10-23-evidence-audit/NEXT.md.
 - Validation commands: python code/run__evidenceAudit.py; python code/run__localPressureBridge.py. Both passed using the local scientific environment; input profile data remains local.
 - code/vortex_atlas is a copied maintained plotting snapshot; its pipeline was not rerun during the v11 audit.
+
+- v12 completed ORCA-EVIDENCE-012: literature-informed spatial controls and exact midpoint Lamb expansion. Latest report: reports/2026-10-23-mechanism-logic/README.md. New validation: python code/run__spatialControls.py; local consistency checks passed. ORCA-EVIDENCE-013 remains a defined next analysis, not a completed result.
