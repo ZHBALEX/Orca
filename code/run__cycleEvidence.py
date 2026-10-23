@@ -101,6 +101,8 @@ def main():
         ax.spines[['top','right']].set_visible(False)
     fig.tight_layout()
     save_hybrid(fig, out/'16_cycle_sampling', 600)
+    svg = out/'16_cycle_sampling.svg'
+    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text(encoding='utf-8').splitlines())+'\n', encoding='utf-8')
     plt.close(fig)
     print(json.dumps({k:v for k,v in audit.items() if k not in ['cycles','provenance']},indent=2))
 
