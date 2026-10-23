@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "elapsed_seconds": 49.256491300067864,
+  "raw_frames": 34,
+  "potential_results_audited": 102,
+  "figures": {
+    "09_system_and_pair": {
+      "embedded_images": 2,
+      "editable_text_nodes": 28
+    },
+    "10_pressure_to_load": {
+      "embedded_images": 2,
+      "editable_text_nodes": 34
+    },
+    "11_paired_pressure_budget": {
+      "embedded_images": 3,
+      "editable_text_nodes": 52
+    }
+  },
+  "scientific_attribution_closed": false,
+  "note": "Completed analysis pipeline is not equivalent to a closed causal mechanism."
+}
