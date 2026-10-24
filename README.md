@@ -4,6 +4,8 @@
 
 ## 从这里开始
 
+- **[v21：平均流动与平均压差的对应](reports/2026-10-24-mean-flow-pressure/README.md)**
+
 - **[v20：全周期演化与上侧流动来源回溯](reports/2026-10-24-dong-evolution/README.md)**
 
 - **[v19：Dong 组路线的同相位流场—压差对照](reports/2026-10-23-dong-comparison/README.md)**
