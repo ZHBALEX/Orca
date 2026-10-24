@@ -1,0 +1,2371 @@
+{
+  "rows": [
+    {
+      "phase": 0.0,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0015190988779067993,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 4.061910159397772e-05,
+          "outward_flux": -9.38455619629434e-05,
+          "net_flux": -5.322646036896569e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0002682989180025552,
+          "outward_flux": -1.0345148855629848e-06,
+          "net_flux": 0.0002672644031169922,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.0,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0015475820129040585,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.4363326329711134e-05,
+          "outward_flux": -0.0001045967148656908,
+          "net_flux": -8.023338853597965e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0002557761650520084,
+          "outward_flux": -3.283397465597061e-07,
+          "net_flux": 0.00025544782530544867,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.0,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.00128173828125,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.229896094127303e-05,
+          "outward_flux": -8.815693181770981e-05,
+          "net_flux": -5.585797087643679e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00023967747062131337,
+          "outward_flux": 0.0,
+          "net_flux": 0.00023967747062131337,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.0,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0013387030611511364,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.0021960376581544e-05,
+          "outward_flux": -0.00010472366247335428,
+          "net_flux": -8.470170209677274e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00023351206506192686,
+          "outward_flux": 0.0,
+          "net_flux": 0.00023351206506192686,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.0,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.000996910035610199,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.837940289288272e-06,
+          "outward_flux": -9.064245478075355e-05,
+          "net_flux": -8.680451449146528e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00020914057893327195,
+          "outward_flux": 0.0,
+          "net_flux": 0.00020914057893327195,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.0,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0010823579505085945,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.6753308178373813e-06,
+          "outward_flux": -0.00011141266374080668,
+          "net_flux": -0.0001087373329229693,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00020515648545611374,
+          "outward_flux": 0.0,
+          "net_flux": 0.00020515648545611374,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.0625,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0014716237783432007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.307269794329422e-05,
+          "outward_flux": -5.048135878872797e-05,
+          "net_flux": -2.740866084543375e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00021407403485038898,
+          "outward_flux": 0.0,
+          "net_flux": 0.00021407403485038898,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.0625,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0014716237783432007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.383121829314419e-05,
+          "outward_flux": -6.126090656232561e-05,
+          "net_flux": -4.742968826918143e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0002140620961347249,
+          "outward_flux": 0.0,
+          "net_flux": 0.0002140620961347249,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.0625,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.00128173828125,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 9.754021574910776e-06,
+          "outward_flux": -5.060691094633956e-05,
+          "net_flux": -4.085288937142879e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00018419908804124036,
+          "outward_flux": -2.3717892099677282e-07,
+          "net_flux": 0.0001839619091202436,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.0625,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.001319714801184091,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 4.2850860268460874e-06,
+          "outward_flux": -6.752536346458018e-05,
+          "net_flux": -6.324027743773409e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00018772720547122245,
+          "outward_flux": 0.0,
+          "net_flux": 0.00018772720547122245,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.0625,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0010443776845932007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 8.826911856300284e-07,
+          "outward_flux": -6.104387874919317e-05,
+          "net_flux": -6.016118756356313e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00016178869696219654,
+          "outward_flux": -1.1158924048321706e-06,
+          "net_flux": 0.00016067280455736436,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.0625,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0010823542045272916,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.6582641983907584e-08,
+          "outward_flux": -7.73336748372392e-05,
+          "net_flux": -7.731709219525529e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0001602354157651868,
+          "outward_flux": -3.8090900758744804e-07,
+          "net_flux": 0.00015985450675759933,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.125,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0015190988779067993,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.6084487264045495e-05,
+          "outward_flux": -2.751591354606575e-05,
+          "net_flux": -1.1431426282020258e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0001039962918602193,
+          "outward_flux": -1.3660572556715616e-05,
+          "net_flux": 9.033571930350368e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.125,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0015190988779067993,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 8.56390423224309e-06,
+          "outward_flux": -2.63816697081217e-05,
+          "net_flux": -1.781776547587861e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00011232985815804594,
+          "outward_flux": -5.7858955417791074e-06,
+          "net_flux": 0.00010654396261626682,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.125,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.00128173828125,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.5098043171618336e-05,
+          "outward_flux": -2.5981976338731885e-05,
+          "net_flux": -1.088393316711355e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 8.904628682604874e-05,
+          "outward_flux": -1.8997628564848494e-05,
+          "net_flux": 7.004865826120023e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.125,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0013292111663076867,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 7.420015238788718e-06,
+          "outward_flux": -2.737836121397916e-05,
+          "net_flux": -1.995834597519044e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 9.738380407790895e-05,
+          "outward_flux": -7.654855690397572e-06,
+          "net_flux": 8.972894838751139e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.125,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.000996902585029602,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.924545525887163e-05,
+          "outward_flux": -1.2103130572504851e-05,
+          "net_flux": 7.142324686366779e-06,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 8.363912822238867e-05,
+          "outward_flux": -1.6266338620387308e-05,
+          "net_flux": 6.737278960200137e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.125,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0010443739799939067,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 9.446747688274288e-06,
+          "outward_flux": -1.3484177433777567e-05,
+          "net_flux": -4.037429745503275e-06,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 8.715022022948599e-05,
+          "outward_flux": -7.662323823289047e-06,
+          "net_flux": 7.948789640619693e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.1875,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0014716312289237976,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.771803179032712e-05,
+          "outward_flux": -4.324463496175942e-05,
+          "net_flux": -1.552660317143231e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00020213962720981718,
+          "outward_flux": -1.2517276277076675e-07,
+          "net_flux": 0.00020201445444704644,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.1875,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0014716312289237976,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.8029006692154555e-05,
+          "outward_flux": -5.144326564765095e-05,
+          "net_flux": -3.34142589554964e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00020321722409998185,
+          "outward_flux": 0.0,
+          "net_flux": 0.00020321722409998185,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.1875,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0013292059302330017,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.1265832864848585e-05,
+          "outward_flux": -5.599992233023219e-05,
+          "net_flux": -4.4734089465383604e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00017239410773067248,
+          "outward_flux": -1.2643054638991559e-06,
+          "net_flux": 0.00017112980226677334,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.1875,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0013671824501670926,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 6.393761168291459e-06,
+          "outward_flux": -6.771457379432216e-05,
+          "net_flux": -6.13208126260307e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00018044721149461406,
+          "outward_flux": -6.064654355323722e-07,
+          "net_flux": 0.0001798407460590817,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.1875,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0010443776845932007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.762774027903592e-06,
+          "outward_flux": -5.2629815565215616e-05,
+          "net_flux": -4.886704153731202e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00015300412636802432,
+          "outward_flux": -1.6222003046949399e-06,
+          "net_flux": 0.00015138192606332937,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.1875,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0010918505696508873,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.3993618120284462e-06,
+          "outward_flux": -6.56513730568023e-05,
+          "net_flux": -6.425201124477386e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.000155606939293833,
+          "outward_flux": -9.988670492418373e-07,
+          "net_flux": 0.00015460807224459115,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.25,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0014716312289237976,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 8.252422988537991e-05,
+          "outward_flux": -5.56402289530221e-05,
+          "net_flux": 2.68840009323578e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 4.571744366906354e-05,
+          "outward_flux": -0.0001041042925127317,
+          "net_flux": -5.838684884366816e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.25,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0014811261039540113,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 7.203070661330244e-05,
+          "outward_flux": -3.242052153987787e-05,
+          "net_flux": 3.9610185073424585e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 3.370821255191874e-05,
+          "outward_flux": -5.7614917834432664e-05,
+          "net_flux": -2.390670528251392e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.25,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.00128173828125,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 8.266173368133074e-05,
+          "outward_flux": -4.9240453171814855e-05,
+          "net_flux": 3.342128050951589e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 3.246298038485489e-05,
+          "outward_flux": -0.00012282497855293294,
+          "net_flux": -9.036199816807806e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.25,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0013576913211181818,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 7.39268434242951e-05,
+          "outward_flux": -3.0444300275466643e-05,
+          "net_flux": 4.348254314882845e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 2.2951131179981555e-05,
+          "outward_flux": -7.982613250401242e-05,
+          "net_flux": -5.6875001324030885e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.25,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.000996902585029602,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 9.787058100109018e-05,
+          "outward_flux": -9.10494291006983e-06,
+          "net_flux": 8.876563809102035e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 2.8089389067426458e-05,
+          "outward_flux": -8.425139070720639e-05,
+          "net_flux": -5.616200163977994e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.25,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0010443739799939067,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 8.631988139151136e-05,
+          "outward_flux": -4.326466969257508e-06,
+          "net_flux": 8.199341442225385e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 2.030148833554303e-05,
+          "outward_flux": -5.509678639794106e-05,
+          "net_flux": -3.479529806239803e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.3125,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0014716237783432007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 4.9011937052400276e-05,
+          "outward_flux": -4.8387259309639316e-05,
+          "net_flux": 6.246777427609592e-07,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 8.64910253226758e-05,
+          "outward_flux": -5.8208662714944414e-05,
+          "net_flux": 2.828236260773139e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.3125,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0015570716932415962,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 4.110017140138485e-05,
+          "outward_flux": -3.20143567615207e-05,
+          "net_flux": 9.08581463986416e-06,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 8.916351428943684e-05,
+          "outward_flux": -3.110701960978512e-05,
+          "net_flux": 5.805649467965172e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.3125,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.00128173828125,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 4.502780294422732e-05,
+          "outward_flux": -4.356299048988112e-05,
+          "net_flux": 1.4648124543461955e-06,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 7.588731231497141e-05,
+          "outward_flux": -5.8608478994255465e-05,
+          "net_flux": 1.7278833320715956e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.3125,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0012912316661868317,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.81646323028303e-05,
+          "outward_flux": -3.3064025436969724e-05,
+          "net_flux": 5.100606865860576e-06,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 7.605505478888631e-05,
+          "outward_flux": -3.9197753373262386e-05,
+          "net_flux": 3.685730141562393e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.3125,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.000996910035610199,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 4.7457243872620194e-05,
+          "outward_flux": -1.8475655417658584e-05,
+          "net_flux": 2.8981588454961604e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 7.65247867632211e-05,
+          "outward_flux": -2.4798581976844627e-05,
+          "net_flux": 5.172620478637647e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.3125,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0010348865555442899,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 4.289619444250293e-05,
+          "outward_flux": -1.2734861584377655e-05,
+          "net_flux": 3.0161332858125284e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 7.78730989483288e-05,
+          "outward_flux": -2.1410678668160837e-05,
+          "net_flux": 5.6462420280167983e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.375,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.001424148678779602,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.7735148049847315e-05,
+          "outward_flux": -4.632363551305094e-05,
+          "net_flux": -8.588487463203627e-06,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00021829604075608962,
+          "outward_flux": 0.0,
+          "net_flux": 0.00021829604075608962,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.375,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.001528586343738425,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.3171233888345847e-05,
+          "outward_flux": -5.1556362988535774e-05,
+          "net_flux": -2.838512910018993e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00022853229932434302,
+          "outward_flux": 0.0,
+          "net_flux": 0.00022853229932434302,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.375,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.00128173828125,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.1143709744916636e-05,
+          "outward_flux": -6.398894771427355e-05,
+          "net_flux": -3.284523796935691e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00020835119321922703,
+          "outward_flux": -8.400375289967981e-07,
+          "net_flux": 0.0002075111556902302,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.375,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0013007250511236634,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.959930290601654e-05,
+          "outward_flux": -7.269808021624151e-05,
+          "net_flux": -5.3098777310224974e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0001951632363228588,
+          "outward_flux": -8.400375289967981e-07,
+          "net_flux": 0.000194323198793862,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.375,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.000996910035610199,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.6788470034965732e-05,
+          "outward_flux": -6.481675642243884e-05,
+          "net_flux": -4.802828638747311e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00021087981643733617,
+          "outward_flux": 0.0,
+          "net_flux": 0.00021087981643733617,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.375,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0010443844107612676,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.0641434656591464e-05,
+          "outward_flux": -7.702615225835111e-05,
+          "net_flux": -6.638471760175964e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00018938956422432962,
+          "outward_flux": 0.0,
+          "net_flux": 0.00018938956422432962,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.4375,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0014716237783432007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.408055399271082e-05,
+          "outward_flux": -3.9691468482815655e-05,
+          "net_flux": -5.610914490104835e-06,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00018715906645515833,
+          "outward_flux": -1.8443568414604862e-06,
+          "net_flux": 0.00018531470961369783,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.4375,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0015570731833349782,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.761418985483844e-05,
+          "outward_flux": -4.7586312292573564e-05,
+          "net_flux": -2.997212243773513e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00018930862546912044,
+          "outward_flux": -5.538789072914677e-07,
+          "net_flux": 0.00018875474656182897,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.4375,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.00128173828125,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.4743507135986597e-05,
+          "outward_flux": -4.6995514872407926e-05,
+          "net_flux": -2.225200773642133e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0001835824211743074,
+          "outward_flux": -1.6770868652059795e-07,
+          "net_flux": 0.0001834147124877868,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.4375,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0013007250511236634,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.0481698053772771e-05,
+          "outward_flux": -5.714016443389242e-05,
+          "net_flux": -4.665846638011965e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00017381718933560277,
+          "outward_flux": -1.6770868652059795e-07,
+          "net_flux": 0.00017364948064908217,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.4375,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0010443776845932007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.4099897135515758e-05,
+          "outward_flux": -6.116007811744257e-05,
+          "net_flux": -4.7060180981926806e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00017997421044201154,
+          "outward_flux": 0.0,
+          "net_flux": 0.00017997421044201154,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.4375,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.001101345444681101,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 7.126724664365262e-06,
+          "outward_flux": -7.383050604960514e-05,
+          "net_flux": -6.670378138523988e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0001685642460406166,
+          "outward_flux": 0.0,
+          "net_flux": 0.0001685642460406166,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.5,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0014716237783432007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 6.860574029020076e-05,
+          "outward_flux": -8.412056079020926e-05,
+          "net_flux": -1.5514820500008486e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0003022245547252876,
+          "outward_flux": -2.7110174118911614e-06,
+          "net_flux": 0.0002995135373133964,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.5,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0015380849233679328,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.824310245148443e-05,
+          "outward_flux": -9.15294880738399e-05,
+          "net_flux": -5.328638562235546e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00029044975650486225,
+          "outward_flux": -1.0356284687587673e-06,
+          "net_flux": 0.0002894141280361035,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.5,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.00128173828125,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.417331469181266e-05,
+          "outward_flux": -9.043988686615784e-05,
+          "net_flux": -5.6266572174345196e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0002913197246235744,
+          "outward_flux": -6.997534331035731e-08,
+          "net_flux": 0.00029124974928026407,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.5,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0013007250511236634,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.418101525140958e-05,
+          "outward_flux": -0.00010337274064088616,
+          "net_flux": -8.919172538947659e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00027243734770349473,
+          "outward_flux": 0.0,
+          "net_flux": 0.00027243734770349473,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.5,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.000996910035610199,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 5.602347150940364e-06,
+          "outward_flux": -9.275789440504035e-05,
+          "net_flux": -8.715554725409999e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0002603755489058022,
+          "outward_flux": 0.0,
+          "net_flux": 0.0002603755489058022,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.5,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.001034889535731054,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.431174898191477e-06,
+          "outward_flux": -0.00011027136243598879,
+          "net_flux": -0.00010784018753779731,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00024273677037286165,
+          "outward_flux": 0.0,
+          "net_flux": 0.00024273677037286165,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.5625,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.001424148678779602,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 6.337550963965755e-05,
+          "outward_flux": -8.71926895027893e-05,
+          "net_flux": -2.381717986313176e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0003417927165241468,
+          "outward_flux": -8.8260744754488e-08,
+          "net_flux": 0.0003417044557793924,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.5625,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0014526303236834792,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.670082686125396e-05,
+          "outward_flux": -9.98506089255836e-05,
+          "net_flux": -6.314978206432965e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0003231505009161379,
+          "outward_flux": 0.0,
+          "net_flux": 0.0003231505009161379,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.5625,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0012342631816864014,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.339681644096436e-05,
+          "outward_flux": -9.575010468306029e-05,
+          "net_flux": -6.235328824209591e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00032842646680998107,
+          "outward_flux": 0.0,
+          "net_flux": 0.00032842646680998107,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.5625,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0013386993565518424,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.674518190818669e-05,
+          "outward_flux": -0.00011547720018846696,
+          "net_flux": -9.873201828028026e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0003321681472690077,
+          "outward_flux": 0.0,
+          "net_flux": 0.0003321681472690077,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.5625,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.000996910035610199,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 5.543399673204434e-06,
+          "outward_flux": -0.00010888921908242476,
+          "net_flux": -0.00010334581940922032,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00028512015679599387,
+          "outward_flux": 0.0,
+          "net_flux": 0.00028512015679599387,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.5625,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0010158982955772444,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.3036822484181167e-06,
+          "outward_flux": -0.00012613643802923853,
+          "net_flux": -0.0001238327557808204,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00026901399086556556,
+          "outward_flux": 0.0,
+          "net_flux": 0.00026901399086556556,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.625,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0014716237783432007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.9906961166884008e-05,
+          "outward_flux": -4.652686525486681e-05,
+          "net_flux": -2.6619904087982793e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00013215040547250698,
+          "outward_flux": -4.29523352063875e-06,
+          "net_flux": 0.00012785517195186823,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.625,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0015001069133404599,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.0465635518671446e-05,
+          "outward_flux": -4.901516811802928e-05,
+          "net_flux": -3.854953259935784e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00013467324933343885,
+          "outward_flux": -1.29220408399278e-06,
+          "net_flux": 0.00013338104524944608,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.625,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.00128173828125,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.0479445513286716e-05,
+          "outward_flux": -4.689410005628785e-05,
+          "net_flux": -3.641465454300113e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00013099677244747277,
+          "outward_flux": -2.565051576755301e-06,
+          "net_flux": 0.00012843172087071748,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.625,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0014051642061758685,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 4.829750631878128e-06,
+          "outward_flux": -5.385697114812808e-05,
+          "net_flux": -4.902722051624996e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00014360154782689754,
+          "outward_flux": -9.130399025432671e-07,
+          "net_flux": 0.00014268850792435427,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.625,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0010443776845932007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.0639166150204785e-05,
+          "outward_flux": -3.6729046028753e-05,
+          "net_flux": -2.6089879878548206e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0001241877101749791,
+          "outward_flux": -3.955729788662272e-06,
+          "net_flux": 0.00012023198038631684,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.625,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0010538725596234144,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 4.609119360554199e-06,
+          "outward_flux": -4.4006499777161325e-05,
+          "net_flux": -3.939738041660712e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0001231832958871544,
+          "outward_flux": -1.5998119198142867e-06,
+          "net_flux": 0.00012158348396734011,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.6875,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0014716312289237976,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.3952145717927123e-05,
+          "outward_flux": -4.593084770730479e-05,
+          "net_flux": -3.197870198937767e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00012833962445654896,
+          "outward_flux": -6.1569374627604255e-06,
+          "net_flux": 0.00012218268699378855,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.6875,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0015001143639210568,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 7.03130609049353e-06,
+          "outward_flux": -5.036778176127143e-05,
+          "net_flux": -4.3336475670777906e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00012979642498125077,
+          "outward_flux": -2.3957417909913834e-06,
+          "net_flux": 0.00012740068319025936,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.6875,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.00128173828125,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 5.394740846364004e-06,
+          "outward_flux": -5.02249554180288e-05,
+          "net_flux": -4.48302145716648e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00012600660212652094,
+          "outward_flux": -8.427792848200303e-07,
+          "net_flux": 0.00012516382284170088,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.6875,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.001424152466142914,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.875835964091868e-06,
+          "outward_flux": -5.932058137245534e-05,
+          "net_flux": -5.744474540836347e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00014121303361180876,
+          "outward_flux": -2.616173919937375e-07,
+          "net_flux": 0.00014095141621981504,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.6875,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.000996902585029602,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 8.002089568962484e-06,
+          "outward_flux": -3.7525141816493286e-05,
+          "net_flux": -2.9523052247530804e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00012134539738399364,
+          "outward_flux": -3.0442986854137875e-06,
+          "net_flux": 0.00011830109869857986,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.6875,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.000996902585029602,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.4967710421685425e-06,
+          "outward_flux": -4.372296938907711e-05,
+          "net_flux": -4.022619834690857e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00011656678074624505,
+          "outward_flux": -8.581309055385169e-07,
+          "net_flux": 0.00011570864984070654,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.75,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0014716312289237976,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 7.762828645255692e-06,
+          "outward_flux": -4.1338834572747095e-05,
+          "net_flux": -3.35760059274914e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00012307846946143215,
+          "outward_flux": -4.34047135709148e-06,
+          "net_flux": 0.00011873799810434067,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.75,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.001490619488890843,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.631436221466107e-06,
+          "outward_flux": -4.971300845587178e-05,
+          "net_flux": -4.6081572234405675e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00012468539880383553,
+          "outward_flux": -1.811560280697217e-06,
+          "net_flux": 0.0001228738385231383,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.75,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.00128173828125,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 5.224081850467997e-06,
+          "outward_flux": -5.85343346991432e-05,
+          "net_flux": -5.3310252848675214e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00011909265421282846,
+          "outward_flux": -3.603407159178851e-07,
+          "net_flux": 0.00011873231349691056,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.75,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0014146575911127002,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.59377680052009e-06,
+          "outward_flux": -6.953616996368555e-05,
+          "net_flux": -6.794239316316544e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0001310833058940182,
+          "outward_flux": -7.044761948226254e-08,
+          "net_flux": 0.00013101285827453593,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.75,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.000996902585029602,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 8.090157923662993e-06,
+          "outward_flux": -3.4857991968294475e-05,
+          "net_flux": -2.6767834044631482e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00011328648793522437,
+          "outward_flux": -2.758812205973092e-06,
+          "net_flux": 0.00011052767572925129,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.75,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0010063959699664338,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.838554503666817e-06,
+          "outward_flux": -4.3586456338051784e-05,
+          "net_flux": -3.9747901834384965e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00010952057721200474,
+          "outward_flux": -1.7465345632062439e-06,
+          "net_flux": 0.0001077740426487985,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.8125,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0014716237783432007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 9.424690978228158e-06,
+          "outward_flux": -6.379406916888959e-05,
+          "net_flux": -5.4369378190661426e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00019099343692180953,
+          "outward_flux": 0.0,
+          "net_flux": 0.00019099343692180953,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.8125,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0014811186533734144,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.369286992613691e-06,
+          "outward_flux": -7.727025297219164e-05,
+          "net_flux": -7.390096597957794e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00018371521856442682,
+          "outward_flux": 0.0,
+          "net_flux": 0.00018371521856442682,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.8125,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0013292059302330017,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 6.504200650893986e-06,
+          "outward_flux": -9.24179395836237e-05,
+          "net_flux": -8.591373893272969e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00018248425724378504,
+          "outward_flux": 0.0,
+          "net_flux": 0.00018248425724378504,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.8125,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0014051604601945655,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.43604590310308e-06,
+          "outward_flux": -0.00010826291728774866,
+          "net_flux": -0.00010582687138464559,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00018508562476483457,
+          "outward_flux": 0.0,
+          "net_flux": 0.00018508562476483457,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.8125,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0010443776845932007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 5.448477816799506e-06,
+          "outward_flux": -7.182717221512174e-05,
+          "net_flux": -6.637869439832223e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0001681467230342572,
+          "outward_flux": 0.0,
+          "net_flux": 0.0001681467230342572,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.8125,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0011203307244613825,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.088586757411595e-06,
+          "outward_flux": -9.065038979808343e-05,
+          "net_flux": -8.756180304067183e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00016595541612035006,
+          "outward_flux": 0.0,
+          "net_flux": 0.00016595541612035006,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.875,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0014716237783432007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.0671780347215151e-05,
+          "outward_flux": -3.8351272034044765e-05,
+          "net_flux": -2.7679491686829615e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 7.163990351884058e-05,
+          "outward_flux": -6.514232771024588e-06,
+          "net_flux": 6.512567074781598e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.875,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0014811186533734144,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 4.4054592464126365e-06,
+          "outward_flux": -3.8481750544904316e-05,
+          "net_flux": -3.407629129849168e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 7.173808795189141e-05,
+          "outward_flux": -1.226767030704713e-06,
+          "net_flux": 7.05113209211867e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.875,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.00128173828125,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.2164283915056298e-05,
+          "outward_flux": -2.948667972487672e-05,
+          "net_flux": -1.732239580982042e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 6.390943375418765e-05,
+          "outward_flux": -1.2451489572424779e-05,
+          "net_flux": 5.145794418176288e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.875,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.001348196446087968,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 5.802694305330712e-06,
+          "outward_flux": -2.9443615062183482e-05,
+          "net_flux": -2.3640920756852772e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 6.904687549110338e-05,
+          "outward_flux": -5.684721826483216e-06,
+          "net_flux": 6.336215366462017e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.875,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0010443776845932007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.5925899546772863e-05,
+          "outward_flux": -4.772125189822759e-06,
+          "net_flux": 1.1153774356950103e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 7.430511838621071e-05,
+          "outward_flux": -1.257004901676221e-05,
+          "net_flux": 6.173506936944849e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.875,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.001139318984428428,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 7.442202456208634e-06,
+          "outward_flux": -9.421216633942894e-06,
+          "net_flux": -1.97901417773426e-06,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 7.746331299580934e-05,
+          "outward_flux": -5.95248324835022e-06,
+          "net_flux": 7.151082974745911e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.9375,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0014716237783432007,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.438727467400835e-05,
+          "outward_flux": -2.499986786338724e-05,
+          "net_flux": -1.061259318937889e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 7.097829836700726e-05,
+          "outward_flux": -8.25829471263091e-06,
+          "net_flux": 6.272000365437636e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.9375,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0015001054232470779,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 7.29180233113283e-06,
+          "outward_flux": -2.6234289945189853e-05,
+          "net_flux": -1.8942487614057024e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 7.39952301896508e-05,
+          "outward_flux": -2.913817451917019e-06,
+          "net_flux": 7.108141273773377e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.9375,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0013292133808135986,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.3649867872105615e-05,
+          "outward_flux": -2.25610264800271e-05,
+          "net_flux": -8.911158607921484e-06,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 6.572852640259402e-05,
+          "outward_flux": -1.4395582624041755e-05,
+          "net_flux": 5.1332943778552274e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.9375,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0014241546806488259,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 6.824680771920195e-06,
+          "outward_flux": -2.334951823704685e-05,
+          "net_flux": -1.6524837465126655e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 7.0215625641641e-05,
+          "outward_flux": -8.376995405418742e-06,
+          "net_flux": 6.183863023622226e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.9375,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.000996910035610199,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.6939625093688015e-05,
+          "outward_flux": -2.602642943994102e-06,
+          "net_flux": 1.4336982149693913e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 6.934534891561768e-05,
+          "outward_flux": -1.3089877236355925e-05,
+          "net_flux": 5.625547167926175e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 0.9375,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0010443814305745036,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 9.58149120837041e-06,
+          "outward_flux": -4.573510512935553e-06,
+          "net_flux": 5.007980695434854e-06,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 6.932658464896067e-05,
+          "outward_flux": -6.623878613136127e-06,
+          "net_flux": 6.270270603582454e-05,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 1.0,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.0015190988779067993,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 4.060710677088892e-05,
+          "outward_flux": -9.38832710789102e-05,
+          "net_flux": -5.327616430802128e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00026830522723822405,
+          "outward_flux": -1.035256594168678e-06,
+          "net_flux": 0.00026726997064405536,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 1.0,
+      "target_z": 5.895,
+      "z": 5.895312309265137,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0015475820129040585,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.4351900856357214e-05,
+          "outward_flux": -0.00010464325136503199,
+          "net_flux": -8.029135050867477e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0002557820771474258,
+          "outward_flux": -3.2865028065386876e-07,
+          "net_flux": 0.00025545342686677185,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 1.0,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.00128173828125,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.229243548593505e-05,
+          "outward_flux": -8.818901341529068e-05,
+          "net_flux": -5.589657792935564e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00023967407848291726,
+          "outward_flux": 0.0,
+          "net_flux": 0.00023967407848291726,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 1.0,
+      "target_z": 5.905,
+      "z": 5.904687404632568,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0013387030611511364,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.0016080760240515e-05,
+          "outward_flux": -0.00010476493297788866,
+          "net_flux": -8.474885221764813e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0002335013421300532,
+          "outward_flux": 0.0,
+          "net_flux": 0.0002335013421300532,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 1.0,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.005,
+      "h1": 0.02,
+      "area": 0.000996910035610199,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.836612623038772e-06,
+          "outward_flux": -9.066849910971914e-05,
+          "net_flux": -8.683188648668035e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0002090807311983704,
+          "outward_flux": 0.0,
+          "net_flux": 0.0002090807311983704,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    },
+    {
+      "phase": 1.0,
+      "target_z": 5.915,
+      "z": 5.9140625,
+      "h0": 0.008,
+      "h1": 0.025,
+      "area": 0.0010823579505085945,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.6740774585563576e-06,
+          "outward_flux": -0.0001114473282088338,
+          "net_flux": -0.00010877325075027745,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0002051127721465764,
+          "outward_flux": 0.0,
+          "net_flux": 0.0002051127721465764,
+          "fluid_gate_fraction": 1.0
+        }
+      }
+    }
+  ],
+  "summary": [
+    {
+      "target_z": 5.895,
+      "h0": 0.005,
+      "h1": 0.02,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 3.243294510123846e-05,
+          "outward_flux": -5.233774518564042e-05,
+          "net_flux": -1.9904800084401974e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.0001679608132619614,
+          "outward_flux": -1.3208899444330039e-05,
+          "net_flux": 0.00015475191381763136,
+          "fluid_gate_fraction": 1.0
+        }
+      },
+      "rootward_flux_ratio": 0.19309828567365986
+    },
+    {
+      "target_z": 5.895,
+      "h0": 0.008,
+      "h1": 0.025,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.0614806267623513e-05,
+          "outward_flux": -5.560910796330308e-05,
+          "net_flux": -3.499430169567957e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00016614405114829896,
+          "outward_flux": -6.629120375872314e-06,
+          "net_flux": 0.0001595149307724266,
+          "fluid_gate_fraction": 1.0
+        }
+      },
+      "rootward_flux_ratio": 0.12407790784650416
+    },
+    {
+      "target_z": 5.905,
+      "h0": 0.005,
+      "h1": 0.02,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 2.3311068819524665e-05,
+          "outward_flux": -5.692866974946168e-05,
+          "net_flux": -3.361760092993701e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00015584772511652387,
+          "outward_flux": -1.4601595989357519e-05,
+          "net_flux": 0.00014124612912716635,
+          "fluid_gate_fraction": 1.0
+        }
+      },
+      "rootward_flux_ratio": 0.1495759325463076
+    },
+    {
+      "target_z": 5.905,
+      "h0": 0.008,
+      "h1": 0.025,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.4661208826605772e-05,
+          "outward_flux": -6.395805502885464e-05,
+          "net_flux": -4.9296846202248874e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00015699394027936692,
+          "outward_flux": -8.97498596029021e-06,
+          "net_flux": 0.0001480189543190767,
+          "fluid_gate_fraction": 1.0
+        }
+      },
+      "rootward_flux_ratio": 0.09338710016779313
+    },
+    {
+      "target_z": 5.915,
+      "h0": 0.005,
+      "h1": 0.02,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.7508471993562255e-05,
+          "outward_flux": -4.7496935521856516e-05,
+          "net_flux": -2.998846352829426e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00014494520630378157,
+          "outward_flux": -1.0217073184195795e-05,
+          "net_flux": 0.00013472813311958575,
+          "fluid_gate_fraction": 1.0
+        }
+      },
+      "rootward_flux_ratio": 0.12079372916181406
+    },
+    {
+      "target_z": 5.915,
+      "h0": 0.008,
+      "h1": 0.025,
+      "cases": {
+        "baseline": {
+          "rootward_flux": 1.233207586940277e-05,
+          "outward_flux": -5.676162819241938e-05,
+          "net_flux": -4.442955232301662e-05,
+          "fluid_gate_fraction": 1.0
+        },
+        "isolated": {
+          "rootward_flux": 0.00013987639565547628,
+          "outward_flux": -6.395650262266602e-06,
+          "net_flux": 0.00013348074539320967,
+          "fluid_gate_fraction": 1.0
+        }
+      },
+      "rootward_flux_ratio": 0.08816409524718805
+    }
+  ],
+  "definition": "Integral of W/U over moving-y lower-side windows at fixed Cartesian z. Positive W is toward the root/body. Gate bounds follow the isolated-fin voxel surface at each phase. Solid portions carry no fluid flux; this is an open gate, not a closed control-volume budget or a count of completed lower-to-upper paths."
+}

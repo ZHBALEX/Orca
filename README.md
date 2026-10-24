@@ -4,6 +4,9 @@
 
 ## 从这里开始
 
+- **[v22：身体怎样改变鳍根流动，以及怎样接到增升](reports/2026-10-24-root-crossflow/README.md)**
+- [v22 英文结果草稿](reports/2026-10-24-root-crossflow/MANUSCRIPT_DRAFT.md)
+
 - **[v21：平均流动与平均压差的对应](reports/2026-10-24-mean-flow-pressure/README.md)**
 
 - **[v20：全周期演化与上侧流动来源回溯](reports/2026-10-24-dong-evolution/README.md)**
