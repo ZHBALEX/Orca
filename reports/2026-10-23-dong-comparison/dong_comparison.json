@@ -1,0 +1,2220 @@
+{
+  "peaks": [
+    0.0,
+    0.5
+  ],
+  "selection": "Maximum material-paired two-fin pressure increment in each half cycle; neighboring saved phases included.",
+  "records": [
+    {
+      "phase": 0.0,
+      "span": 0.2,
+      "cases": {
+        "baseline": {
+          "mean_jump": 4.54367080721877,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.06430922069590174,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.06302404695385005,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.0009669559730375333,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -9.282258658071193e-05,
+          "fixed_window_negative_gamma_over_U": -0.0003241095579626039,
+          "fixed_window_mean_span_velocity_over_U": -0.6294075256477866
+        },
+        "isolated": {
+          "mean_jump": 1.769439211973738,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.04521105248146756,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.0003426612395423441,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.00031583256481007663,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -7.903756980846903e-05,
+          "fixed_window_negative_gamma_over_U": -0.00025603688602553795,
+          "fixed_window_mean_span_velocity_over_U": -0.5415014166399764
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 2.7742315952450314
+    },
+    {
+      "phase": 0.0,
+      "span": 0.3,
+      "cases": {
+        "baseline": {
+          "mean_jump": 4.275436854937275,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.09184378543801291,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.021559754702013934,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.001371597834654525,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0006016707178983908,
+          "fixed_window_negative_gamma_over_U": -0.0009096832678974034,
+          "fixed_window_mean_span_velocity_over_U": -0.6143906947137643
+        },
+        "isolated": {
+          "mean_jump": 2.1528770897027103,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.0718152626096887,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.06732265442908689,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.06260040005247179,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0003770582223818475,
+          "fixed_window_negative_gamma_over_U": -0.0005791217891388432,
+          "fixed_window_mean_span_velocity_over_U": -0.5395725129979375
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 2.1225597652345645
+    },
+    {
+      "phase": 0.0,
+      "span": 0.4,
+      "cases": {
+        "baseline": {
+          "mean_jump": 4.244835025546978,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.111513807597887,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.0015122432939759533,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.0014523862417651693,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0008979136484486497,
+          "fixed_window_negative_gamma_over_U": -0.0013362391183921146,
+          "fixed_window_mean_span_velocity_over_U": -0.5961701114188571
+        },
+        "isolated": {
+          "mean_jump": 2.4972458380812843,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08099024568657238,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08015884514619943,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07838468306095646,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.000881460061821218,
+          "fixed_window_negative_gamma_over_U": -0.0013634029892588323,
+          "fixed_window_mean_span_velocity_over_U": -0.5312094835452839
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 1.7475891874656937
+    },
+    {
+      "phase": 0.0,
+      "span": 0.5,
+      "cases": {
+        "baseline": {
+          "mean_jump": 3.913533405826865,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08825227983914986,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08640487936885864,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.08268261334176649,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.00024773121931294693,
+          "fixed_window_negative_gamma_over_U": -0.001280851537092457,
+          "fixed_window_mean_span_velocity_over_U": -0.5608400766719907
+        },
+        "isolated": {
+          "mean_jump": 2.6918396296170672,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08257716726461717,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08064030729806708,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07435075722178651,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.000492797759741717,
+          "fixed_window_negative_gamma_over_U": -0.0010812033605590637,
+          "fixed_window_mean_span_velocity_over_U": -0.5167103371943176
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 1.221693776209798
+    },
+    {
+      "phase": 0.0,
+      "span": 0.7,
+      "cases": {
+        "baseline": {
+          "mean_jump": 3.210082739663408,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.07084816045994267,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.0013622975855232212,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.0006201088610718917,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -8.463060294486422e-05,
+          "fixed_window_negative_gamma_over_U": -0.0006492176034014824,
+          "fixed_window_mean_span_velocity_over_U": -0.4953515074923272
+        },
+        "isolated": {
+          "mean_jump": 2.476712987346817,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.06873690800205873,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.001784275002520399,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.0016631304455659017,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -9.117154174421937e-05,
+          "fixed_window_negative_gamma_over_U": -0.000624107333558975,
+          "fixed_window_mean_span_velocity_over_U": -0.46122879037543424
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 0.733369752316591
+    },
+    {
+      "phase": 0.0,
+      "span": 0.9,
+      "cases": {
+        "baseline": {
+          "mean_jump": 2.1274296615818513,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.05155688324514137,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.04943626232507537,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.003180463412339579,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -4.7102461081737146e-05,
+          "fixed_window_negative_gamma_over_U": -0.00015656312467235347,
+          "fixed_window_mean_span_velocity_over_U": -0.43326082055352505
+        },
+        "isolated": {
+          "mean_jump": 1.8360022946388705,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.04382553577754298,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.042725434124989484,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.03986110559422662,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -2.0774979096437628e-05,
+          "fixed_window_negative_gamma_over_U": -0.00011573388842307412,
+          "fixed_window_mean_span_velocity_over_U": -0.4096609924624441
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 0.29142736694298077
+    },
+    {
+      "phase": 0.0625,
+      "span": 0.2,
+      "cases": {
+        "baseline": {
+          "mean_jump": -4.275963254450874,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.07245400966085401,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.06991867615698341,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.06337897643336468,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 0.00045366173600388897,
+          "fixed_window_negative_gamma_over_U": -0.0003373443423311195,
+          "fixed_window_mean_span_velocity_over_U": -0.6279190646216852
+        },
+        "isolated": {
+          "mean_jump": -2.0859754238754884,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.05222786380100218,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.048869122946650655,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.03935650449349592,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 0.00017482873301701642,
+          "fixed_window_negative_gamma_over_U": -0.00024425669510013125,
+          "fixed_window_mean_span_velocity_over_U": -0.5305580750140628
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -2.1899878305753853
+    },
+    {
+      "phase": 0.0625,
+      "span": 0.3,
+      "cases": {
+        "baseline": {
+          "mean_jump": -4.00655076304093,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.03489997065781309,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.032633265655977045,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.028140586655931398,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -7.668304846769679e-05,
+          "fixed_window_negative_gamma_over_U": -0.0008012898767864171,
+          "fixed_window_mean_span_velocity_over_U": -0.6099896013307975
+        },
+        "isolated": {
+          "mean_jump": -2.546352672142951,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.07065107706544105,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.06701475321038405,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.05703375171099835,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0001752079262746924,
+          "fixed_window_negative_gamma_over_U": -0.0006048064230530746,
+          "fixed_window_mean_span_velocity_over_U": -0.5342392198176027
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -1.460198090897979
+    },
+    {
+      "phase": 0.0625,
+      "span": 0.4,
+      "cases": {
+        "baseline": {
+          "mean_jump": -3.931654340294913,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.11615821955208722,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.10396450217682414,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.030617664124691697,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.00014838090444532306,
+          "fixed_window_negative_gamma_over_U": -0.0009835611541639297,
+          "fixed_window_mean_span_velocity_over_U": -0.5878364229284061
+        },
+        "isolated": {
+          "mean_jump": -2.858341343559433,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08443922408902166,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.07863619240274708,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.023808998710879596,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0001131200576516861,
+          "fixed_window_negative_gamma_over_U": -0.0008396219725818096,
+          "fixed_window_mean_span_velocity_over_U": -0.5262020121890719
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -1.07331299673548
+    },
+    {
+      "phase": 0.0625,
+      "span": 0.5,
+      "cases": {
+        "baseline": {
+          "mean_jump": -3.7211735429667225,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.09426822500489589,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08740198043555768,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.015487183063879926,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 0.0003770030200024264,
+          "fixed_window_negative_gamma_over_U": -0.000974035214997841,
+          "fixed_window_mean_span_velocity_over_U": -0.5544683205112036
+        },
+        "isolated": {
+          "mean_jump": -2.7868986982734065,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08334493795004153,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.07948770714951209,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.06659525992177397,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 0.0002912764173329784,
+          "fixed_window_negative_gamma_over_U": -0.0007252053136745033,
+          "fixed_window_mean_span_velocity_over_U": -0.5112433505414605
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.934274844693316
+    },
+    {
+      "phase": 0.0625,
+      "span": 0.7,
+      "cases": {
+        "baseline": {
+          "mean_jump": -2.918140703222139,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.07872840151559406,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.07099995093948572,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.010049495886667273,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 0.0005648136533629346,
+          "fixed_window_negative_gamma_over_U": -0.00042570567225777876,
+          "fixed_window_mean_span_velocity_over_U": -0.49080841302870526
+        },
+        "isolated": {
+          "mean_jump": -2.4016426976681027,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.06780848093985263,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.0636066383189264,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.0013207511451320923,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -8.55035226900068e-05,
+          "fixed_window_negative_gamma_over_U": -0.0008166216671750856,
+          "fixed_window_mean_span_velocity_over_U": -0.4614715855601439
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.5164980055540362
+    },
+    {
+      "phase": 0.0625,
+      "span": 0.9,
+      "cases": {
+        "baseline": {
+          "mean_jump": -1.6703849175482162,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.050491548020984774,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.046752053890392394,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.021651303924160863,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 0.0002391064991190047,
+          "fixed_window_negative_gamma_over_U": -0.00011978388915126458,
+          "fixed_window_mean_span_velocity_over_U": -0.4253392586394612
+        },
+        "isolated": {
+          "mean_jump": -1.571131699227653,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.00541622122292192,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.005140354931132477,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.004593074760371694,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 9.14965893900416e-05,
+          "fixed_window_negative_gamma_over_U": -0.00018013187797353102,
+          "fixed_window_mean_span_velocity_over_U": -0.40620078270262877
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.09925321832056322
+    },
+    {
+      "phase": 0.4375,
+      "span": 0.2,
+      "cases": {
+        "baseline": {
+          "mean_jump": -0.5294170551233149,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.0673399444168972,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.06510080499121314,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.05991903506457009,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 9.029048534191511e-05,
+          "fixed_window_negative_gamma_over_U": -0.0002063767440350257,
+          "fixed_window_mean_span_velocity_over_U": -0.5345004554482272
+        },
+        "isolated": {
+          "mean_jump": -0.1681774565619985,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.04711235091716011,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.044728244306817495,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.03819691291886816,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 3.152206607534991e-05,
+          "fixed_window_negative_gamma_over_U": -0.00013352909222504616,
+          "fixed_window_mean_span_velocity_over_U": -0.4423215979893272
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.36123959856131643
+    },
+    {
+      "phase": 0.4375,
+      "span": 0.3,
+      "cases": {
+        "baseline": {
+          "mean_jump": -0.5599613164692006,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.09662996831726976,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.09397420398819689,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.08764196948003421,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0005815052032109086,
+          "fixed_window_negative_gamma_over_U": -0.0008757666662455286,
+          "fixed_window_mean_span_velocity_over_U": -0.52119123839836
+        },
+        "isolated": {
+          "mean_jump": -0.2357412630420216,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.06959206329695705,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.06735379409271296,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.06124195922899929,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.00032379284846978927,
+          "fixed_window_negative_gamma_over_U": -0.0005461844308728563,
+          "fixed_window_mean_span_velocity_over_U": -0.4407580243808663
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.32422005342717897
+    },
+    {
+      "phase": 0.4375,
+      "span": 0.4,
+      "cases": {
+        "baseline": {
+          "mean_jump": -0.5691897406624058,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.09861275277578796,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.09287043245187045,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.05458331344830224,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0005270333050922842,
+          "fixed_window_negative_gamma_over_U": -0.0008278099572694843,
+          "fixed_window_mean_span_velocity_over_U": -0.4946297991849313
+        },
+        "isolated": {
+          "mean_jump": -0.3634131189487332,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08487923400335382,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08154400862584123,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07127820582306932,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0004252077200229152,
+          "fixed_window_negative_gamma_over_U": -0.0006253077250629216,
+          "fixed_window_mean_span_velocity_over_U": -0.4249581220581027
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.20577662171367261
+    },
+    {
+      "phase": 0.4375,
+      "span": 0.5,
+      "cases": {
+        "baseline": {
+          "mean_jump": -0.5876903924838847,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.0901358906175969,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.0867859879003319,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.056855709186537255,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 4.304451716951495e-05,
+          "fixed_window_negative_gamma_over_U": -0.00025003848279961524,
+          "fixed_window_mean_span_velocity_over_U": -0.4575171849201661
+        },
+        "isolated": {
+          "mean_jump": -0.44329009208230435,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08654120749735525,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08417764267603857,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07744410183800131,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.00012761430028085643,
+          "fixed_window_negative_gamma_over_U": -0.0003324802327414622,
+          "fixed_window_mean_span_velocity_over_U": -0.4022362140451749
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.1444003004015803
+    },
+    {
+      "phase": 0.4375,
+      "span": 0.7,
+      "cases": {
+        "baseline": {
+          "mean_jump": -0.5741294483689422,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.09264526122491314,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.09056397151383591,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.08466254838102223,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 0.00010556236987525079,
+          "fixed_window_negative_gamma_over_U": -0.0002422066948463656,
+          "fixed_window_mean_span_velocity_over_U": -0.3909705013886156
+        },
+        "isolated": {
+          "mean_jump": -0.4708490314932794,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08100995153830688,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.07849116342451781,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07219035407144746,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 6.293268114606428e-05,
+          "fixed_window_negative_gamma_over_U": -0.0001476223061301801,
+          "fixed_window_mean_span_velocity_over_U": -0.3560848501366274
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.1032804168756628
+    },
+    {
+      "phase": 0.4375,
+      "span": 0.9,
+      "cases": {
+        "baseline": {
+          "mean_jump": -0.38971487920150755,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.060602000325524596,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.05823932098270261,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.05229254229898758,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 4.822171124090267e-05,
+          "fixed_window_negative_gamma_over_U": -8.026929865041996e-05,
+          "fixed_window_mean_span_velocity_over_U": -0.3295419382239182
+        },
+        "isolated": {
+          "mean_jump": -0.34792842365626425,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.054664617438268365,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.053371885161620766,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.05048023204417252,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 4.603932247163521e-05,
+          "fixed_window_negative_gamma_over_U": -6.882458794025981e-05,
+          "fixed_window_mean_span_velocity_over_U": -0.304887856853249
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.041786455545243295
+    },
+    {
+      "phase": 0.5,
+      "span": 0.2,
+      "cases": {
+        "baseline": {
+          "mean_jump": 4.556118716050353,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.07076333976722136,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.0688181749875659,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.0549025263216148,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -4.2701699115202846e-05,
+          "fixed_window_negative_gamma_over_U": -0.00038641276098722217,
+          "fixed_window_mean_span_velocity_over_U": -0.5287816817097071
+        },
+        "isolated": {
+          "mean_jump": 1.8308084723210123,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.05180965376334399,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.04988514713604583,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.045109022425138506,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -2.4098366602191575e-05,
+          "fixed_window_negative_gamma_over_U": -0.00021849852732974247,
+          "fixed_window_mean_span_velocity_over_U": -0.45320148819292827
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 2.7253102437293406
+    },
+    {
+      "phase": 0.5,
+      "span": 0.3,
+      "cases": {
+        "baseline": {
+          "mean_jump": 4.138253042373859,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.10431082217575788,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.10085546328835297,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.08949599407871862,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0011347571930856795,
+          "fixed_window_negative_gamma_over_U": -0.0016997747420168035,
+          "fixed_window_mean_span_velocity_over_U": -0.5117915557158985
+        },
+        "isolated": {
+          "mean_jump": 2.2429744988683744,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.07297897965375298,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.07033405580828934,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.06410520397136445,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0006721464215446383,
+          "fixed_window_negative_gamma_over_U": -0.0009177118370484519,
+          "fixed_window_mean_span_velocity_over_U": -0.44696439924950243
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 1.8952785435054844
+    },
+    {
+      "phase": 0.5,
+      "span": 0.4,
+      "cases": {
+        "baseline": {
+          "mean_jump": 4.112077918733927,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.10139906043269394,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.0937844694101368,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.053949181641437624,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0013852818429422255,
+          "fixed_window_negative_gamma_over_U": -0.0018452597220104388,
+          "fixed_window_mean_span_velocity_over_U": -0.4870485388875142
+        },
+        "isolated": {
+          "mean_jump": 2.5259274188460483,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08770234614913644,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08500080995376927,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07781276551929321,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0010656265611239614,
+          "fixed_window_negative_gamma_over_U": -0.0013470254486607363,
+          "fixed_window_mean_span_velocity_over_U": -0.42749227378890237
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 1.586150499887879
+    },
+    {
+      "phase": 0.5,
+      "span": 0.5,
+      "cases": {
+        "baseline": {
+          "mean_jump": 3.8177108836861233,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.09492240250328339,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08968289658707147,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.06192570713765794,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0004070237622718754,
+          "fixed_window_negative_gamma_over_U": -0.0007888644715686697,
+          "fixed_window_mean_span_velocity_over_U": -0.4478167568543759
+        },
+        "isolated": {
+          "mean_jump": 2.5456720709973863,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08928480142893659,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08774647209282378,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.0825649840472338,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.00026329947782239633,
+          "fixed_window_negative_gamma_over_U": -0.00045296562149393097,
+          "fixed_window_mean_span_velocity_over_U": -0.3965772993424168
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 1.272038812688737
+    },
+    {
+      "phase": 0.5,
+      "span": 0.7,
+      "cases": {
+        "baseline": {
+          "mean_jump": 3.0583578549004757,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.0924788587369202,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08993095434736463,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.08295199222798545,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -9.429390889007933e-05,
+          "fixed_window_negative_gamma_over_U": -0.00043085477805379917,
+          "fixed_window_mean_span_velocity_over_U": -0.36999937433664304
+        },
+        "isolated": {
+          "mean_jump": 2.321858376715046,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08504700116490825,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08360125525764878,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07986722713745441,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.00017660413112507162,
+          "fixed_window_negative_gamma_over_U": -0.0003697853929166101,
+          "fixed_window_mean_span_velocity_over_U": -0.33952934566401394
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 0.7364994781854297
+    },
+    {
+      "phase": 0.5,
+      "span": 0.9,
+      "cases": {
+        "baseline": {
+          "mean_jump": 2.0308453996066804,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.06047625709752826,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.0590168316745878,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.055867549639614704,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -3.693217262945682e-05,
+          "fixed_window_negative_gamma_over_U": -0.00016568341029464184,
+          "fixed_window_mean_span_velocity_over_U": -0.3013091558757096
+        },
+        "isolated": {
+          "mean_jump": 1.7139382948313022,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.05672205900257189,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.05495771350014554,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.050386077141780825,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -8.209067396140731e-05,
+          "fixed_window_negative_gamma_over_U": -0.0002456862109805551,
+          "fixed_window_mean_span_velocity_over_U": -0.27682391561314007
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 0.3169071047753782
+    },
+    {
+      "phase": 0.5625,
+      "span": 0.2,
+      "cases": {
+        "baseline": {
+          "mean_jump": -1.5466190282755221,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.09037496679506772,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.07750252667767941,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07231897614970567,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 0.0009101478135927504,
+          "fixed_window_negative_gamma_over_U": -0.0008789500689412065,
+          "fixed_window_mean_span_velocity_over_U": -0.5466891651017789
+        },
+        "isolated": {
+          "mean_jump": -0.8949294611044913,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.06478596880868315,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.0629715457065542,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.05705418515261226,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 0.0001616001832275038,
+          "fixed_window_negative_gamma_over_U": -0.0004604903529599517,
+          "fixed_window_mean_span_velocity_over_U": -0.46523118653870354
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.6516895671710308
+    },
+    {
+      "phase": 0.5625,
+      "span": 0.3,
+      "cases": {
+        "baseline": {
+          "mean_jump": -1.6914356555795065,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.11794530934232313,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.11307832632131426,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.06801049300015495,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0015634364896225832,
+          "fixed_window_negative_gamma_over_U": -0.0037258822965846546,
+          "fixed_window_mean_span_velocity_over_U": -0.5191318955237717
+        },
+        "isolated": {
+          "mean_jump": -1.2222611963157157,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08372914839232855,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.07774430580542901,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.06418182456911653,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.000646235720129224,
+          "fixed_window_negative_gamma_over_U": -0.0013657312354644219,
+          "fixed_window_mean_span_velocity_over_U": -0.4582635999029292
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.46917445926379076
+    },
+    {
+      "phase": 0.5625,
+      "span": 0.4,
+      "cases": {
+        "baseline": {
+          "mean_jump": -1.7213381549028504,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.09169207646060748,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08809063897657408,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07686097431769304,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.002405041492487551,
+          "fixed_window_negative_gamma_over_U": -0.004244590013656774,
+          "fixed_window_mean_span_velocity_over_U": -0.48695411705159364
+        },
+        "isolated": {
+          "mean_jump": -1.3592698999728765,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.10310920791768088,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.0980752015678025,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07886111315443493,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0018710329307234871,
+          "fixed_window_negative_gamma_over_U": -0.002887154624749609,
+          "fixed_window_mean_span_velocity_over_U": -0.4356013329775295
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.36206825492997385
+    },
+    {
+      "phase": 0.5625,
+      "span": 0.5,
+      "cases": {
+        "baseline": {
+          "mean_jump": -1.8052413242062904,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.1023805336372339,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.09779622420647927,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07879434374754996,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0017610949461889485,
+          "fixed_window_negative_gamma_over_U": -0.003022946757241174,
+          "fixed_window_mean_span_velocity_over_U": -0.4382833896630696
+        },
+        "isolated": {
+          "mean_jump": -1.4623546627468433,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.10416090973155806,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.09722720181138275,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.06710013075776186,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.00043360019547575686,
+          "fixed_window_negative_gamma_over_U": -0.0011943434110814263,
+          "fixed_window_mean_span_velocity_over_U": -0.3967797014244524
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.342886661459447
+    },
+    {
+      "phase": 0.5625,
+      "span": 0.7,
+      "cases": {
+        "baseline": {
+          "mean_jump": -1.6036269510482832,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.11444620122949799,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.10838340146015145,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.08492096696967477,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0001288720658164721,
+          "fixed_window_negative_gamma_over_U": -0.0015154354778660292,
+          "fixed_window_mean_span_velocity_over_U": -0.3569680386268824
+        },
+        "isolated": {
+          "mean_jump": -1.3529955394312014,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.10124830648314974,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.09722890397669917,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.08295085292429422,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0004303542835511864,
+          "fixed_window_negative_gamma_over_U": -0.0012012235854216148,
+          "fixed_window_mean_span_velocity_over_U": -0.3329487542723764
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.2506314116170818
+    },
+    {
+      "phase": 0.5625,
+      "span": 0.9,
+      "cases": {
+        "baseline": {
+          "mean_jump": -1.0482727214586027,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.0787059482937266,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.07630981611853105,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.06803989819076667,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 0.0002367612441954522,
+          "fixed_window_negative_gamma_over_U": -0.0003226234876900721,
+          "fixed_window_mean_span_velocity_over_U": -0.28784799689199153
+        },
+        "isolated": {
+          "mean_jump": -0.8369042846740677,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.07087368077575427,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.06920031327291482,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.0643408525716705,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 0.00010860757804900333,
+          "fixed_window_negative_gamma_over_U": -0.0004680437822877623,
+          "fixed_window_mean_span_velocity_over_U": -0.26974473851308434
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": -0.21136843678453499
+    },
+    {
+      "phase": 0.9375,
+      "span": 0.2,
+      "cases": {
+        "baseline": {
+          "mean_jump": 1.3449870493832856,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.06501286543235794,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.06325198693192144,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.05904523219126156,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.00016014831027719932,
+          "fixed_window_negative_gamma_over_U": -0.0004079763353164411,
+          "fixed_window_mean_span_velocity_over_U": -0.6432757705660759
+        },
+        "isolated": {
+          "mean_jump": 0.5325169793397433,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.0493321968620477,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.04732921763446416,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.04254802591163953,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -1.0549617109552468e-05,
+          "fixed_window_negative_gamma_over_U": -0.00020440569290553596,
+          "fixed_window_mean_span_velocity_over_U": -0.5103493639574102
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 0.8124700700435423
+    },
+    {
+      "phase": 0.9375,
+      "span": 0.3,
+      "cases": {
+        "baseline": {
+          "mean_jump": 1.4151991866760407,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.09135180358039431,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08880630858173223,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.011703034482948524,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0005981454229674228,
+          "fixed_window_negative_gamma_over_U": -0.0009801672497535953,
+          "fixed_window_mean_span_velocity_over_U": -0.635483928384805
+        },
+        "isolated": {
+          "mean_jump": 0.7168399645070885,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.06830105791068311,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.06693437489352655,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.06317107252330963,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0004824560031548678,
+          "fixed_window_negative_gamma_over_U": -0.0006772740186649817,
+          "fixed_window_mean_span_velocity_over_U": -0.5182920116140476
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 0.6983592221689522
+    },
+    {
+      "phase": 0.9375,
+      "span": 0.4,
+      "cases": {
+        "baseline": {
+          "mean_jump": 1.5002147039407452,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.10618874973003928,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.10340029964904425,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.011448722681079597,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0010293056995980723,
+          "fixed_window_negative_gamma_over_U": -0.0015272636814541245,
+          "fixed_window_mean_span_velocity_over_U": -0.6156866664711936
+        },
+        "isolated": {
+          "mean_jump": 0.8998336395459202,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.0814594273270668,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.07947591780388774,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07299354737010792,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0016573002577472578,
+          "fixed_window_negative_gamma_over_U": -0.002208921680364224,
+          "fixed_window_mean_span_velocity_over_U": -0.523905689366098
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 0.600381064394825
+    },
+    {
+      "phase": 0.9375,
+      "span": 0.5,
+      "cases": {
+        "baseline": {
+          "mean_jump": 1.3949298485353068,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08068036995089903,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.07933539125513762,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.0763336082800822,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0001550378447047524,
+          "fixed_window_negative_gamma_over_U": -0.0015509710028322487,
+          "fixed_window_mean_span_velocity_over_U": -0.57640679877373
+        },
+        "isolated": {
+          "mean_jump": 0.9445647812486833,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.08244840773449863,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.08103374278579577,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07768596523907774,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0006616631590687049,
+          "fixed_window_negative_gamma_over_U": -0.0014504239053336888,
+          "fixed_window_mean_span_velocity_over_U": -0.5205307668660138
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 0.4503650672866235
+    },
+    {
+      "phase": 0.9375,
+      "span": 0.7,
+      "cases": {
+        "baseline": {
+          "mean_jump": 1.1308513323994958,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.07170907436746529,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.07069302149787687,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.06777754502526284,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -0.0001181376868593894,
+          "fixed_window_negative_gamma_over_U": -0.0007902257551756573,
+          "fixed_window_mean_span_velocity_over_U": -0.5315490642383947
+        },
+        "isolated": {
+          "mean_jump": 0.8575554625069275,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.07956937108488278,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.077720888307269,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.07321969942880895,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 4.3135544697381254e-05,
+          "fixed_window_negative_gamma_over_U": -0.0008418697867260883,
+          "fixed_window_mean_span_velocity_over_U": -0.48847510923615495
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 0.27329586989256827
+    },
+    {
+      "phase": 0.9375,
+      "span": 0.9,
+      "cases": {
+        "baseline": {
+          "mean_jump": 0.7315721506502115,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.045575268777146204,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.044968375780619976,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.043712750975257536,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": -1.763625195865011e-05,
+          "fixed_window_negative_gamma_over_U": -0.00019243464421411105,
+          "fixed_window_mean_span_velocity_over_U": -0.4939151822417975
+        },
+        "isolated": {
+          "mean_jump": 0.5380299896769966,
+          "circulation_candidates": [
+            {
+              "threshold": 0.05,
+              "gamma_over_U": -0.04343313468309659,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.1,
+              "gamma_over_U": -0.042500738982691695,
+              "closed": false,
+              "found": true
+            },
+            {
+              "threshold": 0.2,
+              "gamma_over_U": -0.03981545377014268,
+              "closed": false,
+              "found": true
+            }
+          ],
+          "fixed_window_signed_gamma_over_U": 6.870303843984569e-05,
+          "fixed_window_negative_gamma_over_U": -9.612286939403262e-05,
+          "fixed_window_mean_span_velocity_over_U": -0.4671089756003697
+        }
+      },
+      "fixed_window_coverage": 1.0,
+      "delta_jump": 0.19354216097321497
+    }
+  ],
+  "provenance": [
+    {
+      "name": "baseline_00_sections.npz",
+      "sha256": "6b848951b8ec87db0fb3df9ee5d2ff6caa107bff9de9bd4528dcca2c455e7025"
+    },
+    {
+      "name": "isolated_00_sections.npz",
+      "sha256": "c663e3f53c320b5ba354b3ee0ae39f651de85f47d82ecc815efdb74afef1a47a"
+    },
+    {
+      "name": "baseline_01_sections.npz",
+      "sha256": "be8e9e81554f426c405df642633d98d2ac40a849a72e3c0899ee9fa7adbdcf39"
+    },
+    {
+      "name": "isolated_01_sections.npz",
+      "sha256": "d81c1cc0345fecb0357b2cf87e30e09483f6e10842b10d31d52cfe7640250a60"
+    },
+    {
+      "name": "baseline_07_sections.npz",
+      "sha256": "03a72fa873f61475f32674a785f26015cea474fdcf180384269a9437f9b0d1ec"
+    },
+    {
+      "name": "isolated_07_sections.npz",
+      "sha256": "83de9a1cba19559937a5c06da2c8694b58bb479181a8c639ce7e9526ef1d5a1f"
+    },
+    {
+      "name": "baseline_08_sections.npz",
+      "sha256": "05dbfad9c2c9abb7dfe0702cf5e66e32c709f9214fc647c04475f8fd1b7d3ff1"
+    },
+    {
+      "name": "isolated_08_sections.npz",
+      "sha256": "ddd72fd781fb6f73473e1c0fb2fb39ab792dd003bb20430adc2e1abd961c51ef"
+    },
+    {
+      "name": "baseline_09_sections.npz",
+      "sha256": "07b4dc42ff31b7b2a877c4e65935def64418856ac8d5ebd37309b1ec2e050df8"
+    },
+    {
+      "name": "isolated_09_sections.npz",
+      "sha256": "fe6ba24eb8d82e0c9dcd8f6513a442aa1cb6d85f17854523e1c6e722ad7e4719"
+    },
+    {
+      "name": "baseline_15_sections.npz",
+      "sha256": "daea553bbf66bc2947f15e43215b3986ed534e3de2d02c83cf75db12b6f51cf9"
+    },
+    {
+      "name": "isolated_15_sections.npz",
+      "sha256": "44d17a8e3a09dd77a1049d4ad087e70a62eb0c5ed1dd251e697631d702f8b869"
+    }
+  ],
+  "caution": "Candidate front-upper signed-vorticity connected components, not automatically isolated LEVs. Truncated contours are retained and flagged; do not equate their circulation with true total vortex circulation. Geometry-aligned slices, chord mean pressure over 5\u201395%."
+}

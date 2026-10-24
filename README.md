@@ -4,6 +4,8 @@
 
 ## 从这里开始
 
+- **[v19：Dong 组路线的同相位流场—压差对照](reports/2026-10-23-dong-comparison/README.md)**
+
 - **[v18：固定周期内的压差与增升机制](reports/2026-10-23-phase-mechanism/README.md)**
 
 - **[v17：周期稳定性、采样误差与发表证据边界](reports/2026-10-23-cycle-evidence/README.md)**
