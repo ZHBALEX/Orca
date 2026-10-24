@@ -37,12 +37,28 @@
       "sha256": "e16059a219f2d5ab4690ebb739c493ea5afcb52b2e87b9698b7113535dd881be"
     },
     {
+      "file": "27_velocity_vorticity_pressure_link.pdf",
+      "sha256": "6c9f416509a20a516ef1fe6ea6dbe622e1ece9bdf6c31b24070b172604e559a3"
+    },
+    {
+      "file": "27_velocity_vorticity_pressure_link.png",
+      "sha256": "2d8be0d98e1ae3f132cd1fc740eb20afd1f01be01b0322cb45b41375fd979759"
+    },
+    {
+      "file": "27_velocity_vorticity_pressure_link.svg",
+      "sha256": "7dbfd34c322b63e84f3b0a0df36a3dc209d1ddd96b9d19f5f4cbf046b58949be"
+    },
+    {
       "file": "body_crossflow_control.json",
       "sha256": "027b265fb5c4be0cb15749e9d6fd11e7529217abb0520e996648f7bd5cfd1434"
     },
     {
+      "file": "crossflow_pressure_link.json",
+      "sha256": "46480fd69a5b10dde1e6a793660acb8638bab8689692ea724089b38bbc80be66"
+    },
+    {
       "file": "MANUSCRIPT_DRAFT.md",
-      "sha256": "7cf7105765bd759b74880b4e0ff1d92ec3d0743c8e4634b40251ea169605a11c"
+      "sha256": "64c1ad5b9955323591eac2dff552f098d312a43a4b7c2b7d5eac025913ff2f17"
     },
     {
       "file": "motion_root_controls.json",
@@ -50,7 +66,7 @@
     },
     {
       "file": "README.md",
-      "sha256": "b8c100f395f6b2a5db9b70d7290f41d3290aebee8c189c4decda509b9513c9ed"
+      "sha256": "1c90d37d63586029f7d4340746605035e122594755a0bfff24c42d46f42a6be1"
     },
     {
       "file": "root_crossflow.json",
@@ -105,6 +121,10 @@
     {
       "file": "run__rootEvidenceAudit.py",
       "sha256": "35741cb71ecbd40f297f58ff05f0767b3603e237ce13b483714fe97a71e50e4f"
+    },
+    {
+      "file": "run__crossflowPressureLink.py",
+      "sha256": "1fd6d654b904e76ed6f0174cc23b5d6e1a7e1e4419198732c2dd6abe34de3005"
     }
   ],
   "hash_convention": "SHA256 of UTF-8 text with LF line endings; binary artifacts hashed unchanged"
