@@ -1,0 +1,182 @@
+{
+  "catalog_records": 271,
+  "catalog_status_counts": {
+    "unavailable": 214,
+    "downloaded": 34,
+    "local_copy": 23
+  },
+  "catalog_sha256": "547455d7e160b86b25a8111253516067972ff153b61a307ea696fa6ce155e84c",
+  "sources": [
+    {
+      "label": "L01",
+      "id": "W2338466152",
+      "author": "Liu, Dong & Li (2016)",
+      "doi": "10.1017/jfm.2016.175",
+      "pdf_sha256": "be6edf762830eaadf32d010a76f8f845f34db630b76a72028bbdb696ac174c81",
+      "text_sha256": "7385f32c5cae07ae7ffdad64f6d204dfd673d1f5d8b56e47bdebf4a899fc9bcf",
+      "library_relative_text_path": "02_分析\\papers\\be6edf762830eaad\\text.json",
+      "pdf_pages": 18,
+      "reviewed_pdf_pages": [
+        1,
+        16
+      ],
+      "review_scope": "Selected original-text passages and figure captions; not a whole-paper figure or reproducibility audit.",
+      "finding": "三模型 WB/BD/WN 把整个系统的相互作用增益与单个部件增益分开；再用体涡、近壁低压和参数变化构成机制解释。",
+      "limitation": "蝉前飞的 CFD；其 18.7% 总升力增益和体涡命名不能移植到 Orca。",
+      "consequence": "定义系统增益和鳍增益的不同分母；仅有同一张涡图不能完成力学归因。"
+    },
+    {
+      "label": "L02",
+      "id": "W2754658223",
+      "author": "Liu et al. (2017)",
+      "doi": "10.1017/jfm.2017.533",
+      "pdf_sha256": "2e0e3afdff74bfee68884863308d4f9a00c39a5474bcaa3f7e739bff91253f16",
+      "text_sha256": "5ad91ad9abfe8769fb57ca7e1afb96fe1cf9177478421fe89e8ee2b9c330daa3",
+      "library_relative_text_path": "02_分析\\papers\\2e0e3afdff74bfee\\text.json",
+      "pdf_pages": 24,
+      "reviewed_pdf_pages": [
+        1,
+        15,
+        16,
+        22
+      ],
+      "review_scope": "Selected original-text passages and figure captions; not a whole-paper figure or reproducibility audit.",
+      "finding": "通过体和鳍的组合对照，将尾鳍 LEV、上游 PBV 捕获与表面力联系起来，并检查 St/Re 变化。",
+      "limitation": "鲹形游动的尾鳍/中鳍与胸鳍问题不同；不能直接证明 Orca 的 RV+ 来源或符号反转。",
+      "consequence": "先说明哪个部件、哪个阶段的力改变，再给同阶段的涡量、环量和压力证据。"
+    },
+    {
+      "label": "L03",
+      "id": "W2944837325",
+      "author": "Wang et al. (2019)",
+      "doi": "10.1088/1748-3190/ab2208",
+      "pdf_sha256": "b4b7ccb9747ffac4aa2b11f1184ef58d3e318371370519a072837de5c428e103",
+      "text_sha256": "69025c79b258ead5835befda48fd98180ce0210124b6758e4134ce26b307fade",
+      "library_relative_text_path": "02_分析\\papers\\b4b7ccb9747ffac4\\text.json",
+      "pdf_pages": 18,
+      "reviewed_pdf_pages": [
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "review_scope": "Selected original-text passages and figure captions; not a whole-paper figure or reproducibility audit.",
+      "finding": "蜂鸟翼身对照把翼和身体的升力响应分别讨论；沿涡演化检查根部局部流动与压力，并考察运动参数。",
+      "limitation": "局部流动来源需针对具体几何判断；头部剪切层供给和 TXV 名称不能由相似图形移植。",
+      "consequence": "将体引起的入射场变化与额外的局部耦合响应区别陈述。"
+    },
+    {
+      "label": "L04",
+      "id": "W2999224801",
+      "author": "Han, Lauder & Dong (2020)",
+      "doi": "10.1063/1.5129274",
+      "pdf_sha256": "f7cdf5d6f442925cc6d53ff3ea5d9608667be85089ca765c48eb08f32d5c2af9",
+      "text_sha256": "601c184e7717d483d614339d47d1c794091ceaf0b1d077006af18f1676e9e4bd",
+      "library_relative_text_path": "02_分析\\papers\\f7cdf5d6f442925c\\text.json",
+      "pdf_pages": 14,
+      "reviewed_pdf_pages": [
+        1,
+        12,
+        13
+      ],
+      "review_scope": "Selected original-text passages and figure captions; not a whole-paper figure or reproducibility audit.",
+      "finding": "鳍面积和相位变化改变 PBV–LEV 相遇强度与时刻；躯干减阻还联系到跨越躯干边缘的流动和两侧压力差。",
+      "limitation": "推力、效率、躯干阻力是不同指标；更强涡不自动意味着更高效率。",
+      "consequence": "竞争解释应包括跨流/压力分布改变，后续参数对照要同时检查力与功率。"
+    },
+    {
+      "label": "L05",
+      "id": "W4385067820",
+      "author": "Guo et al. (2023)",
+      "doi": "10.1103/PhysRevFluids.8.073101",
+      "pdf_sha256": "fe2df89bc1b4dce411870abae778586fdea667bf4cc478c9ee8ca3b2092fc78d",
+      "text_sha256": "eca3be46629ce03a09b6a26cdce95cb48ce0d2603fb21a861c5ba62836389034",
+      "library_relative_text_path": "02_分析\\papers\\fe2df89bc1b4dce4\\text.json",
+      "pdf_pages": 25,
+      "reviewed_pdf_pages": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "review_scope": "Selected original-text passages and figure captions; not a whole-paper figure or reproducibility audit.",
+      "finding": "M1/M2 的力时序定位关键相位；连续切面区分涡的形成与捕获；沿前缘多切面环量避免单切片结论；表面压力及其朝向把流场连接回推力。",
+      "limitation": "PIV/CFD 对照主要支持流动拓扑和压力量级，正文明确 Re 与几何不完全一致，不声称逐点定量一致。",
+      "consequence": "首选英文论证模板：效果→关键相位→结构演化→空间量化→压力和力→参数检验。"
+    },
+    {
+      "label": "L06",
+      "id": "W4411986689",
+      "author": "Huang et al. (2025)",
+      "doi": "10.1088/1748-3190/adebce",
+      "pdf_sha256": "b4b8ca79f1ba57562b4e6e80b6850d3966c47e14e286f40faf2794a95a2a10d2",
+      "text_sha256": "6c17687416f9e238f879d6114a8554d920aa67758fbf3d3dae98bc439309395d",
+      "library_relative_text_path": "02_分析\\papers\\b4b8ca79f1ba5756\\text.json",
+      "pdf_pages": 20,
+      "reviewed_pdf_pages": [
+        1,
+        18
+      ],
+      "review_scope": "Selected original-text passages and figure captions; not a whole-paper figure or reproducibility audit.",
+      "finding": "结论将身体–身体、尾迹–身体、尾迹–鳍作用分开，并把吻部/尾柄压力和尾鳍环量变化对应到不同力学收益。",
+      "limitation": "此次复核为题录和结论段，未逐项复核结果图；不能用作 Orca 定量机制的独立验证。",
+      "consequence": "学习按位置、相位、受力部件分配解释，避免用一个“涡增强”概括全部收益。"
+    },
+    {
+      "label": "L07",
+      "id": "W4309527206",
+      "author": "Menon, Kumar & Mittal (2022)",
+      "doi": "10.1103/PhysRevFluids.7.114102",
+      "pdf_sha256": "35a9602894804b89e89c4152c834a8c8f9f286b7e8d52711a7edd7e48e9aa45e",
+      "text_sha256": "438d86942551ef32e75fdbf2e04a66ab66d45d9f49ae85d74973d080828df4e0",
+      "library_relative_text_path": "02_分析\\papers\\35a9602894804b89\\text.json",
+      "pdf_pages": 14,
+      "reviewed_pdf_pages": [
+        1,
+        3,
+        4,
+        5,
+        12
+      ],
+      "review_scope": "Selected original-text passages and figure captions; not a whole-paper figure or reproducibility audit.",
+      "finding": "辅助势力分解使用 Q 与几何权重的体积分；涡核与相关应变区可有相反力贡献，不能从涡核强度单独判断载荷。",
+      "limitation": "本地为作者稿；固定低展弦比翼，移动鳍还需保留加速度和其他边界项；其数值比例不是 Orca 结果。",
+      "consequence": "如果要回答“RV+ 贡献多少力”，应建立闭合的空间力分解，而非把近壁 Lamb 层积分当成单涡贡献。"
+    },
+    {
+      "label": "L08",
+      "id": "W2774040950",
+      "author": "Lucas, Dabiri & Lauder (2017)",
+      "doi": "10.1371/journal.pone.0189225",
+      "pdf_sha256": "2ae8f4c69f3f72a4fb6bdc9ae13c9b995dfcd4e68778fa800ce5d3c4a49d4b82",
+      "text_sha256": "c45f746d9b1fa91e265ff91d2a85645521ae1051c6a9801de6d6009611743611",
+      "library_relative_text_path": "02_分析\\papers\\2ae8f4c69f3f72a4\\text.json",
+      "pdf_pages": 30,
+      "reviewed_pdf_pages": [
+        1,
+        11,
+        13,
+        14,
+        16,
+        17,
+        24,
+        25,
+        26
+      ],
+      "review_scope": "Selected original-text passages and figure captions; not a whole-paper figure or reproducibility audit.",
+      "finding": "机械鳍测力与 PIV 压力测力同时对照，分别检验幅值、时序、相关性；边缘三维流及剪切贡献影响精度。",
+      "limitation": "二维压力推断有适用条件；横向力验证良好不代表轴向力也一样准确，小信号相对误差尤其敏感。",
+      "consequence": "Orca 报告同时给平均偏差、时序误差与区域覆盖，不能用周期均值吻合替代瞬态验证。"
+    }
+  ]
+}

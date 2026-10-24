@@ -1,0 +1,1623 @@
+{
+  "settings": {
+    "frame": 12,
+    "radius": 0.015,
+    "late_start": 0.75,
+    "offsets": {
+      "x−": [
+        -0.03,
+        0,
+        0
+      ],
+      "x+": [
+        0.03,
+        0,
+        0
+      ],
+      "z−": [
+        0,
+        0,
+        -0.03
+      ],
+      "z+": [
+        0,
+        0,
+        0.03
+      ]
+    },
+    "h0": 0.012,
+    "h1": 0.04,
+    "U": 0.29,
+    "period": 1.0,
+    "nu": 2.4166672708334843e-05,
+    "L": 1.0,
+    "core_xyz": [
+      10.273124694824219,
+      5.939525127410889,
+      5.912974834442139
+    ]
+  },
+  "patches": {
+    "RV+": {
+      "faces": 28,
+      "center_xyz": [
+        10.275666236877441,
+        5.948291460673015,
+        5.902619520823161
+      ],
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "area": 0.00032909593062507495,
+      "reference_overlap_fraction": 1.0000000000000002,
+      "max_radius": 0.014698505359500683,
+      "area_ratio_range_over_cycle": [
+        1.0,
+        1.0
+      ]
+    },
+    "x−": {
+      "faces": 41,
+      "center_xyz": [
+        10.2480255762736,
+        5.954811890920003,
+        5.8964535395304365
+      ],
+      "displacement": [
+        -0.027640660603841738,
+        0.00652043024698834,
+        -0.006165981292724609
+      ],
+      "area": 0.000329095930625075,
+      "reference_overlap_fraction": 0.0,
+      "max_radius": 0.010405941474461007,
+      "area_ratio_range_over_cycle": [
+        0.9999279901052683,
+        1.001323441920036
+      ]
+    },
+    "x+": {
+      "faces": 26,
+      "center_xyz": [
+        10.29269822438558,
+        5.936684767405192,
+        5.890791575113933
+      ],
+      "displacement": [
+        0.017031987508138613,
+        -0.011606693267822266,
+        -0.011827945709228516
+      ],
+      "area": 0.0003290959306250749,
+      "reference_overlap_fraction": 0.11157002318436915,
+      "max_radius": 0.014628023819170614,
+      "area_ratio_range_over_cycle": [
+        0.9995983340114267,
+        1.0000942130752148
+      ]
+    },
+    "z−": {
+      "faces": 16,
+      "center_xyz": [
+        10.27352523803711,
+        5.936875184377034,
+        5.884023030598958
+      ],
+      "displacement": [
+        -0.0021409988403320312,
+        -0.01141627629598041,
+        -0.018596490224203066
+      ],
+      "area": 0.0003290959306250749,
+      "reference_overlap_fraction": 0.07781086586912198,
+      "max_radius": 0.010221641484985812,
+      "area_ratio_range_over_cycle": [
+        0.9999594978440516,
+        1.0002626787613491
+      ]
+    },
+    "z+": {
+      "faces": 33,
+      "center_xyz": [
+        10.265552202860514,
+        5.953653971354167,
+        5.9052348136901855
+      ],
+      "displacement": [
+        -0.010114034016927675,
+        0.005362510681152344,
+        0.0026152928670244435
+      ],
+      "area": 0.00032909593062507484,
+      "reference_overlap_fraction": 0.5520983892517414,
+      "max_radius": 0.014738648723458104,
+      "area_ratio_range_over_cycle": [
+        0.9999527267825288,
+        1.0003085360855022
+      ]
+    }
+  },
+  "source_manifest": [
+    {
+      "file": "baseline_00_profiles.npz",
+      "sha256": "64a4bbe703a6cdae94a9ac9c37cbd216d393a7fa88912bd642747583fca55912"
+    },
+    {
+      "file": "baseline_01_profiles.npz",
+      "sha256": "77c419db06aefa2414664b20fe381d00cda03076f0be20049f465eec9bdecb67"
+    },
+    {
+      "file": "baseline_02_profiles.npz",
+      "sha256": "ea99d04677da3a172da6c3c3df2dfde5daff86eb8948aaeab74df89051284be1"
+    },
+    {
+      "file": "baseline_03_profiles.npz",
+      "sha256": "bc2546b947db27bc37e105ca9622bfd81041fbc341eafb38411dc3cc632e618a"
+    },
+    {
+      "file": "baseline_04_profiles.npz",
+      "sha256": "57cc131bf36085cb9f168e898a6f662b7281b00ab3bf79a0439acd9e3877f0fb"
+    },
+    {
+      "file": "baseline_05_profiles.npz",
+      "sha256": "7b532de45f1b06af152e65e27f9ebd4bfe418cbd02c7793935ef14c12dec9dc1"
+    },
+    {
+      "file": "baseline_06_profiles.npz",
+      "sha256": "441f8f575f056158f46aac223ec1a39be4b03068824366bdf910a62a2464f08f"
+    },
+    {
+      "file": "baseline_07_profiles.npz",
+      "sha256": "93c8278fd95a18609a78fbe87f55b682743128f0f0afe0f6db26fc34c20c3d14"
+    },
+    {
+      "file": "baseline_08_profiles.npz",
+      "sha256": "a2f5347dbdb7b6c3d2ee901fcf650c3cd8842126755caf24114d8855365301f4"
+    },
+    {
+      "file": "baseline_09_profiles.npz",
+      "sha256": "0204f0eae6eddad4110f4034a16770ae0ca5d6a5e2bf1e0570726568fa1f75c1"
+    },
+    {
+      "file": "baseline_10_profiles.npz",
+      "sha256": "b9a78e6d64627c99bcd750bb8f875fcdb8004f396ab68e95e8ab834554a890d1"
+    },
+    {
+      "file": "baseline_11_profiles.npz",
+      "sha256": "32c8ce14333342de03239b8301f42de16ea63c3dad340e8ff8a0a2ff51cfc8b3"
+    },
+    {
+      "file": "baseline_12_profiles.npz",
+      "sha256": "091b1773a19f5e19b50e056295de651bbdd111b15722a175e2ba8da4e4041400"
+    },
+    {
+      "file": "baseline_13_profiles.npz",
+      "sha256": "c6332c88e966b8af4aed2d8815f86ba7f8ec721a042196ea2f99f6bc2eb5b598"
+    },
+    {
+      "file": "baseline_14_profiles.npz",
+      "sha256": "974a7fd292e6400fa089f3c7d594c3986d839b570162f4bcb5f04c9da5f6b204"
+    },
+    {
+      "file": "baseline_15_profiles.npz",
+      "sha256": "d89ed900b94c65ee5e73369f6f78584d530d43e40ab57abd1729b30619a9dfcb"
+    },
+    {
+      "file": "baseline_16_profiles.npz",
+      "sha256": "2647f71aa5504cb66a3d55d7df74f6053876c5cbc8e882bef18447cb0dff8724"
+    },
+    {
+      "file": "isolated_00_profiles.npz",
+      "sha256": "6ed20e40cd8ed0d43ebcc8779fe727ba9fc075886bcab5b5d48bfbbb554cc3c0"
+    },
+    {
+      "file": "isolated_01_profiles.npz",
+      "sha256": "b12d2b6277e11356a64875b3424487c5fe9bf18d71bb9651b6cebbd0f1fcf6dc"
+    },
+    {
+      "file": "isolated_02_profiles.npz",
+      "sha256": "126fb7f12e3d3703a42c349b452dadac921add162801eb56a20a09bbf2acc9b7"
+    },
+    {
+      "file": "isolated_03_profiles.npz",
+      "sha256": "c8c822f9b833441f875c7902ef75b095faf1472e8d4ae4a6e2dbe8f1f734ebe2"
+    },
+    {
+      "file": "isolated_04_profiles.npz",
+      "sha256": "f1d80ca9bb0e5723869453211a4db999379ccfc0f861de04293fb0127e767933"
+    },
+    {
+      "file": "isolated_05_profiles.npz",
+      "sha256": "cf0e948d14396466eb6188736f47cfb95e361d922d8e63a8d48ccb097b022bcd"
+    },
+    {
+      "file": "isolated_06_profiles.npz",
+      "sha256": "0f42fedd8ed55d9721988dba09e8d4b1f86389381b00846a6c9f374c1cf95bc0"
+    },
+    {
+      "file": "isolated_07_profiles.npz",
+      "sha256": "f05a625e32f53afb74122d93c19b6b3510aba7ad5dcc8a5f8ce722fd5fdaaf25"
+    },
+    {
+      "file": "isolated_08_profiles.npz",
+      "sha256": "9fd802d04c325eb54a7e08d28883fe71572854ea7a5bc1b188da34e7c764af96"
+    },
+    {
+      "file": "isolated_09_profiles.npz",
+      "sha256": "77872b0f626df838d8d2ef68e8d5845752657679f3f2ad67701ac9abaa6df94e"
+    },
+    {
+      "file": "isolated_10_profiles.npz",
+      "sha256": "b803a71d50d7b52bccbd3fa6f073a407dc1d34868631cd20cfe0f3f063d56fd6"
+    },
+    {
+      "file": "isolated_11_profiles.npz",
+      "sha256": "02d124fafc539cf2042f1d2938304af3cc510b594e3be983ab43f563fbe5bc91"
+    },
+    {
+      "file": "isolated_12_profiles.npz",
+      "sha256": "85a323c6978ce5a7c76553eb0e3850240d45fd76bc059f6cd28335152e9aaf5c"
+    },
+    {
+      "file": "isolated_13_profiles.npz",
+      "sha256": "f0caa8076f5cde9dc249b585f907a3e0ff1278b4c18acb6a32d5c561dc6d8828"
+    },
+    {
+      "file": "isolated_14_profiles.npz",
+      "sha256": "2961af0e06c0b6ff3ce55db6a8dada6e4ae88406f6cee8d707eab5e2854d0cdd"
+    },
+    {
+      "file": "isolated_15_profiles.npz",
+      "sha256": "5c0f84542795c83668e02cfed37f5bdfee2d8237cbf9dd87c8dbeee54203b981"
+    },
+    {
+      "file": "isolated_16_profiles.npz",
+      "sha256": "eccc71e210569470a64a7bb1178173007b9f2ec815c0a3eaa6612cdba843599b"
+    },
+    {
+      "file": "body_only_00_profiles.npz",
+      "sha256": "57611eaad08d5de30132489a17705b0dafcda7c38956cb2d6605cf50aa66e2d5"
+    },
+    {
+      "file": "body_only_01_profiles.npz",
+      "sha256": "3b8db1038de66245f24638ed6893416cf1d7506e62c6fcb5c9431cdc7b2a043a"
+    },
+    {
+      "file": "body_only_02_profiles.npz",
+      "sha256": "cb731c980b0d62fdacba7cd2cf3b40bc72fbfe53d17cfbc892290719e7817f69"
+    },
+    {
+      "file": "body_only_03_profiles.npz",
+      "sha256": "ada3516a779ae33a169b5c05365b20393585e447ab9ab29f70497aa4d8034254"
+    },
+    {
+      "file": "body_only_04_profiles.npz",
+      "sha256": "1056a95a5af3640d012e1f57a176c3ba57e62c8bda8af0724a3f6267eb00b057"
+    },
+    {
+      "file": "body_only_05_profiles.npz",
+      "sha256": "baa796e5f8af6ec4ba9043ebcc968141e53e894211fbb3393d4dea72299395cd"
+    },
+    {
+      "file": "body_only_06_profiles.npz",
+      "sha256": "83c1cb416cdb5ffea7014b2c4d62c3e98a306cd9896da36de82eb9a8d36026ba"
+    },
+    {
+      "file": "body_only_07_profiles.npz",
+      "sha256": "8956176bd89558a6a440e07039145f617d32d311dcb499d68fa327ab6ecfaef9"
+    },
+    {
+      "file": "body_only_08_profiles.npz",
+      "sha256": "ee8ed248e18231c33bfbf99efa014180f3cdcefaf94917679bf8706887bd640d"
+    },
+    {
+      "file": "body_only_09_profiles.npz",
+      "sha256": "b5062280527206fcb0ce02da430b52c022dcc41f083e880b5fd7c5937f853d3e"
+    },
+    {
+      "file": "body_only_10_profiles.npz",
+      "sha256": "547929d6987a19f990a5765cf72f51a3cb2c5ad9be9336758442853fb46d7cda"
+    },
+    {
+      "file": "body_only_11_profiles.npz",
+      "sha256": "636fb439b884007ccc5093729a7a8293446ee30df12cd0f88828e7a2ce8416f2"
+    },
+    {
+      "file": "body_only_12_profiles.npz",
+      "sha256": "a082ad70b938e21ba5c413ed0ec566fc1df7aceb201e6f3bb9416ba7a7e2d99a"
+    },
+    {
+      "file": "body_only_13_profiles.npz",
+      "sha256": "936dbed2d7237c1ed09c7d50dbdddc15ee0523af7001cc153984a8e647bd068b"
+    },
+    {
+      "file": "body_only_14_profiles.npz",
+      "sha256": "e1e9c0b904b17aac8ff09c1fdd7ad686d6151de5ecbd0a7481f86ea6b0fe69ee"
+    },
+    {
+      "file": "body_only_15_profiles.npz",
+      "sha256": "075781ad5f69679496237ea45f0a3b6390c9b0c24ce1cd5aa55c23545cd03e0f"
+    },
+    {
+      "file": "body_only_16_profiles.npz",
+      "sha256": "68d4d784fa7d7eb567ec6555d51fe0cc1c89fb0dd077830687c1b4a4d6c74ce1"
+    },
+    {
+      "file": "geometry.npz",
+      "sha256": "abc2ada72d1e95b04afd326f6128a785aa9b60afe4e8cf4d4c0b83641faeb7bd"
+    }
+  ],
+  "valid_faces": 1154,
+  "methods": {
+    "fourier": {
+      "RV+": {
+        "late": {
+          "surface_cp": -0.30999307582613256,
+          "surface_cl": 0.00015591287526889476,
+          "outer_cp": -0.08036386274771995,
+          "outer_cl": 4.010583291958956e-05,
+          "layer_cp": -0.16344548276346324,
+          "layer_cl": 8.164121898750668e-05,
+          "wall_cp": -0.06618373031494944,
+          "wall_cl": 3.4165823361798563e-05,
+          "lamb_cp": 0.006158023523910053,
+          "lamb_cl": -1.0389579035181089e-06,
+          "lamb_velocity_cp": -0.1876669135889923,
+          "lamb_velocity_cl": 9.590951084725995e-05,
+          "lamb_vorticity_cp": 0.19722739612524304,
+          "lamb_vorticity_cl": -9.873319222069175e-05,
+          "lamb_body_control_cp": -0.0034024590123407227,
+          "lamb_body_control_cl": 1.7847234699136935e-06,
+          "unsteady_cp": 0.05226048329167601,
+          "unsteady_cl": -2.5278562757628672e-05,
+          "kinetic_cp": -0.19565862464342326,
+          "kinetic_cl": 9.491593034870473e-05,
+          "viscous_cp": -0.0030877536208082307,
+          "viscous_cl": 1.513842294459538e-06,
+          "prediction_cp": -0.14032787144864545,
+          "prediction_cl": 7.011225198201744e-05,
+          "closure_cp": -0.023117611314817772,
+          "closure_cl": 1.1528967005489221e-05
+        },
+        "cycle": {
+          "surface_cp": -0.2755757630736094,
+          "surface_cl": 0.00013638340847096494,
+          "outer_cp": -0.025626363475362093,
+          "outer_cl": 1.3064824748062534e-05,
+          "layer_cp": -0.16782350923694084,
+          "layer_cl": 8.216766245116157e-05,
+          "wall_cp": -0.0821258903613065,
+          "wall_cl": 4.115092127174085e-05,
+          "lamb_cp": 0.04917734203347325,
+          "lamb_cl": -2.441876113501604e-05,
+          "lamb_velocity_cp": 0.1794556959619088,
+          "lamb_velocity_cl": -8.663678884830305e-05,
+          "lamb_vorticity_cp": -0.128796028619017,
+          "lamb_vorticity_cl": 6.147224302919572e-05,
+          "lamb_body_control_cp": -0.001482325309418475,
+          "lamb_body_control_cl": 7.457846840912806e-07,
+          "unsteady_cp": 0.0018815761601305176,
+          "unsteady_cl": -1.1413416293221441e-06,
+          "kinetic_cp": -0.20175268076364317,
+          "kinetic_cl": 9.928359434255379e-05,
+          "viscous_cp": -0.0034686184668698563,
+          "viscous_cl": 1.6500075923524139e-06,
+          "prediction_cp": -0.15416238103690927,
+          "prediction_cl": 7.5373499170568e-05,
+          "closure_cp": -0.013661128200031578,
+          "closure_cl": 6.794163280593559e-06
+        }
+      },
+      "x−": {
+        "late": {
+          "surface_cp": -0.3699654198256668,
+          "surface_cl": 0.00017048299031781865,
+          "outer_cp": -0.13470229217947843,
+          "outer_cl": 6.180870404251576e-05,
+          "layer_cp": -0.23580992996781192,
+          "layer_cl": 0.00010949888229318846,
+          "wall_cp": 0.0005468023216235601,
+          "wall_cl": -8.245960178855424e-07,
+          "lamb_cp": -0.5963131106711776,
+          "lamb_cl": 0.0002647050189508887,
+          "lamb_velocity_cp": 0.2658306209315515,
+          "lamb_velocity_cl": -0.00012478185634422038,
+          "lamb_vorticity_cp": -0.8665346150727815,
+          "lamb_vorticity_cl": 0.00039186565620919584,
+          "lamb_body_control_cp": 0.004390883470052378,
+          "lamb_body_control_cl": -2.3787809140866252e-06,
+          "unsteady_cp": 0.10292654129616391,
+          "unsteady_cl": -4.6855034748660476e-05,
+          "kinetic_cp": 0.3052350273954742,
+          "kinetic_cl": -0.00013057711688468893,
+          "viscous_cp": -0.002288454828935237,
+          "viscous_cl": 1.1325099390983745e-06,
+          "prediction_cp": -0.19043999680847473,
+          "prediction_cl": 8.840537725663768e-05,
+          "closure_cp": -0.04536993315933721,
+          "closure_cl": 2.1093505036550774e-05
+        },
+        "cycle": {
+          "surface_cp": -0.20987360284532738,
+          "surface_cl": 9.504922910491586e-05,
+          "outer_cp": -0.050806700399140876,
+          "outer_cl": 2.2504039533883356e-05,
+          "layer_cp": -0.15066101381303293,
+          "layer_cl": 6.90485219009218e-05,
+          "wall_cp": -0.008405888633153575,
+          "wall_cl": 3.4966676701107086e-06,
+          "lamb_cp": -0.37631022454462626,
+          "lamb_cl": 0.00016927866511518125,
+          "lamb_velocity_cp": 0.10555881518524325,
+          "lamb_velocity_cl": -5.047689397093688e-05,
+          "lamb_vorticity_cp": -0.4863084325480859,
+          "lamb_vorticity_cl": 0.00022207227688154528,
+          "lamb_body_control_cp": 0.004439392818216342,
+          "lamb_body_control_cl": -2.316717795427124e-06,
+          "unsteady_cp": 0.012966764097526236,
+          "unsteady_cl": -6.536825421261908e-06,
+          "kinetic_cp": 0.22837658323845003,
+          "kinetic_cl": -0.00010104268925573318,
+          "viscous_cp": -0.0003547813892799289,
+          "viscous_cl": 2.0482064875126462e-07,
+          "prediction_cp": -0.13532165859792994,
+          "prediction_cl": 6.190397108693742e-05,
+          "closure_cp": -0.015339355215102966,
+          "closure_cl": 7.1445508139843805e-06
+        }
+      },
+      "x+": {
+        "late": {
+          "surface_cp": -0.18084908846221334,
+          "surface_cl": 9.036221521984683e-05,
+          "outer_cp": -0.03119127115076349,
+          "outer_cl": 1.5188524913639066e-05,
+          "layer_cp": -0.03888612525619729,
+          "layer_cl": 1.9179348443078628e-05,
+          "wall_cp": -0.11077169205525253,
+          "wall_cl": 5.599434186312913e-05,
+          "lamb_cp": 0.3959053444110881,
+          "lamb_cl": -0.0001953414568798278,
+          "lamb_velocity_cp": -0.14452655543891063,
+          "lamb_velocity_cl": 7.175885521970236e-05,
+          "lamb_vorticity_cp": 0.5428052731089978,
+          "lamb_vorticity_cl": -0.00026835149088617346,
+          "lamb_body_control_cp": -0.0023733732589991327,
+          "lamb_body_control_cl": 1.2511787866433612e-06,
+          "unsteady_cp": 0.006667390606902732,
+          "unsteady_cl": -3.303873857445388e-06,
+          "kinetic_cp": -0.41807736017127867,
+          "kinetic_cl": 0.0002062783540118336,
+          "viscous_cp": -0.001563593888689245,
+          "viscous_cl": 7.923461905801577e-07,
+          "prediction_cp": -0.017068219041977098,
+          "prediction_cl": 8.425369465140592e-06,
+          "closure_cp": -0.021817906214220167,
+          "closure_cl": 1.0753978977938036e-05
+        },
+        "cycle": {
+          "surface_cp": -0.23269020092157863,
+          "surface_cl": 0.00011266027939690792,
+          "outer_cp": -0.015461978604802348,
+          "outer_cl": 7.736974003382805e-06,
+          "layer_cp": -0.08938850652989695,
+          "layer_cl": 4.270665076896246e-05,
+          "wall_cp": -0.12783971578687936,
+          "wall_cl": 6.221665462456265e-05,
+          "lamb_cp": 0.23727586210776516,
+          "lamb_cl": -0.00011610794985104174,
+          "lamb_velocity_cp": 0.03610681588480885,
+          "lamb_velocity_cl": -1.7550379735028672e-05,
+          "lamb_vorticity_cp": 0.2029197410628257,
+          "lamb_vorticity_cl": -9.94483869969589e-05,
+          "lamb_body_control_cp": -0.001750694839869383,
+          "lamb_body_control_cl": 8.908168809458195e-07,
+          "unsteady_cp": 0.0044184823373151026,
+          "unsteady_cl": -2.185177540543254e-06,
+          "kinetic_cp": -0.31809394961055354,
+          "kinetic_cl": 0.00015482357071835827,
+          "viscous_cp": -0.003960574061315391,
+          "viscous_cl": 1.9125492243923246e-06,
+          "prediction_cp": -0.08036017922678865,
+          "prediction_cl": 3.844299255116556e-05,
+          "closure_cp": -0.00902832730310828,
+          "closure_cl": 4.263658217796901e-06
+        }
+      },
+      "z−": {
+        "late": {
+          "surface_cp": -0.20314926691426158,
+          "surface_cl": 9.395027431104788e-05,
+          "outer_cp": -0.08198011672232541,
+          "outer_cl": 3.7896930492092344e-05,
+          "layer_cp": -0.12391990967672681,
+          "layer_cl": 5.726632805394301e-05,
+          "wall_cp": 0.0027507594847906228,
+          "wall_cl": -1.2129842349874747e-06,
+          "lamb_cp": 0.08933762121361047,
+          "lamb_cl": -4.1177764703361007e-05,
+          "lamb_velocity_cp": -0.1986044923264092,
+          "lamb_velocity_cl": 9.173170397537361e-05,
+          "lamb_vorticity_cp": 0.2882671976423393,
+          "lamb_vorticity_cl": -0.00013305980437282577,
+          "lamb_body_control_cp": -0.0003250841023196688,
+          "lamb_body_control_cl": 1.5033569409114803e-07,
+          "unsteady_cp": 0.06276446895826542,
+          "unsteady_cl": -2.9199046423862204e-05,
+          "kinetic_cp": -0.2528655962687998,
+          "kinetic_cl": 0.00011688079439688827,
+          "viscous_cp": -0.0008157875396154668,
+          "viscous_cl": 3.743609620946419e-07,
+          "prediction_cp": -0.10157929363653936,
+          "prediction_cl": 4.687834423175974e-05,
+          "closure_cp": -0.022340616040187472,
+          "closure_cl": 1.0387983822183272e-05
+        },
+        "cycle": {
+          "surface_cp": -0.1298124470758152,
+          "surface_cl": 5.903234402612084e-05,
+          "outer_cp": -0.02401311561668794,
+          "outer_cl": 1.102299083271312e-05,
+          "layer_cp": -0.0865822243371997,
+          "layer_cl": 3.922880826499986e-05,
+          "wall_cp": -0.019217107121927608,
+          "wall_cl": 8.780544928407843e-06,
+          "lamb_cp": 0.00012021066276700354,
+          "lamb_cl": -8.050780342655625e-07,
+          "lamb_velocity_cp": -0.06443285539238672,
+          "lamb_velocity_cl": 2.9577632603170353e-05,
+          "lamb_vorticity_cp": 0.06490588184755902,
+          "lamb_vorticity_cl": -3.054316329999418e-05,
+          "lamb_body_control_cp": -0.0003528157924052955,
+          "lamb_body_control_cl": 1.6045266255826354e-07,
+          "unsteady_cp": 0.009892524076368689,
+          "unsteady_cl": -4.8245663179694276e-06,
+          "kinetic_cp": -0.09219382499855733,
+          "kinetic_cl": 4.275652136183372e-05,
+          "viscous_cp": -0.0007342734568305965,
+          "viscous_cl": 3.387490760585565e-07,
+          "prediction_cp": -0.08291536371625224,
+          "prediction_cl": 3.7465626085657285e-05,
+          "closure_cp": -0.0036668606209474524,
+          "closure_cl": 1.7631821793425835e-06
+        }
+      },
+      "z+": {
+        "late": {
+          "surface_cp": -0.3456539279288454,
+          "surface_cl": 0.00017492880900754488,
+          "outer_cp": -0.10662182548615044,
+          "outer_cl": 5.3692358890623885e-05,
+          "layer_cp": -0.2172724551520665,
+          "layer_cl": 0.00010949737487314183,
+          "wall_cp": -0.02175964729062846,
+          "wall_cl": 1.1739075243779137e-05,
+          "lamb_cp": -0.23080146285497716,
+          "lamb_cl": 0.00011567883676728369,
+          "lamb_velocity_cp": -0.042619006968046824,
+          "lamb_velocity_cl": 2.5215541237884e-05,
+          "lamb_vorticity_cp": -0.19336160256122442,
+          "lamb_vorticity_cl": 9.324786456170166e-05,
+          "lamb_body_control_cp": 0.005179146674294145,
+          "lamb_body_control_cl": -2.7845690323019358e-06,
+          "unsteady_cp": 0.08220914645645365,
+          "unsteady_cl": -4.025038115188575e-05,
+          "kinetic_cp": -0.027320802125592042,
+          "kinetic_cl": 1.326027608548577e-05,
+          "viscous_cp": -0.002692361392054919,
+          "viscous_cl": 1.3378378141916311e-06,
+          "prediction_cp": -0.17860547991617043,
+          "prediction_cl": 9.002656951507535e-05,
+          "closure_cp": -0.03866697523589604,
+          "closure_cl": 1.9470805358066485e-05
+        },
+        "cycle": {
+          "surface_cp": -0.269793595403646,
+          "surface_cl": 0.00013467964208909786,
+          "outer_cp": -0.026482112601805618,
+          "outer_cl": 1.3510813353129535e-05,
+          "layer_cp": -0.18188343864129153,
+          "layer_cl": 9.020624438103904e-05,
+          "wall_cp": -0.06142804416054883,
+          "wall_cl": 3.096258435492926e-05,
+          "lamb_cp": -0.11360636886176495,
+          "lamb_cl": 5.492298244528882e-05,
+          "lamb_velocity_cp": 0.1823535218035226,
+          "lamb_velocity_cl": -8.877813381515063e-05,
+          "lamb_vorticity_cp": -0.3013641952277972,
+          "lamb_vorticity_cl": 0.0001464969671797702,
+          "lamb_body_control_cp": 0.005404304562509626,
+          "lamb_body_control_cl": -2.795850919330759e-06,
+          "unsteady_cp": 0.009643499040200967,
+          "unsteady_cl": -5.271336324354387e-06,
+          "kinetic_cp": -0.055286781100246686,
+          "kinetic_cl": 2.9075759449857685e-05,
+          "viscous_cp": -0.003265307505979492,
+          "viscous_cl": 1.6144373877326868e-06,
+          "prediction_cp": -0.1625149584277902,
+          "prediction_cl": 8.03418429585248e-05,
+          "closure_cp": -0.019368480213501293,
+          "closure_cl": 9.86440142251425e-06
+        }
+      }
+    },
+    "central": {
+      "RV+": {
+        "late": {
+          "surface_cp": -0.30999307582613256,
+          "surface_cl": 0.00015591287526889476,
+          "outer_cp": -0.08036386274771995,
+          "outer_cl": 4.010583291958956e-05,
+          "layer_cp": -0.16344548276346324,
+          "layer_cl": 8.164121898750668e-05,
+          "wall_cp": -0.06618373031494944,
+          "wall_cl": 3.4165823361798563e-05,
+          "lamb_cp": 0.006158023523910053,
+          "lamb_cl": -1.0389579035181089e-06,
+          "lamb_velocity_cp": -0.1876669135889923,
+          "lamb_velocity_cl": 9.590951084725995e-05,
+          "lamb_vorticity_cp": 0.19722739612524304,
+          "lamb_vorticity_cl": -9.873319222069175e-05,
+          "lamb_body_control_cp": -0.0034024590123407227,
+          "lamb_body_control_cl": 1.7847234699136935e-06,
+          "unsteady_cp": 0.0499056976350931,
+          "unsteady_cl": -2.420509144865385e-05,
+          "kinetic_cp": -0.19565862464342326,
+          "kinetic_cl": 9.491593034870473e-05,
+          "viscous_cp": -0.0030877536208082307,
+          "viscous_cl": 1.513842294459538e-06,
+          "prediction_cp": -0.14268265710522832,
+          "prediction_cl": 7.118572329099228e-05,
+          "closure_cp": -0.02076282565823492,
+          "closure_cl": 1.045549569651441e-05
+        },
+        "cycle": {
+          "surface_cp": -0.2755757630736094,
+          "surface_cl": 0.00013638340847096494,
+          "outer_cp": -0.025626363475362093,
+          "outer_cl": 1.3064824748062534e-05,
+          "layer_cp": -0.16782350923694084,
+          "layer_cl": 8.216766245116157e-05,
+          "wall_cp": -0.0821258903613065,
+          "wall_cl": 4.115092127174085e-05,
+          "lamb_cp": 0.04917734203347325,
+          "lamb_cl": -2.441876113501604e-05,
+          "lamb_velocity_cp": 0.1794556959619088,
+          "lamb_velocity_cl": -8.663678884830305e-05,
+          "lamb_vorticity_cp": -0.128796028619017,
+          "lamb_vorticity_cl": 6.147224302919572e-05,
+          "lamb_body_control_cp": -0.001482325309418475,
+          "lamb_body_control_cl": 7.457846840912806e-07,
+          "unsteady_cp": 0.001707798362330681,
+          "unsteady_cl": -1.0234805084974799e-06,
+          "kinetic_cp": -0.20175268076364317,
+          "kinetic_cl": 9.928359434255379e-05,
+          "viscous_cp": -0.0034686184668698563,
+          "viscous_cl": 1.6500075923524139e-06,
+          "prediction_cp": -0.15433615883470908,
+          "prediction_cl": 7.549136029139265e-05,
+          "closure_cp": -0.013487350402231752,
+          "closure_cl": 6.676302159768901e-06
+        }
+      },
+      "x−": {
+        "late": {
+          "surface_cp": -0.3699654198256668,
+          "surface_cl": 0.00017048299031781865,
+          "outer_cp": -0.13470229217947843,
+          "outer_cl": 6.180870404251576e-05,
+          "layer_cp": -0.23580992996781192,
+          "layer_cl": 0.00010949888229318846,
+          "wall_cp": 0.0005468023216235601,
+          "wall_cl": -8.245960178855424e-07,
+          "lamb_cp": -0.5963131106711776,
+          "lamb_cl": 0.0002647050189508887,
+          "lamb_velocity_cp": 0.2658306209315515,
+          "lamb_velocity_cl": -0.00012478185634422038,
+          "lamb_vorticity_cp": -0.8665346150727815,
+          "lamb_vorticity_cl": 0.00039186565620919584,
+          "lamb_body_control_cp": 0.004390883470052378,
+          "lamb_body_control_cl": -2.3787809140866252e-06,
+          "unsteady_cp": 0.10243205186151458,
+          "unsteady_cl": -4.654344233021811e-05,
+          "kinetic_cp": 0.3052350273954742,
+          "kinetic_cl": -0.00013057711688468893,
+          "viscous_cp": -0.002288454828935237,
+          "viscous_cl": 1.1325099390983745e-06,
+          "prediction_cp": -0.1909344862431241,
+          "prediction_cl": 8.871696967508004e-05,
+          "closure_cp": -0.044875443724687866,
+          "closure_cl": 2.0781912618108407e-05
+        },
+        "cycle": {
+          "surface_cp": -0.20987360284532738,
+          "surface_cl": 9.504922910491586e-05,
+          "outer_cp": -0.050806700399140876,
+          "outer_cl": 2.2504039533883356e-05,
+          "layer_cp": -0.15066101381303293,
+          "layer_cl": 6.90485219009218e-05,
+          "wall_cp": -0.008405888633153575,
+          "wall_cl": 3.4966676701107086e-06,
+          "lamb_cp": -0.37631022454462626,
+          "lamb_cl": 0.00016927866511518125,
+          "lamb_velocity_cp": 0.10555881518524325,
+          "lamb_velocity_cl": -5.047689397093688e-05,
+          "lamb_vorticity_cp": -0.4863084325480859,
+          "lamb_vorticity_cl": 0.00022207227688154528,
+          "lamb_body_control_cp": 0.004439392818216342,
+          "lamb_body_control_cl": -2.316717795427124e-06,
+          "unsteady_cp": 0.012880123765564324,
+          "unsteady_cl": -6.484467603629148e-06,
+          "kinetic_cp": 0.22837658323845003,
+          "kinetic_cl": -0.00010104268925573318,
+          "viscous_cp": -0.0003547813892799289,
+          "viscous_cl": 2.0482064875126462e-07,
+          "prediction_cp": -0.13540829892989187,
+          "prediction_cl": 6.195632890457018e-05,
+          "closure_cp": -0.015252714883141059,
+          "closure_cl": 7.0921929963516254e-06
+        }
+      },
+      "x+": {
+        "late": {
+          "surface_cp": -0.18084908846221334,
+          "surface_cl": 9.036221521984683e-05,
+          "outer_cp": -0.03119127115076349,
+          "outer_cl": 1.5188524913639066e-05,
+          "layer_cp": -0.03888612525619729,
+          "layer_cl": 1.9179348443078628e-05,
+          "wall_cp": -0.11077169205525253,
+          "wall_cl": 5.599434186312913e-05,
+          "lamb_cp": 0.3959053444110881,
+          "lamb_cl": -0.0001953414568798278,
+          "lamb_velocity_cp": -0.14452655543891063,
+          "lamb_velocity_cl": 7.175885521970236e-05,
+          "lamb_vorticity_cp": 0.5428052731089978,
+          "lamb_vorticity_cl": -0.00026835149088617346,
+          "lamb_body_control_cp": -0.0023733732589991327,
+          "lamb_body_control_cl": 1.2511787866433612e-06,
+          "unsteady_cp": 0.0026564873607913715,
+          "unsteady_cl": -1.434667757961173e-06,
+          "kinetic_cp": -0.41807736017127867,
+          "kinetic_cl": 0.0002062783540118336,
+          "viscous_cp": -0.001563593888689245,
+          "viscous_cl": 7.923461905801577e-07,
+          "prediction_cp": -0.021079122288088475,
+          "prediction_cl": 1.0294575564624807e-05,
+          "closure_cp": -0.017807002968108835,
+          "closure_cl": 8.884772878453833e-06
+        },
+        "cycle": {
+          "surface_cp": -0.23269020092157863,
+          "surface_cl": 0.00011266027939690792,
+          "outer_cp": -0.015461978604802348,
+          "outer_cl": 7.736974003382805e-06,
+          "layer_cp": -0.08938850652989695,
+          "layer_cl": 4.270665076896246e-05,
+          "wall_cp": -0.12783971578687936,
+          "wall_cl": 6.221665462456265e-05,
+          "lamb_cp": 0.23727586210776516,
+          "lamb_cl": -0.00011610794985104174,
+          "lamb_velocity_cp": 0.03610681588480885,
+          "lamb_velocity_cl": -1.7550379735028672e-05,
+          "lamb_vorticity_cp": 0.2029197410628257,
+          "lamb_vorticity_cl": -9.94483869969589e-05,
+          "lamb_body_control_cp": -0.001750694839869383,
+          "lamb_body_control_cl": 8.908168809458195e-07,
+          "unsteady_cp": 0.004341144255683204,
+          "unsteady_cl": -2.1306707368310566e-06,
+          "kinetic_cp": -0.31809394961055354,
+          "kinetic_cl": 0.00015482357071835827,
+          "viscous_cp": -0.003960574061315391,
+          "viscous_cl": 1.9125492243923246e-06,
+          "prediction_cp": -0.08043751730842058,
+          "prediction_cl": 3.849749935487777e-05,
+          "closure_cp": -0.008950989221476373,
+          "closure_cl": 4.209151414084707e-06
+        }
+      },
+      "z−": {
+        "late": {
+          "surface_cp": -0.20314926691426158,
+          "surface_cl": 9.395027431104788e-05,
+          "outer_cp": -0.08198011672232541,
+          "outer_cl": 3.7896930492092344e-05,
+          "layer_cp": -0.12391990967672681,
+          "layer_cl": 5.726632805394301e-05,
+          "wall_cp": 0.0027507594847906228,
+          "wall_cl": -1.2129842349874747e-06,
+          "lamb_cp": 0.08933762121361047,
+          "lamb_cl": -4.1177764703361007e-05,
+          "lamb_velocity_cp": -0.1986044923264092,
+          "lamb_velocity_cl": 9.173170397537361e-05,
+          "lamb_vorticity_cp": 0.2882671976423393,
+          "lamb_vorticity_cl": -0.00013305980437282577,
+          "lamb_body_control_cp": -0.0003250841023196688,
+          "lamb_body_control_cl": 1.5033569409114803e-07,
+          "unsteady_cp": 0.061445140175646486,
+          "unsteady_cl": -2.848697213197471e-05,
+          "kinetic_cp": -0.2528655962687998,
+          "kinetic_cl": 0.00011688079439688827,
+          "viscous_cp": -0.0008157875396154668,
+          "viscous_cl": 3.743609620946419e-07,
+          "prediction_cp": -0.10289862241915823,
+          "prediction_cl": 4.759041852364723e-05,
+          "closure_cp": -0.02102128725756857,
+          "closure_cl": 9.675909530295793e-06
+        },
+        "cycle": {
+          "surface_cp": -0.1298124470758152,
+          "surface_cl": 5.903234402612084e-05,
+          "outer_cp": -0.02401311561668794,
+          "outer_cl": 1.102299083271312e-05,
+          "layer_cp": -0.0865822243371997,
+          "layer_cl": 3.922880826499986e-05,
+          "wall_cp": -0.019217107121927608,
+          "wall_cl": 8.780544928407843e-06,
+          "lamb_cp": 0.00012021066276700354,
+          "lamb_cl": -8.050780342655625e-07,
+          "lamb_velocity_cp": -0.06443285539238672,
+          "lamb_velocity_cl": 2.9577632603170353e-05,
+          "lamb_vorticity_cp": 0.06490588184755902,
+          "lamb_vorticity_cl": -3.054316329999418e-05,
+          "lamb_body_control_cp": -0.0003528157924052955,
+          "lamb_body_control_cl": 1.6045266255826354e-07,
+          "unsteady_cp": 0.009886341504111029,
+          "unsteady_cl": -4.819318140901543e-06,
+          "kinetic_cp": -0.09219382499855733,
+          "kinetic_cl": 4.275652136183372e-05,
+          "viscous_cp": -0.0007342734568305965,
+          "viscous_cl": 3.387490760585565e-07,
+          "prediction_cp": -0.08292154628850988,
+          "prediction_cl": 3.747087426272517e-05,
+          "closure_cp": -0.0036606780486898023,
+          "closure_cl": 1.7579340022747038e-06
+        }
+      },
+      "z+": {
+        "late": {
+          "surface_cp": -0.3456539279288454,
+          "surface_cl": 0.00017492880900754488,
+          "outer_cp": -0.10662182548615044,
+          "outer_cl": 5.3692358890623885e-05,
+          "layer_cp": -0.2172724551520665,
+          "layer_cl": 0.00010949737487314183,
+          "wall_cp": -0.02175964729062846,
+          "wall_cl": 1.1739075243779137e-05,
+          "lamb_cp": -0.23080146285497716,
+          "lamb_cl": 0.00011567883676728369,
+          "lamb_velocity_cp": -0.042619006968046824,
+          "lamb_velocity_cl": 2.5215541237884e-05,
+          "lamb_vorticity_cp": -0.19336160256122442,
+          "lamb_vorticity_cl": 9.324786456170166e-05,
+          "lamb_body_control_cp": 0.005179146674294145,
+          "lamb_body_control_cl": -2.7845690323019358e-06,
+          "unsteady_cp": 0.07892309280368999,
+          "unsteady_cl": -3.871655316168723e-05,
+          "kinetic_cp": -0.027320802125592042,
+          "kinetic_cl": 1.326027608548577e-05,
+          "viscous_cp": -0.002692361392054919,
+          "viscous_cl": 1.3378378141916311e-06,
+          "prediction_cp": -0.18189153356893412,
+          "prediction_cl": 9.156039750527387e-05,
+          "closure_cp": -0.03538092158313239,
+          "closure_cl": 1.793697736786797e-05
+        },
+        "cycle": {
+          "surface_cp": -0.269793595403646,
+          "surface_cl": 0.00013467964208909786,
+          "outer_cp": -0.026482112601805618,
+          "outer_cl": 1.3510813353129535e-05,
+          "layer_cp": -0.18188343864129153,
+          "layer_cl": 9.020624438103904e-05,
+          "wall_cp": -0.06142804416054883,
+          "wall_cl": 3.096258435492926e-05,
+          "lamb_cp": -0.11360636886176495,
+          "lamb_cl": 5.492298244528882e-05,
+          "lamb_velocity_cp": 0.1823535218035226,
+          "lamb_velocity_cl": -8.877813381515063e-05,
+          "lamb_vorticity_cp": -0.3013641952277972,
+          "lamb_vorticity_cl": 0.0001464969671797702,
+          "lamb_body_control_cp": 0.005404304562509626,
+          "lamb_body_control_cl": -2.795850919330759e-06,
+          "unsteady_cp": 0.009443260534613205,
+          "unsteady_cl": -5.141940704909198e-06,
+          "kinetic_cp": -0.055286781100246686,
+          "kinetic_cl": 2.9075759449857685e-05,
+          "viscous_cp": -0.003265307505979492,
+          "viscous_cl": 1.6144373877326868e-06,
+          "prediction_cp": -0.162715196933378,
+          "prediction_cl": 8.047123857796998e-05,
+          "closure_cp": -0.01916824170791353,
+          "closure_cl": 9.735005803069059e-06
+        }
+      }
+    }
+  },
+  "nonoverlap_sensitivity": {
+    "patches": {
+      "RV+": {
+        "faces": 28,
+        "center_xyz": [
+          10.275666236877441,
+          5.948291460673015,
+          5.902619520823161
+        ],
+        "displacement": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "area": 0.00032909593062507495,
+        "reference_overlap_fraction": 1.0000000000000002,
+        "max_radius": 0.014698505359500683
+      },
+      "x−": {
+        "faces": 41,
+        "center_xyz": [
+          10.2480255762736,
+          5.954811890920003,
+          5.8964535395304365
+        ],
+        "displacement": [
+          -0.027640660603841738,
+          0.00652043024698834,
+          -0.006165981292724609
+        ],
+        "area": 0.000329095930625075,
+        "reference_overlap_fraction": 0.0,
+        "max_radius": 0.010405941474461007
+      },
+      "x+": {
+        "faces": 23,
+        "center_xyz": [
+          10.29269822438558,
+          5.936684767405192,
+          5.890791575113933
+        ],
+        "displacement": [
+          0.017031987508138613,
+          -0.011606693267822266,
+          -0.011827945709228516
+        ],
+        "area": 0.0003290959306250749,
+        "reference_overlap_fraction": 0.0,
+        "max_radius": 0.015313835523034308
+      },
+      "z−": {
+        "faces": 16,
+        "center_xyz": [
+          10.27352523803711,
+          5.936875184377034,
+          5.884023030598958
+        ],
+        "displacement": [
+          -0.0021409988403320312,
+          -0.01141627629598041,
+          -0.018596490224203066
+        ],
+        "area": 0.00032909593062507484,
+        "reference_overlap_fraction": 0.0,
+        "max_radius": 0.010993961593824396
+      },
+      "z+": {
+        "faces": 40,
+        "center_xyz": [
+          10.265552202860514,
+          5.953653971354167,
+          5.9052348136901855
+        ],
+        "displacement": [
+          -0.010114034016927675,
+          0.005362510681152344,
+          0.0026152928670244435
+        ],
+        "area": 0.00032909593062507495,
+        "reference_overlap_fraction": 0.0,
+        "max_radius": 0.019821348408628734
+      }
+    },
+    "methods": {
+      "fourier": {
+        "RV+": {
+          "late": {
+            "surface_cp": -0.30999307582613256,
+            "surface_cl": 0.00015591287526889476,
+            "outer_cp": -0.08036386274771995,
+            "outer_cl": 4.010583291958956e-05,
+            "layer_cp": -0.16344548276346324,
+            "layer_cl": 8.164121898750668e-05,
+            "wall_cp": -0.06618373031494944,
+            "wall_cl": 3.4165823361798563e-05,
+            "lamb_cp": 0.006158023523910053,
+            "lamb_cl": -1.0389579035181089e-06,
+            "lamb_velocity_cp": -0.1876669135889923,
+            "lamb_velocity_cl": 9.590951084725995e-05,
+            "lamb_vorticity_cp": 0.19722739612524304,
+            "lamb_vorticity_cl": -9.873319222069175e-05,
+            "lamb_body_control_cp": -0.0034024590123407227,
+            "lamb_body_control_cl": 1.7847234699136935e-06,
+            "unsteady_cp": 0.05226048329167601,
+            "unsteady_cl": -2.5278562757628672e-05,
+            "kinetic_cp": -0.19565862464342326,
+            "kinetic_cl": 9.491593034870473e-05,
+            "viscous_cp": -0.0030877536208082307,
+            "viscous_cl": 1.513842294459538e-06,
+            "prediction_cp": -0.14032787144864545,
+            "prediction_cl": 7.011225198201744e-05,
+            "closure_cp": -0.023117611314817772,
+            "closure_cl": 1.1528967005489221e-05
+          },
+          "cycle": {
+            "surface_cp": -0.2755757630736094,
+            "surface_cl": 0.00013638340847096494,
+            "outer_cp": -0.025626363475362093,
+            "outer_cl": 1.3064824748062534e-05,
+            "layer_cp": -0.16782350923694084,
+            "layer_cl": 8.216766245116157e-05,
+            "wall_cp": -0.0821258903613065,
+            "wall_cl": 4.115092127174085e-05,
+            "lamb_cp": 0.04917734203347325,
+            "lamb_cl": -2.441876113501604e-05,
+            "lamb_velocity_cp": 0.1794556959619088,
+            "lamb_velocity_cl": -8.663678884830305e-05,
+            "lamb_vorticity_cp": -0.128796028619017,
+            "lamb_vorticity_cl": 6.147224302919572e-05,
+            "lamb_body_control_cp": -0.001482325309418475,
+            "lamb_body_control_cl": 7.457846840912806e-07,
+            "unsteady_cp": 0.0018815761601305176,
+            "unsteady_cl": -1.1413416293221441e-06,
+            "kinetic_cp": -0.20175268076364317,
+            "kinetic_cl": 9.928359434255379e-05,
+            "viscous_cp": -0.0034686184668698563,
+            "viscous_cl": 1.6500075923524139e-06,
+            "prediction_cp": -0.15416238103690927,
+            "prediction_cl": 7.5373499170568e-05,
+            "closure_cp": -0.013661128200031578,
+            "closure_cl": 6.794163280593559e-06
+          }
+        },
+        "x−": {
+          "late": {
+            "surface_cp": -0.3699654198256668,
+            "surface_cl": 0.00017048299031781865,
+            "outer_cp": -0.13470229217947843,
+            "outer_cl": 6.180870404251576e-05,
+            "layer_cp": -0.23580992996781192,
+            "layer_cl": 0.00010949888229318846,
+            "wall_cp": 0.0005468023216235601,
+            "wall_cl": -8.245960178855424e-07,
+            "lamb_cp": -0.5963131106711776,
+            "lamb_cl": 0.0002647050189508887,
+            "lamb_velocity_cp": 0.2658306209315515,
+            "lamb_velocity_cl": -0.00012478185634422038,
+            "lamb_vorticity_cp": -0.8665346150727815,
+            "lamb_vorticity_cl": 0.00039186565620919584,
+            "lamb_body_control_cp": 0.004390883470052378,
+            "lamb_body_control_cl": -2.3787809140866252e-06,
+            "unsteady_cp": 0.10292654129616391,
+            "unsteady_cl": -4.6855034748660476e-05,
+            "kinetic_cp": 0.3052350273954742,
+            "kinetic_cl": -0.00013057711688468893,
+            "viscous_cp": -0.002288454828935237,
+            "viscous_cl": 1.1325099390983745e-06,
+            "prediction_cp": -0.19043999680847473,
+            "prediction_cl": 8.840537725663768e-05,
+            "closure_cp": -0.04536993315933721,
+            "closure_cl": 2.1093505036550774e-05
+          },
+          "cycle": {
+            "surface_cp": -0.20987360284532738,
+            "surface_cl": 9.504922910491586e-05,
+            "outer_cp": -0.050806700399140876,
+            "outer_cl": 2.2504039533883356e-05,
+            "layer_cp": -0.15066101381303293,
+            "layer_cl": 6.90485219009218e-05,
+            "wall_cp": -0.008405888633153575,
+            "wall_cl": 3.4966676701107086e-06,
+            "lamb_cp": -0.37631022454462626,
+            "lamb_cl": 0.00016927866511518125,
+            "lamb_velocity_cp": 0.10555881518524325,
+            "lamb_velocity_cl": -5.047689397093688e-05,
+            "lamb_vorticity_cp": -0.4863084325480859,
+            "lamb_vorticity_cl": 0.00022207227688154528,
+            "lamb_body_control_cp": 0.004439392818216342,
+            "lamb_body_control_cl": -2.316717795427124e-06,
+            "unsteady_cp": 0.012966764097526236,
+            "unsteady_cl": -6.536825421261908e-06,
+            "kinetic_cp": 0.22837658323845003,
+            "kinetic_cl": -0.00010104268925573318,
+            "viscous_cp": -0.0003547813892799289,
+            "viscous_cl": 2.0482064875126462e-07,
+            "prediction_cp": -0.13532165859792994,
+            "prediction_cl": 6.190397108693742e-05,
+            "closure_cp": -0.015339355215102966,
+            "closure_cl": 7.1445508139843805e-06
+          }
+        },
+        "x+": {
+          "late": {
+            "surface_cp": -0.15834197746447468,
+            "surface_cl": 7.821000068589418e-05,
+            "outer_cp": -0.033703441569073234,
+            "outer_cl": 1.619491928212155e-05,
+            "layer_cp": -0.037421928440675586,
+            "layer_cl": 1.808383701861333e-05,
+            "wall_cp": -0.08721660745472586,
+            "wall_cl": 4.39312443851593e-05,
+            "lamb_cp": 0.37140705291683435,
+            "lamb_cl": -0.00018227594168571286,
+            "lamb_velocity_cp": -0.13085729888822184,
+            "lamb_velocity_cl": 6.377445230098728e-05,
+            "lamb_vorticity_cp": 0.5027531175511469,
+            "lamb_vorticity_cl": -0.0002462975605777552,
+            "lamb_body_control_cp": -0.000488765746090667,
+            "lamb_body_control_cl": 2.4716659105503256e-07,
+            "unsteady_cp": 0.011117309217847378,
+            "unsteady_cl": -5.399343307342488e-06,
+            "kinetic_cp": -0.3950817080902676,
+            "kinetic_cl": 0.00019355470994841188,
+            "viscous_cp": -0.0011643826917047335,
+            "viscous_cl": 5.923835179136994e-07,
+            "prediction_cp": -0.013721728647290609,
+            "prediction_cl": 6.4718084732701994e-06,
+            "closure_cp": -0.023700199793384974,
+            "closure_cl": 1.1612028545343127e-05
+          },
+          "cycle": {
+            "surface_cp": -0.2028020428140505,
+            "surface_cl": 9.728965404518338e-05,
+            "outer_cp": -0.012820151291671952,
+            "outer_cl": 6.338294950732389e-06,
+            "layer_cp": -0.0778052694157795,
+            "layer_cl": 3.6711498677328104e-05,
+            "wall_cp": -0.1121766221065991,
+            "wall_cl": 5.423986041712288e-05,
+            "lamb_cp": 0.20689301282058958,
+            "lamb_cl": -0.00010075697678063784,
+            "lamb_velocity_cp": 0.0012462182373577727,
+            "lamb_velocity_cl": -8.8057787181612e-07,
+            "lamb_vorticity_cp": 0.20608895250384487,
+            "lamb_vorticity_cl": -0.00010009196863342549,
+            "lamb_body_control_cp": -0.0004421579206130694,
+            "lamb_body_control_cl": 2.1556972460377892e-07,
+            "unsteady_cp": 0.008454381304416867,
+            "unsteady_cl": -4.191244602557765e-06,
+            "kinetic_cp": -0.2811454036152745,
+            "kinetic_cl": 0.0001359595628733916,
+            "viscous_cp": -0.0035565888426686803,
+            "viscous_cl": 1.7118580679024189e-06,
+            "prediction_cp": -0.06935459833293672,
+            "prediction_cl": 3.2723199558098404e-05,
+            "closure_cp": -0.008450671082842778,
+            "closure_cl": 3.9882991192296995e-06
+          }
+        },
+        "z−": {
+          "late": {
+            "surface_cp": -0.20900976621726675,
+            "surface_cl": 9.622240643013057e-05,
+            "outer_cp": -0.0844554419684028,
+            "outer_cl": 3.888318869011152e-05,
+            "layer_cp": -0.12801602853757987,
+            "layer_cl": 5.888280844914107e-05,
+            "wall_cp": 0.00346170428871595,
+            "wall_cl": -1.5435907091220337e-06,
+            "lamb_cp": 0.06730276615192249,
+            "lamb_cl": -3.099609281861094e-05,
+            "lamb_velocity_cp": -0.19965734075935837,
+            "lamb_velocity_cl": 9.192180361782275e-05,
+            "lamb_vorticity_cp": 0.2672640910850741,
+            "lamb_vorticity_cl": -0.0001230577632112886,
+            "lamb_body_control_cp": -0.0003039841737932542,
+            "lamb_body_control_cl": 1.398667748549106e-07,
+            "unsteady_cp": 0.06360073162437349,
+            "unsteady_cl": -2.9420945918433957e-05,
+            "kinetic_cp": -0.23432412384424703,
+            "kinetic_cl": 0.00010794214681766286,
+            "viscous_cp": -0.0007861425292416595,
+            "viscous_cl": 3.5718553034808763e-07,
+            "prediction_cp": -0.10420676859719272,
+            "prediction_cl": 4.7882293610966066e-05,
+            "closure_cp": -0.02380925994038719,
+            "closure_cl": 1.1000514838175008e-05
+          },
+          "cycle": {
+            "surface_cp": -0.127439619231377,
+            "surface_cl": 5.7761973692238435e-05,
+            "outer_cp": -0.026288818583703803,
+            "outer_cl": 1.2000346223467783e-05,
+            "layer_cp": -0.08552456750205434,
+            "layer_cl": 3.86318782770224e-05,
+            "wall_cp": -0.015626233145618847,
+            "wall_cl": 7.129749191748245e-06,
+            "lamb_cp": -0.00877973680422137,
+            "lamb_cl": 3.23862551931448e-06,
+            "lamb_velocity_cp": -0.07413441721808069,
+            "lamb_velocity_cl": 3.398053401779405e-05,
+            "lamb_vorticity_cp": 0.0656867253394153,
+            "lamb_vorticity_cl": -3.089226328717509e-05,
+            "lamb_body_control_cp": -0.0003320449255559699,
+            "lamb_body_control_cl": 1.5035478869551138e-07,
+            "unsteady_cp": 0.00896093808290813,
+            "unsteady_cl": -4.370785373569471e-06,
+            "kinetic_cp": -0.08048713334219919,
+            "kinetic_cl": 3.731037151052523e-05,
+            "viscous_cp": -0.0007221445476545019,
+            "viscous_cl": 3.330438169029955e-07,
+            "prediction_cp": -0.08102807661116693,
+            "prediction_cl": 3.651125547317324e-05,
+            "closure_cp": -0.0044964908908874095,
+            "closure_cl": 2.120622803849171e-06
+          }
+        },
+        "z+": {
+          "late": {
+            "surface_cp": -0.36331584865136135,
+            "surface_cl": 0.0001755495252489163,
+            "outer_cp": -0.12343010357664246,
+            "outer_cl": 5.933972802915637e-05,
+            "layer_cp": -0.24292753160571878,
+            "layer_cl": 0.00011740597990101998,
+            "wall_cp": 0.003041786530999936,
+            "wall_cl": -1.1961826812600796e-06,
+            "lamb_cp": -0.3237648306042669,
+            "lamb_cl": 0.0001529332495009287,
+            "lamb_velocity_cp": 0.11542965996266934,
+            "lamb_velocity_cl": -5.504352684000922e-05,
+            "lamb_vorticity_cp": -0.4462080939875678,
+            "lamb_vorticity_cl": 0.00021178763749344221,
+            "lamb_body_control_cp": 0.007013603420631504,
+            "lamb_body_control_cl": -3.8108611525042886e-06,
+            "unsteady_cp": 0.12094856253189316,
+            "unsteady_cl": -5.674691450343131e-05,
+            "kinetic_cp": 0.006045428805141389,
+            "kinetic_cl": -1.1337452178511231e-06,
+            "viscous_cp": -0.002411554001887326,
+            "viscous_cl": 1.1982986451982524e-06,
+            "prediction_cp": -0.1991823932691197,
+            "prediction_cl": 9.625088842484452e-05,
+            "closure_cp": -0.04374513833659912,
+            "closure_cl": 2.115509147617546e-05
+          },
+          "cycle": {
+            "surface_cp": -0.21779330189527332,
+            "surface_cl": 0.00010403932185553189,
+            "outer_cp": -0.032814507486677524,
+            "outer_cl": 1.545472460816881e-05,
+            "layer_cp": -0.16211233386743473,
+            "layer_cl": 7.762920256140681e-05,
+            "wall_cp": -0.022866460541161038,
+            "wall_cl": 1.0955394685956262e-05,
+            "lamb_cp": -0.24017335503748005,
+            "lamb_cl": 0.00011223744334566671,
+            "lamb_velocity_cp": 0.11722330548925068,
+            "lamb_velocity_cl": -5.712830003410347e-05,
+            "lamb_vorticity_cp": -0.36358249445199103,
+            "lamb_vorticity_cl": 0.00017261060072116445,
+            "lamb_body_control_cp": 0.006185833925260314,
+            "lamb_body_control_cl": -3.2448573413942678e-06,
+            "unsteady_cp": 0.017890902821168782,
+            "unsteady_cl": -9.073105415202906e-06,
+            "kinetic_cp": 0.08018162641848044,
+            "kinetic_cl": -3.547018117781646e-05,
+            "viscous_cp": -0.0022013654002972977,
+            "viscous_cl": 1.1346112525975863e-06,
+            "prediction_cp": -0.1443021911981281,
+            "prediction_cl": 6.882876800524494e-05,
+            "closure_cp": -0.017810142669306608,
+            "closure_cl": 8.800434556161865e-06
+          }
+        }
+      },
+      "central": {
+        "RV+": {
+          "late": {
+            "surface_cp": -0.30999307582613256,
+            "surface_cl": 0.00015591287526889476,
+            "outer_cp": -0.08036386274771995,
+            "outer_cl": 4.010583291958956e-05,
+            "layer_cp": -0.16344548276346324,
+            "layer_cl": 8.164121898750668e-05,
+            "wall_cp": -0.06618373031494944,
+            "wall_cl": 3.4165823361798563e-05,
+            "lamb_cp": 0.006158023523910053,
+            "lamb_cl": -1.0389579035181089e-06,
+            "lamb_velocity_cp": -0.1876669135889923,
+            "lamb_velocity_cl": 9.590951084725995e-05,
+            "lamb_vorticity_cp": 0.19722739612524304,
+            "lamb_vorticity_cl": -9.873319222069175e-05,
+            "lamb_body_control_cp": -0.0034024590123407227,
+            "lamb_body_control_cl": 1.7847234699136935e-06,
+            "unsteady_cp": 0.0499056976350931,
+            "unsteady_cl": -2.420509144865385e-05,
+            "kinetic_cp": -0.19565862464342326,
+            "kinetic_cl": 9.491593034870473e-05,
+            "viscous_cp": -0.0030877536208082307,
+            "viscous_cl": 1.513842294459538e-06,
+            "prediction_cp": -0.14268265710522832,
+            "prediction_cl": 7.118572329099228e-05,
+            "closure_cp": -0.02076282565823492,
+            "closure_cl": 1.045549569651441e-05
+          },
+          "cycle": {
+            "surface_cp": -0.2755757630736094,
+            "surface_cl": 0.00013638340847096494,
+            "outer_cp": -0.025626363475362093,
+            "outer_cl": 1.3064824748062534e-05,
+            "layer_cp": -0.16782350923694084,
+            "layer_cl": 8.216766245116157e-05,
+            "wall_cp": -0.0821258903613065,
+            "wall_cl": 4.115092127174085e-05,
+            "lamb_cp": 0.04917734203347325,
+            "lamb_cl": -2.441876113501604e-05,
+            "lamb_velocity_cp": 0.1794556959619088,
+            "lamb_velocity_cl": -8.663678884830305e-05,
+            "lamb_vorticity_cp": -0.128796028619017,
+            "lamb_vorticity_cl": 6.147224302919572e-05,
+            "lamb_body_control_cp": -0.001482325309418475,
+            "lamb_body_control_cl": 7.457846840912806e-07,
+            "unsteady_cp": 0.001707798362330681,
+            "unsteady_cl": -1.0234805084974799e-06,
+            "kinetic_cp": -0.20175268076364317,
+            "kinetic_cl": 9.928359434255379e-05,
+            "viscous_cp": -0.0034686184668698563,
+            "viscous_cl": 1.6500075923524139e-06,
+            "prediction_cp": -0.15433615883470908,
+            "prediction_cl": 7.549136029139265e-05,
+            "closure_cp": -0.013487350402231752,
+            "closure_cl": 6.676302159768901e-06
+          }
+        },
+        "x−": {
+          "late": {
+            "surface_cp": -0.3699654198256668,
+            "surface_cl": 0.00017048299031781865,
+            "outer_cp": -0.13470229217947843,
+            "outer_cl": 6.180870404251576e-05,
+            "layer_cp": -0.23580992996781192,
+            "layer_cl": 0.00010949888229318846,
+            "wall_cp": 0.0005468023216235601,
+            "wall_cl": -8.245960178855424e-07,
+            "lamb_cp": -0.5963131106711776,
+            "lamb_cl": 0.0002647050189508887,
+            "lamb_velocity_cp": 0.2658306209315515,
+            "lamb_velocity_cl": -0.00012478185634422038,
+            "lamb_vorticity_cp": -0.8665346150727815,
+            "lamb_vorticity_cl": 0.00039186565620919584,
+            "lamb_body_control_cp": 0.004390883470052378,
+            "lamb_body_control_cl": -2.3787809140866252e-06,
+            "unsteady_cp": 0.10243205186151458,
+            "unsteady_cl": -4.654344233021811e-05,
+            "kinetic_cp": 0.3052350273954742,
+            "kinetic_cl": -0.00013057711688468893,
+            "viscous_cp": -0.002288454828935237,
+            "viscous_cl": 1.1325099390983745e-06,
+            "prediction_cp": -0.1909344862431241,
+            "prediction_cl": 8.871696967508004e-05,
+            "closure_cp": -0.044875443724687866,
+            "closure_cl": 2.0781912618108407e-05
+          },
+          "cycle": {
+            "surface_cp": -0.20987360284532738,
+            "surface_cl": 9.504922910491586e-05,
+            "outer_cp": -0.050806700399140876,
+            "outer_cl": 2.2504039533883356e-05,
+            "layer_cp": -0.15066101381303293,
+            "layer_cl": 6.90485219009218e-05,
+            "wall_cp": -0.008405888633153575,
+            "wall_cl": 3.4966676701107086e-06,
+            "lamb_cp": -0.37631022454462626,
+            "lamb_cl": 0.00016927866511518125,
+            "lamb_velocity_cp": 0.10555881518524325,
+            "lamb_velocity_cl": -5.047689397093688e-05,
+            "lamb_vorticity_cp": -0.4863084325480859,
+            "lamb_vorticity_cl": 0.00022207227688154528,
+            "lamb_body_control_cp": 0.004439392818216342,
+            "lamb_body_control_cl": -2.316717795427124e-06,
+            "unsteady_cp": 0.012880123765564324,
+            "unsteady_cl": -6.484467603629148e-06,
+            "kinetic_cp": 0.22837658323845003,
+            "kinetic_cl": -0.00010104268925573318,
+            "viscous_cp": -0.0003547813892799289,
+            "viscous_cl": 2.0482064875126462e-07,
+            "prediction_cp": -0.13540829892989187,
+            "prediction_cl": 6.195632890457018e-05,
+            "closure_cp": -0.015252714883141059,
+            "closure_cl": 7.0921929963516254e-06
+          }
+        },
+        "x+": {
+          "late": {
+            "surface_cp": -0.15834197746447468,
+            "surface_cl": 7.821000068589418e-05,
+            "outer_cp": -0.033703441569073234,
+            "outer_cl": 1.619491928212155e-05,
+            "layer_cp": -0.037421928440675586,
+            "layer_cl": 1.808383701861333e-05,
+            "wall_cp": -0.08721660745472586,
+            "wall_cl": 4.39312443851593e-05,
+            "lamb_cp": 0.37140705291683435,
+            "lamb_cl": -0.00018227594168571286,
+            "lamb_velocity_cp": -0.13085729888822184,
+            "lamb_velocity_cl": 6.377445230098728e-05,
+            "lamb_vorticity_cp": 0.5027531175511469,
+            "lamb_vorticity_cl": -0.0002462975605777552,
+            "lamb_body_control_cp": -0.000488765746090667,
+            "lamb_body_control_cl": 2.4716659105503256e-07,
+            "unsteady_cp": 0.00575724155178145,
+            "unsteady_cl": -2.8870855599256686e-06,
+            "kinetic_cp": -0.3950817080902676,
+            "kinetic_cl": 0.00019355470994841188,
+            "viscous_cp": -0.0011643826917047335,
+            "viscous_cl": 5.923835179136994e-07,
+            "prediction_cp": -0.019081796313356564,
+            "prediction_cl": 8.98406622068701e-06,
+            "closure_cp": -0.018340132127319036,
+            "closure_cl": 9.099770797926322e-06
+          },
+          "cycle": {
+            "surface_cp": -0.2028020428140505,
+            "surface_cl": 9.728965404518338e-05,
+            "outer_cp": -0.012820151291671952,
+            "outer_cl": 6.338294950732389e-06,
+            "layer_cp": -0.0778052694157795,
+            "layer_cl": 3.6711498677328104e-05,
+            "wall_cp": -0.1121766221065991,
+            "wall_cl": 5.423986041712288e-05,
+            "lamb_cp": 0.20689301282058958,
+            "lamb_cl": -0.00010075697678063784,
+            "lamb_velocity_cp": 0.0012462182373577727,
+            "lamb_velocity_cl": -8.8057787181612e-07,
+            "lamb_vorticity_cp": 0.20608895250384487,
+            "lamb_vorticity_cl": -0.00010009196863342549,
+            "lamb_body_control_cp": -0.0004421579206130694,
+            "lamb_body_control_cl": 2.1556972460377892e-07,
+            "unsteady_cp": 0.008388567888637179,
+            "unsteady_cl": -4.146460944112644e-06,
+            "kinetic_cp": -0.2811454036152745,
+            "kinetic_cl": 0.0001359595628733916,
+            "viscous_cp": -0.0035565888426686803,
+            "viscous_cl": 1.7118580679024189e-06,
+            "prediction_cp": -0.06942041174871644,
+            "prediction_cl": 3.276798321654352e-05,
+            "closure_cp": -0.008384857667063067,
+            "closure_cl": 3.943515460784579e-06
+          }
+        },
+        "z−": {
+          "late": {
+            "surface_cp": -0.20900976621726675,
+            "surface_cl": 9.622240643013057e-05,
+            "outer_cp": -0.0844554419684028,
+            "outer_cl": 3.888318869011152e-05,
+            "layer_cp": -0.12801602853757987,
+            "layer_cl": 5.888280844914107e-05,
+            "wall_cp": 0.00346170428871595,
+            "wall_cl": -1.5435907091220337e-06,
+            "lamb_cp": 0.06730276615192249,
+            "lamb_cl": -3.099609281861094e-05,
+            "lamb_velocity_cp": -0.19965734075935837,
+            "lamb_velocity_cl": 9.192180361782275e-05,
+            "lamb_vorticity_cp": 0.2672640910850741,
+            "lamb_vorticity_cl": -0.0001230577632112886,
+            "lamb_body_control_cp": -0.0003039841737932542,
+            "lamb_body_control_cl": 1.398667748549106e-07,
+            "unsteady_cp": 0.06349974250620495,
+            "unsteady_cl": -2.9277267740515713e-05,
+            "kinetic_cp": -0.23432412384424703,
+            "kinetic_cl": 0.00010794214681766286,
+            "viscous_cp": -0.0007861425292416595,
+            "viscous_cl": 3.5718553034808763e-07,
+            "prediction_cp": -0.10430775771536124,
+            "prediction_cl": 4.8025971788884316e-05,
+            "closure_cp": -0.023708270822218668,
+            "closure_cl": 1.0856836660256764e-05
+          },
+          "cycle": {
+            "surface_cp": -0.127439619231377,
+            "surface_cl": 5.7761973692238435e-05,
+            "outer_cp": -0.026288818583703803,
+            "outer_cl": 1.2000346223467783e-05,
+            "layer_cp": -0.08552456750205434,
+            "layer_cl": 3.86318782770224e-05,
+            "wall_cp": -0.015626233145618847,
+            "wall_cl": 7.129749191748245e-06,
+            "lamb_cp": -0.00877973680422137,
+            "lamb_cl": 3.23862551931448e-06,
+            "lamb_velocity_cp": -0.07413441721808069,
+            "lamb_velocity_cl": 3.398053401779405e-05,
+            "lamb_vorticity_cp": 0.0656867253394153,
+            "lamb_vorticity_cl": -3.089226328717509e-05,
+            "lamb_body_control_cp": -0.0003320449255559699,
+            "lamb_body_control_cl": 1.5035478869551138e-07,
+            "unsteady_cp": 0.008964265880899944,
+            "unsteady_cl": -4.370324174807741e-06,
+            "kinetic_cp": -0.08048713334219919,
+            "kinetic_cl": 3.731037151052523e-05,
+            "viscous_cp": -0.0007221445476545019,
+            "viscous_cl": 3.330438169029955e-07,
+            "prediction_cp": -0.08102474881317512,
+            "prediction_cl": 3.6511716671934976e-05,
+            "closure_cp": -0.004499818688879219,
+            "closure_cl": 2.120161605087438e-06
+          }
+        },
+        "z+": {
+          "late": {
+            "surface_cp": -0.36331584865136135,
+            "surface_cl": 0.0001755495252489163,
+            "outer_cp": -0.12343010357664246,
+            "outer_cl": 5.933972802915637e-05,
+            "layer_cp": -0.24292753160571878,
+            "layer_cl": 0.00011740597990101998,
+            "wall_cp": 0.003041786530999936,
+            "wall_cl": -1.1961826812600796e-06,
+            "lamb_cp": -0.3237648306042669,
+            "lamb_cl": 0.0001529332495009287,
+            "lamb_velocity_cp": 0.11542965996266934,
+            "lamb_velocity_cl": -5.504352684000922e-05,
+            "lamb_vorticity_cp": -0.4462080939875678,
+            "lamb_vorticity_cl": 0.00021178763749344221,
+            "lamb_body_control_cp": 0.007013603420631504,
+            "lamb_body_control_cl": -3.8108611525042886e-06,
+            "unsteady_cp": 0.1163647506022828,
+            "unsteady_cl": -5.450934715132638e-05,
+            "kinetic_cp": 0.006045428805141389,
+            "kinetic_cl": -1.1337452178511231e-06,
+            "viscous_cp": -0.002411554001887326,
+            "viscous_cl": 1.1982986451982524e-06,
+            "prediction_cp": -0.20376620519873007,
+            "prediction_cl": 9.848845577694942e-05,
+            "closure_cp": -0.03916132640698873,
+            "closure_cl": 1.8917524124070542e-05
+          },
+          "cycle": {
+            "surface_cp": -0.21779330189527332,
+            "surface_cl": 0.00010403932185553189,
+            "outer_cp": -0.032814507486677524,
+            "outer_cl": 1.545472460816881e-05,
+            "layer_cp": -0.16211233386743473,
+            "layer_cl": 7.762920256140681e-05,
+            "wall_cp": -0.022866460541161038,
+            "wall_cl": 1.0955394685956262e-05,
+            "lamb_cp": -0.24017335503748005,
+            "lamb_cl": 0.00011223744334566671,
+            "lamb_velocity_cp": 0.11722330548925068,
+            "lamb_velocity_cl": -5.712830003410347e-05,
+            "lamb_vorticity_cp": -0.36358249445199103,
+            "lamb_vorticity_cl": 0.00017261060072116445,
+            "lamb_body_control_cp": 0.006185833925260314,
+            "lamb_body_control_cl": -3.2448573413942678e-06,
+            "unsteady_cp": 0.017740088333168372,
+            "unsteady_cl": -8.985483484405878e-06,
+            "kinetic_cp": 0.08018162641848044,
+            "kinetic_cl": -3.547018117781646e-05,
+            "viscous_cp": -0.0022013654002972977,
+            "viscous_cl": 1.1346112525975863e-06,
+            "prediction_cp": -0.14445300568612854,
+            "prediction_cl": 6.891638993604197e-05,
+            "closure_cp": -0.017659328181306184,
+            "closure_cl": 8.71281262536485e-06
+          }
+        }
+      }
+    }
+  },
+  "control_figure": {
+    "embedded_images": 3,
+    "editable_text_nodes": 49
+  },
+  "map_figure": {
+    "embedded_images": 7,
+    "editable_text_nodes": 94
+  },
+  "split_figure": {
+    "embedded_images": 1,
+    "editable_text_nodes": 18
+  },
+  "checks": "Equal area at anchor phase; surface partition identity; RV+ pressure and force reproduce v11 for both time derivatives; saved Lamb field reproduced from velocity and curl of gradient; midpoint velocity/vorticity split exact on every finite profile.",
+  "limitations": "Exploratory spatial controls; not causal interventions or independent replicates. Patch selection uses geometry only, but RV+ reference and late interval derive from earlier data. Area is exactly matched at phase .75, not enforced at other deformed phases. Closest mesh center may differ from requested offset; overlap reported. No significance test."
+}

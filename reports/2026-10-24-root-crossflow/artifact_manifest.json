@@ -1,0 +1,131 @@
+{
+  "files": [
+    {
+      "file": "24_root_crossflow_sequence.pdf",
+      "sha256": "efdcff73d68ecd159417060a9b651c7ba924a716e328db65c7e86207a9fb94be"
+    },
+    {
+      "file": "24_root_crossflow_sequence.png",
+      "sha256": "665fcdf485011bd3845610df40bef24e9fdaf28aba1de11fb9172b1496b81cb7"
+    },
+    {
+      "file": "24_root_crossflow_sequence.svg",
+      "sha256": "cc792b0f34114a945362dfa2bec69a4c791e771b014f8d0dc8991a722688d828"
+    },
+    {
+      "file": "25_root_gate_flux.pdf",
+      "sha256": "e104078b52f248e49f1ed446b2d81193dc6e144bc891f487bee2efafde9dce1c"
+    },
+    {
+      "file": "25_root_gate_flux.png",
+      "sha256": "fb77f500d8c95c6c2ccb66fff344ef8643ccdffa2223ed135c4f0c81e5a18485"
+    },
+    {
+      "file": "25_root_gate_flux.svg",
+      "sha256": "ef3268bd1c6afd079e90c689024c986c32c24fa8a6cb752cc8c2784e30ffe1c3"
+    },
+    {
+      "file": "26_root_mechanism_controls.pdf",
+      "sha256": "2c33e7cd592245accce70730e847410c379ab6efe72cd8c2807cd3917483291b"
+    },
+    {
+      "file": "26_root_mechanism_controls.png",
+      "sha256": "31120f8d67fec0fdf8abfa18587f17beafc61e646a9682e6c120ec5cf32afbdd"
+    },
+    {
+      "file": "26_root_mechanism_controls.svg",
+      "sha256": "e16059a219f2d5ab4690ebb739c493ea5afcb52b2e87b9698b7113535dd881be"
+    },
+    {
+      "file": "27_velocity_vorticity_pressure_link.pdf",
+      "sha256": "6c9f416509a20a516ef1fe6ea6dbe622e1ece9bdf6c31b24070b172604e559a3"
+    },
+    {
+      "file": "27_velocity_vorticity_pressure_link.png",
+      "sha256": "2d8be0d98e1ae3f132cd1fc740eb20afd1f01be01b0322cb45b41375fd979759"
+    },
+    {
+      "file": "27_velocity_vorticity_pressure_link.svg",
+      "sha256": "7dbfd34c322b63e84f3b0a0df36a3dc209d1ddd96b9d19f5f4cbf046b58949be"
+    },
+    {
+      "file": "body_crossflow_control.json",
+      "sha256": "027b265fb5c4be0cb15749e9d6fd11e7529217abb0520e996648f7bd5cfd1434"
+    },
+    {
+      "file": "crossflow_pressure_link.json",
+      "sha256": "46480fd69a5b10dde1e6a793660acb8638bab8689692ea724089b38bbc80be66"
+    },
+    {
+      "file": "MANUSCRIPT_DRAFT.md",
+      "sha256": "64c1ad5b9955323591eac2dff552f098d312a43a4b7c2b7d5eac025913ff2f17"
+    },
+    {
+      "file": "motion_root_controls.json",
+      "sha256": "2a94e6df52f3c84e3fcf0ac24ca186bdda4f0d2cc72e96cac82752dff2c85aec"
+    },
+    {
+      "file": "README.md",
+      "sha256": "1c90d37d63586029f7d4340746605035e122594755a0bfff24c42d46f42a6be1"
+    },
+    {
+      "file": "root_crossflow.json",
+      "sha256": "329223c7f344f65ec8c0d780a892cc39db904509b60bf2c2e221152006d7aa29"
+    },
+    {
+      "file": "root_forward_paths.json",
+      "sha256": "613c15d027e0900fcf4e8d5eebe7f01cf4d4d6e08738d0917f20cbaa5b3ef942"
+    },
+    {
+      "file": "root_gate_flux.json",
+      "sha256": "60eaa43358da9ad78f9bf5209e8128e970d0a08c85a3b3ccf6283f62a926590a"
+    },
+    {
+      "file": "upper_vorticity_budget.json",
+      "sha256": "2239b2f1d82d790c0f83b6d489ebf3d8c86d357dbac741afce9a18d8899e6d2e"
+    },
+    {
+      "file": "validation.json",
+      "sha256": "a353dd9608f0daa152a704939e4ca98f6c29886cc34f8a89a644ed95896c247b"
+    }
+  ],
+  "code": [
+    {
+      "file": "run__rootCrossflow.py",
+      "sha256": "2b61ab948c27db209b091bb1c953798e1ca137683b601b12b5ff3599d9da878f"
+    },
+    {
+      "file": "run__rootGateFlux.py",
+      "sha256": "c4b8002be92813c6eec4cc2829eaa8cee7aafd01c541fd22b603611b0a1d8617"
+    },
+    {
+      "file": "run__rootForwardPaths.py",
+      "sha256": "3b206bc40d3716e3c6d136bcafb0aa06af009c06511e6d452f367c02e6b16771"
+    },
+    {
+      "file": "run__motionRootControls.py",
+      "sha256": "c8bbf267a5bfe3a5d1c00ff5f3786129bcf7ee4383c8a6aad646fb98a8bf7b26"
+    },
+    {
+      "file": "run__bodyCrossflowControl.py",
+      "sha256": "5af02a576e9fb5bcf335f2b07a0614e7ca72d290667403b30129d47d01ec5a16"
+    },
+    {
+      "file": "run__rootMechanismFigures.py",
+      "sha256": "cd351b8d70e9a41d3bada0bb163852ef445b17c37801dc339751b05d69a2727e"
+    },
+    {
+      "file": "run__upperVorticityBudget.py",
+      "sha256": "789ea6267fbca0b57e4b39d64b1551eaf64b56c9ddca9e9e6b7e0890492ce004"
+    },
+    {
+      "file": "run__rootEvidenceAudit.py",
+      "sha256": "35741cb71ecbd40f297f58ff05f0767b3603e237ce13b483714fe97a71e50e4f"
+    },
+    {
+      "file": "run__crossflowPressureLink.py",
+      "sha256": "1fd6d654b904e76ed6f0174cc23b5d6e1a7e1e4419198732c2dd6abe34de3005"
+    }
+  ],
+  "hash_convention": "SHA256 of UTF-8 text with LF line endings; binary artifacts hashed unchanged"
+}

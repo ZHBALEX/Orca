@@ -1,0 +1,1878 @@
+{
+  "regions": {
+    "lower": {
+      "quantities": {
+        "pressure_unsteady": {
+          "trapezoidal_mean": -0.004433740445297755,
+          "first_16_mean": -0.004433928097358646,
+          "incorrect_17_point_mean": -0.007862882791950673,
+          "endpoint_difference": 6.00486594851124e-06,
+          "signed_quarter_integrals": [
+            0.0010985151974381325,
+            -0.0022914873876677855,
+            0.0017361305102365746,
+            -0.004976898765304678
+          ]
+        },
+        "pressure_lamb": {
+          "trapezoidal_mean": 0.011133982492097603,
+          "first_16_mean": 0.011131608555709825,
+          "incorrect_17_point_mean": 0.011744968078993567,
+          "endpoint_difference": 7.596596440894929e-05,
+          "signed_quarter_integrals": [
+            0.002427054981250701,
+            0.005292220084790452,
+            -0.0009499814688319323,
+            0.0043646888948883815
+          ]
+        },
+        "pressure_kinetic": {
+          "trapezoidal_mean": -0.023957106114087245,
+          "first_16_mean": -0.02395119910049686,
+          "incorrect_17_point_mean": -0.024523366416027682,
+          "endpoint_difference": -0.00018902443489245135,
+          "signed_quarter_integrals": [
+            -0.003952034081099794,
+            -0.012039155354302325,
+            0.0009736460724676722,
+            -0.008939562751152801
+          ]
+        },
+        "pressure_viscous": {
+          "trapezoidal_mean": -0.0001373897945778018,
+          "first_16_mean": -0.00013733131990673075,
+          "incorrect_17_point_mean": -0.00014189646732323463,
+          "endpoint_difference": -1.8711894742730187e-06,
+          "signed_quarter_integrals": [
+            -7.986519884508062e-06,
+            -4.657103082482733e-05,
+            -1.7133000434250736e-05,
+            -6.569924343421567e-05
+          ]
+        },
+        "pressure_resolved_prediction": {
+          "trapezoidal_mean": -0.017394253861865196,
+          "first_16_mean": -0.01739084996205241,
+          "incorrect_17_point_mean": -0.020783177596308024,
+          "endpoint_difference": -0.00010892479400927135,
+          "signed_quarter_integrals": [
+            -0.0004344504222954648,
+            -0.009084993688004497,
+            0.0017426621134380583,
+            -0.009617471865003294
+          ]
+        },
+        "pressure_resolved_measured": {
+          "trapezoidal_mean": -0.01767437417766477,
+          "first_16_mean": -0.017673655470601318,
+          "incorrect_17_point_mean": -0.02249104624380041,
+          "endpoint_difference": -2.2998626030473757e-05,
+          "signed_quarter_integrals": [
+            -0.0002880314217155689,
+            -0.009382137221547376,
+            0.0012963622050471196,
+            -0.009300567739448944
+          ]
+        },
+        "pressure_outer": {
+          "trapezoidal_mean": -0.02557272402999558,
+          "first_16_mean": -0.025574694554777472,
+          "incorrect_17_point_mean": 0.08324303607030833,
+          "endpoint_difference": 6.30567930195447e-05,
+          "signed_quarter_integrals": [
+            -0.0709958784400353,
+            0.0890003700296639,
+            -0.09073320459115294,
+            0.04715598897152874
+          ]
+        },
+        "pressure_unresolved_wall": {
+          "trapezoidal_mean": -0.02058950351644922,
+          "first_16_mean": -0.020588768737158293,
+          "incorrect_17_point_mean": -0.022343625650295695,
+          "endpoint_difference": -2.3512937309573545e-05,
+          "signed_quarter_integrals": [
+            -0.004433077324579695,
+            -0.006896629140993822,
+            -0.004650741490464912,
+            -0.004609055560410789
+          ]
+        },
+        "pressure_surface": {
+          "trapezoidal_mean": -0.06383660172410971,
+          "first_16_mean": -0.06383711876253713,
+          "incorrect_17_point_mean": 0.03840836417621222,
+          "endpoint_difference": 1.6545229677644713e-05,
+          "signed_quarter_integrals": [
+            -0.07571698718633094,
+            0.07272160366712284,
+            -0.09408758387657064,
+            0.03324636567166902
+          ]
+        },
+        "pressure_closure_error": {
+          "trapezoidal_mean": -0.00028012031579956426,
+          "first_16_mean": -0.00028280550854890797,
+          "incorrect_17_point_mean": -0.001707868647492376,
+          "endpoint_difference": 8.592616797900576e-05,
+          "signed_quarter_integrals": [
+            0.00014641900057989492,
+            -0.000297143533542883,
+            -0.00044629990839093934,
+            0.00031690412555436314
+          ]
+        },
+        "lift_unsteady": {
+          "trapezoidal_mean": -8.213089833064189e-05,
+          "first_16_mean": -8.213201740898766e-05,
+          "incorrect_17_point_mean": -0.0001483049323532007,
+          "endpoint_difference": 3.581050706490119e-08,
+          "signed_quarter_integrals": [
+            2.0059586183935605e-05,
+            -3.9491090144986045e-05,
+            3.6730678104591314e-05,
+            -9.943007247418276e-05
+          ]
+        },
+        "lift_lamb": {
+          "trapezoidal_mean": 0.00018495058295602557,
+          "first_16_mean": 0.00018491090030211318,
+          "incorrect_17_point_mean": 0.00019322892690427836,
+          "endpoint_difference": 1.2698449251957581e-06,
+          "signed_quarter_integrals": [
+            3.87536325222614e-05,
+            8.911232749931702e-05,
+            -2.2386029119217493e-05,
+            7.947065205366464e-05
+          ]
+        },
+        "lift_kinetic": {
+          "trapezoidal_mean": -0.000417998767911431,
+          "first_16_mean": -0.00041788479029511677,
+          "incorrect_17_point_mean": -0.00042206847371366573,
+          "endpoint_difference": -3.647283722054979e-06,
+          "signed_quarter_integrals": [
+            -5.807334190841201e-05,
+            -0.00022213441050247294,
+            3.533095334690454e-05,
+            -0.00017312196884745052
+          ]
+        },
+        "lift_viscous": {
+          "trapezoidal_mean": -2.2948044675253635e-06,
+          "first_16_mean": -2.2938277753427125e-06,
+          "incorrect_17_point_mean": -2.329443430953851e-06,
+          "endpoint_difference": -3.125414984482985e-08,
+          "signed_quarter_integrals": [
+            -1.1132538140318954e-07,
+            -8.371379671826565e-07,
+            -2.1218706964525557e-07,
+            -1.1341540492942622e-06
+          ]
+        },
+        "lift_resolved_prediction": {
+          "trapezoidal_mean": -0.0003174738877535728,
+          "first_16_mean": -0.00031739973517733405,
+          "incorrect_17_point_mean": -0.00037947392259354205,
+          "endpoint_difference": -2.3728824396396404e-06,
+          "signed_quarter_integrals": [
+            6.285514163818672e-07,
+            -0.0001733503111153249,
+            4.946341526263305e-05,
+            -0.0001942155433172628
+          ]
+        },
+        "lift_resolved_measured": {
+          "trapezoidal_mean": -0.00032713254248866206,
+          "first_16_mean": -0.0003271159962597888,
+          "incorrect_17_point_mean": -0.00041601060542618447,
+          "endpoint_difference": -5.294793239431477e-07,
+          "signed_quarter_integrals": [
+            4.273721748596409e-06,
+            -0.00018063757268136363,
+            3.876341413321464e-05,
+            -0.00018953210568910947
+          ]
+        },
+        "lift_outer": {
+          "trapezoidal_mean": -0.0005340436493275385,
+          "first_16_mean": -0.0005340872378051195,
+          "incorrect_17_point_mean": 0.001817790461965396,
+          "endpoint_difference": 1.394831282551523e-06,
+          "signed_quarter_integrals": [
+            -0.001531102083879528,
+            0.0019056958226477182,
+            -0.0019204226310822008,
+            0.0010117852429864715
+          ]
+        },
+        "lift_unresolved_wall": {
+          "trapezoidal_mean": -0.0002828166818551817,
+          "first_16_mean": -0.00028279787454987446,
+          "incorrect_17_point_mean": -0.00030262539239120655,
+          "endpoint_difference": -6.018337698320692e-07,
+          "signed_quarter_integrals": [
+            -5.20638308439287e-05,
+            -9.797872991866355e-05,
+            -5.1513072894215674e-05,
+            -8.126104819837379e-05
+          ]
+        },
+        "lift_surface": {
+          "trapezoidal_mean": -0.0011439928736713752,
+          "first_16_mean": -0.00114400110861478,
+          "incorrect_17_point_mean": 0.001099154464148015,
+          "endpoint_difference": 2.635181889573679e-07,
+          "signed_quarter_integrals": [
+            -0.0015788921929748578,
+            0.0016270795200476966,
+            -0.0019331722898432025,
+            0.0007409920890989889
+          ]
+        },
+        "lift_closure_error": {
+          "trapezoidal_mean": -9.65865473508905e-06,
+          "first_16_mean": -9.716261082454612e-06,
+          "incorrect_17_point_mean": -3.653668283264231e-05,
+          "endpoint_difference": 1.8434031156980106e-06,
+          "signed_quarter_integrals": [
+            3.6451703322143788e-06,
+            -7.287261566038556e-06,
+            -1.0700001129418359e-05,
+            4.683437628153489e-06
+          ]
+        }
+      },
+      "pressure": {
+        "measured_mean": -0.01767437417766477,
+        "predicted_mean": -0.017394253861865196,
+        "signed_mean_error": 0.00028012031579957315,
+        "mean_relative_error": 0.015848952442885537,
+        "rms_error": 0.020385765355434533,
+        "fluctuation_rms": 0.0527238243667187,
+        "normalized_rms_error": 0.38665187133698914,
+        "max_absolute_error": 0.029250384754069533,
+        "phase_r_excluding_duplicate_endpoint": 0.92221373192687
+      },
+      "lift": {
+        "measured_mean": -0.00032713254248866206,
+        "predicted_mean": -0.0003174738877535728,
+        "signed_mean_error": 9.658654735089277e-06,
+        "mean_relative_error": 0.029525203031196542,
+        "rms_error": 0.0004033964507729429,
+        "fluctuation_rms": 0.0010637033371102918,
+        "normalized_rms_error": 0.37923774110630254,
+        "max_absolute_error": 0.0005803577982525854,
+        "phase_r_excluding_duplicate_endpoint": 0.9253345806993145
+      },
+      "lamb_pressure_r": -0.48007352823536975
+    },
+    "lower_inner": {
+      "quantities": {
+        "pressure_unsteady": {
+          "trapezoidal_mean": -0.006331682603409049,
+          "first_16_mean": -0.0063315584908705275,
+          "incorrect_17_point_mean": -0.010124435817533958,
+          "endpoint_difference": -3.9716012327217776e-06,
+          "signed_quarter_integrals": [
+            4.747832557464092e-05,
+            -0.0020350004547350546,
+            0.0020112060041626908,
+            -0.0063553664784113265
+          ]
+        },
+        "pressure_lamb": {
+          "trapezoidal_mean": 0.011882617087189705,
+          "first_16_mean": 0.011879401895381723,
+          "incorrect_17_point_mean": 0.012704627120132692,
+          "endpoint_difference": 0.00010288613785536249,
+          "signed_quarter_integrals": [
+            0.0027021693912971188,
+            0.007009384949246217,
+            -0.0021952396721841893,
+            0.004366302418830558
+          ]
+        },
+        "pressure_kinetic": {
+          "trapezoidal_mean": -0.02645601248842129,
+          "first_16_mean": -0.026447390769572143,
+          "incorrect_17_point_mean": -0.02700640898062282,
+          "endpoint_difference": -0.0002758950031726132,
+          "signed_quarter_integrals": [
+            -0.0044605238096969545,
+            -0.016024334538877534,
+            0.0029398242127683587,
+            -0.008910978352615154
+          ]
+        },
+        "pressure_viscous": {
+          "trapezoidal_mean": -0.00016906112849624522,
+          "first_16_mean": -0.00016899373657391112,
+          "incorrect_17_point_mean": -0.00017278902496244676,
+          "endpoint_difference": -2.1565415146918498e-06,
+          "signed_quarter_integrals": [
+            -9.365795833426123e-07,
+            -5.7685737634473644e-05,
+            -1.4666205628285595e-05,
+            -9.577260565014336e-05
+          ]
+        },
+        "pressure_resolved_prediction": {
+          "trapezoidal_mean": -0.021074139133136893,
+          "first_16_mean": -0.02106854110163487,
+          "incorrect_17_point_mean": -0.024599006702986547,
+          "endpoint_difference": -0.00017913700806471144,
+          "signed_quarter_integrals": [
+            -0.0017118126724085404,
+            -0.011107635782000866,
+            0.002741124339118578,
+            -0.010995815017846064
+          ]
+        },
+        "pressure_resolved_measured": {
+          "trapezoidal_mean": -0.020875986667322252,
+          "first_16_mean": -0.020874397305586545,
+          "incorrect_17_point_mean": -0.02599183166516395,
+          "endpoint_difference": -5.085957554265552e-05,
+          "signed_quarter_integrals": [
+            -0.0009472606582182884,
+            -0.011365251352374714,
+            0.0024066318516416177,
+            -0.01097010650837087
+          ]
+        },
+        "pressure_outer": {
+          "trapezoidal_mean": -0.020027029956824982,
+          "first_16_mean": -0.020029765388725793,
+          "incorrect_17_point_mean": 0.1059159557270375,
+          "endpoint_difference": 8.753382082549166e-05,
+          "signed_quarter_integrals": [
+            -0.08349439737556158,
+            0.11042306444362567,
+            -0.09951819771380088,
+            0.052562500688911815
+          ]
+        },
+        "pressure_unresolved_wall": {
+          "trapezoidal_mean": -0.0234728784066034,
+          "first_16_mean": -0.023472219882648727,
+          "incorrect_17_point_mean": -0.02542551808547159,
+          "endpoint_difference": -2.1072766549355693e-05,
+          "signed_quarter_integrals": [
+            -0.004791938884671949,
+            -0.008447787663262544,
+            -0.004931952902149388,
+            -0.005301198956519515
+          ]
+        },
+        "pressure_surface": {
+          "trapezoidal_mean": -0.06437589503075031,
+          "first_16_mean": -0.06437638257696082,
+          "incorrect_17_point_mean": 0.05449860597640234,
+          "endpoint_difference": 1.5601478735360885e-05,
+          "signed_quarter_integrals": [
+            -0.08923359691845177,
+            0.09061002542798852,
+            -0.10204351876430856,
+            0.036291195224021494
+          ]
+        },
+        "pressure_closure_error": {
+          "trapezoidal_mean": 0.00019815246581465404,
+          "first_16_mean": 0.00019414379604834131,
+          "incorrect_17_point_mean": -0.0013928249621773885,
+          "endpoint_difference": 0.0001282774325220143,
+          "signed_quarter_integrals": [
+            0.0007645520141902546,
+            -0.0002576155703738513,
+            -0.0003344924874769494,
+            2.5708509475200138e-05
+          ]
+        },
+        "lift_unsteady": {
+          "trapezoidal_mean": -7.899826351257276e-05,
+          "first_16_mean": -7.899439430392585e-05,
+          "incorrect_17_point_mean": -0.00012636019795220113,
+          "endpoint_difference": -1.2381467670075953e-07,
+          "signed_quarter_integrals": [
+            -4.273440488428128e-06,
+            -1.9012297316445474e-05,
+            2.7391491173522708e-05,
+            -8.310401688122185e-05
+          ]
+        },
+        "lift_lamb": {
+          "trapezoidal_mean": 0.00011794798012036746,
+          "first_16_mean": 0.00011791155779218443,
+          "incorrect_17_point_mean": 0.00012589949161353694,
+          "endpoint_difference": 1.165514501857859e-06,
+          "signed_quarter_integrals": [
+            2.6593478053718764e-05,
+            7.792619643343774e-05,
+            -3.414577773738818e-05,
+            4.757408337059915e-05
+          ]
+        },
+        "lift_kinetic": {
+          "trapezoidal_mean": -0.0002916161309635677,
+          "first_16_mean": -0.0002915053190819942,
+          "incorrect_17_point_mean": -0.00029204805210133404,
+          "endpoint_difference": -3.5459802103502054e-06,
+          "signed_quarter_integrals": [
+            -3.967746390943531e-05,
+            -0.00019829441680322332,
+            5.6683523931244255e-05,
+            -0.00011032777418215332
+          ]
+        },
+        "lift_viscous": {
+          "trapezoidal_mean": -1.7396724409854106e-06,
+          "first_16_mean": -1.7389182299911121e-06,
+          "incorrect_17_point_mean": -1.7476971198914427e-06,
+          "endpoint_difference": -2.4134751817553098e-08,
+          "signed_quarter_integrals": [
+            2.978506632110483e-08,
+            -6.818023243704065e-07,
+            -7.936657874674282e-08,
+            -1.0082886041893662e-06
+          ]
+        },
+        "lift_resolved_prediction": {
+          "trapezoidal_mean": -0.0002544060867967585,
+          "first_16_mean": -0.00025432707382372696,
+          "incorrect_17_point_mean": -0.0002942564555598899,
+          "endpoint_difference": -2.5284151370101766e-06,
+          "signed_quarter_integrals": [
+            -1.7327641277823543e-05,
+            -0.00014006232001060153,
+            4.984987078863193e-05,
+            -0.00014686599629696538
+          ]
+        },
+        "lift_resolved_measured": {
+          "trapezoidal_mean": -0.00025565024433948995,
+          "first_16_mean": -0.00025562747526564853,
+          "incorrect_17_point_mean": -0.00031464060636971663,
+          "endpoint_difference": -7.286103629261867e-07,
+          "signed_quarter_integrals": [
+            -5.808763990669433e-06,
+            -0.0001449433352738267,
+            4.390628295410275e-05,
+            -0.0001488044280290966
+          ]
+        },
+        "lift_outer": {
+          "trapezoidal_mean": -0.00027892076421360363,
+          "first_16_mean": -0.0002789610927237666,
+          "incorrect_17_point_mean": 0.0015578624257417345,
+          "endpoint_difference": 1.2905123252214545e-06,
+          "signed_quarter_integrals": [
+            -0.0012177506519269082,
+            0.0015994101025304831,
+            -0.0014182885645844874,
+            0.0007577083497673091
+          ]
+        },
+        "lift_unresolved_wall": {
+          "trapezoidal_mean": -0.0002023932449117756,
+          "first_16_mean": -0.00020238065365506193,
+          "incorrect_17_point_mean": -0.0002158781265924803,
+          "endpoint_difference": -4.0292021483698866e-07,
+          "signed_quarter_integrals": [
+            -3.2843879347116394e-05,
+            -7.93388772155747e-05,
+            -2.962919903773799e-05,
+            -6.058128931134652e-05
+          ]
+        },
+        "lift_surface": {
+          "trapezoidal_mean": -0.0007369642534648664,
+          "first_16_mean": -0.0007369692216444743,
+          "incorrect_17_point_mean": 0.0010273436927795403,
+          "endpoint_difference": 1.5898174744038984e-07,
+          "signed_quarter_integrals": [
+            -0.0012564032952646943,
+            0.0013751278900410845,
+            -0.001404011480668122,
+            0.0005483226324268651
+          ]
+        },
+        "lift_closure_error": {
+          "trapezoidal_mean": -1.2441575427313996e-06,
+          "first_16_mean": -1.3004014419215218e-06,
+          "incorrect_17_point_mean": -2.038415080982667e-05,
+          "endpoint_difference": 1.7998047740838273e-06,
+          "signed_quarter_integrals": [
+            1.1518877287154147e-05,
+            -4.881015263225113e-06,
+            -5.943587834529219e-06,
+            -1.938431732131215e-06
+          ]
+        }
+      },
+      "pressure": {
+        "measured_mean": -0.020875986667322252,
+        "predicted_mean": -0.021074139133136893,
+        "signed_mean_error": -0.00019815246581463713,
+        "mean_relative_error": 0.009491885053021737,
+        "rms_error": 0.02206091850139325,
+        "fluctuation_rms": 0.05937279373395076,
+        "normalized_rms_error": 0.37156611831756026,
+        "max_absolute_error": 0.03156165313313248,
+        "phase_r_excluding_duplicate_endpoint": 0.9285129583000564
+      },
+      "lift": {
+        "measured_mean": -0.00025565024433948995,
+        "predicted_mean": -0.0002544060867967585,
+        "signed_mean_error": 1.2441575427314682e-06,
+        "mean_relative_error": 0.00486663936483195,
+        "rms_error": 0.0002830160060502928,
+        "fluctuation_rms": 0.0007910646880777553,
+        "normalized_rms_error": 0.3577659454601702,
+        "max_absolute_error": 0.0004044786819467197,
+        "phase_r_excluding_duplicate_endpoint": 0.9338702317631512
+      },
+      "lamb_pressure_r": -0.5025933075128155
+    },
+    "lower_outer": {
+      "quantities": {
+        "pressure_unsteady": {
+          "trapezoidal_mean": -0.0004432050175373955,
+          "first_16_mean": -0.0004440481910569429,
+          "incorrect_17_point_mean": -0.003107806635404345,
+          "endpoint_difference": 2.6981552625544858e-05,
+          "signed_quarter_integrals": [
+            0.0033080690085684544,
+            -0.0028308338422088405,
+            0.0011578662710516252,
+            -0.002078306454948634
+          ]
+        },
+        "pressure_lamb": {
+          "trapezoidal_mean": 0.009560943824693482,
+          "first_16_mean": 0.00956033872601593,
+          "incorrect_17_point_mean": 0.00972816394543198,
+          "endpoint_difference": 1.9363157681754478e-05,
+          "signed_quarter_integrals": [
+            0.001848692088078779,
+            0.0016824143453649466,
+            0.0016684981162153616,
+            0.004361339275034395
+          ]
+        },
+        "pressure_kinetic": {
+          "trapezoidal_mean": -0.01870524610846848,
+          "first_16_mean": -0.018705047079538316,
+          "incorrect_17_point_mean": -0.019304721785934533,
+          "endpoint_difference": -6.368925765248834e-06,
+          "signed_quarter_integrals": [
+            -0.002883206767420021,
+            -0.0036614801363342997,
+            -0.003160839606174815,
+            -0.008999719598539345
+          ]
+        },
+        "pressure_viscous": {
+          "trapezoidal_mean": -7.079184143442282e-05,
+          "first_16_mean": -7.075211632493196e-05,
+          "incorrect_17_point_mean": -7.693629261437131e-05,
+          "endpoint_difference": -1.2712035037072483e-06,
+          "signed_quarter_integrals": [
+            -2.2806608874963162e-05,
+            -2.320556746977172e-05,
+            -2.231914446684774e-05,
+            -2.460520622840206e-06
+          ]
+        },
+        "pressure_resolved_prediction": {
+          "trapezoidal_mean": -0.00965829914274682,
+          "first_16_mean": -0.00965950866090426,
+          "incorrect_17_point_mean": -0.01276130076852127,
+          "endpoint_difference": 3.870458103821112e-05,
+          "signed_quarter_integrals": [
+            0.00225074772035225,
+            -0.004833105200647964,
+            -0.00035679436337467704,
+            -0.006719147299076427
+          ]
+        },
+        "pressure_resolved_measured": {
+          "trapezoidal_mean": -0.010943651788470878,
+          "first_16_mean": -0.01094476373447652,
+          "incorrect_17_point_mean": -0.015131216579050803,
+          "endpoint_difference": 3.558227218052046e-05,
+          "signed_quarter_integrals": [
+            0.0010978234687847386,
+            -0.005213395502190236,
+            -0.0010381481161213344,
+            -0.005789931638944047
+          ]
+        },
+        "pressure_outer": {
+          "trapezoidal_mean": -0.037229967869852665,
+          "first_16_mean": -0.037230330088138724,
+          "incorrect_17_point_mean": 0.03557361167422942,
+          "endpoint_difference": 1.1590985153908662e-05,
+          "signed_quarter_integrals": [
+            -0.044723319938404844,
+            0.04396330223127788,
+            -0.07225942302416999,
+            0.03578947286144428
+          ]
+        },
+        "pressure_unresolved_wall": {
+          "trapezoidal_mean": -0.014527681896874218,
+          "first_16_mean": -0.01452678678183848,
+          "incorrect_17_point_mean": -0.01586435003787234,
+          "endpoint_difference": -2.8643681143657174e-05,
+          "signed_quarter_integrals": [
+            -0.0036786831275462516,
+            -0.0036360533942766233,
+            -0.004059279862469256,
+            -0.003153665512582089
+          ]
+        },
+        "pressure_surface": {
+          "trapezoidal_mean": -0.06270130155519776,
+          "first_16_mean": -0.0627018806044537,
+          "incorrect_17_point_mean": 0.004578045057306301,
+          "endpoint_difference": 1.8529576189640906e-05,
+          "signed_quarter_integrals": [
+            -0.04730417959716633,
+            0.035113853334811,
+            -0.07735685100276055,
+            0.02684587570991811
+          ]
+        },
+        "pressure_closure_error": {
+          "trapezoidal_mean": -0.0012853526457240754,
+          "first_16_mean": -0.00128525507357227,
+          "incorrect_17_point_mean": -0.0023699158105295512,
+          "endpoint_difference": -3.1223088577739255e-06,
+          "signed_quarter_integrals": [
+            -0.0011529242515675147,
+            -0.0003802903015422775,
+            -0.0006813537527466594,
+            0.0009292156601323761
+          ]
+        },
+        "lift_unsteady": {
+          "trapezoidal_mean": -3.1326348180692426e-06,
+          "first_16_mean": -3.1376231050619415e-06,
+          "incorrect_17_point_mean": -2.194473440099971e-05,
+          "endpoint_difference": 1.596251837661486e-07,
+          "signed_quarter_integrals": [
+            2.4333026672363813e-05,
+            -2.0478792828540594e-05,
+            9.33918693106849e-06,
+            -1.632605559296096e-05
+          ]
+        },
+        "lift_lamb": {
+          "trapezoidal_mean": 6.700260283565804e-05,
+          "first_16_mean": 6.699934250992873e-05,
+          "incorrect_17_point_mean": 6.732943529074139e-05,
+          "endpoint_difference": 1.043304233378314e-07,
+          "signed_quarter_integrals": [
+            1.2160154468542645e-05,
+            1.1186131065879235e-05,
+            1.1759748618170638e-05,
+            3.1896568683065524e-05
+          ]
+        },
+        "lift_kinetic": {
+          "trapezoidal_mean": -0.00012638263694786332,
+          "first_16_mean": -0.00012637947121312253,
+          "incorrect_17_point_mean": -0.00013002042161233164,
+          "endpoint_difference": -1.013035117054513e-07,
+          "signed_quarter_integrals": [
+            -1.8395877998976687e-05,
+            -2.3839993699249747e-05,
+            -2.1352570584339662e-05,
+            -6.279419466529722e-05
+          ]
+        },
+        "lift_viscous": {
+          "trapezoidal_mean": -5.551320265399524e-07,
+          "first_16_mean": -5.549095453515999e-07,
+          "incorrect_17_point_mean": -5.817463110624077e-07,
+          "endpoint_difference": -7.119398027280774e-09,
+          "signed_quarter_integrals": [
+            -1.4111044772429444e-07,
+            -1.5533564281225005e-07,
+            -1.3282049089851214e-07,
+            -1.2586544510489568e-07
+          ]
+        },
+        "lift_resolved_prediction": {
+          "trapezoidal_mean": -6.306780095681446e-05,
+          "first_16_mean": -6.307266135360733e-05,
+          "incorrect_17_point_mean": -8.521746703365235e-05,
+          "endpoint_difference": 1.5553269737194567e-07,
+          "signed_quarter_integrals": [
+            1.795619269420547e-05,
+            -3.328799110472335e-05,
+            -3.8645552599903126e-07,
+            -4.734954702029754e-05
+          ]
+        },
+        "lift_resolved_measured": {
+          "trapezoidal_mean": -7.148229814917204e-05,
+          "first_16_mean": -7.148852099414033e-05,
+          "incorrect_17_point_mean": -0.00010136999905646788,
+          "endpoint_difference": 1.9913103898509896e-07,
+          "signed_quarter_integrals": [
+            1.0082485739265809e-05,
+            -3.569423740753681e-05,
+            -5.142868820888163e-06,
+            -4.0727677660012874e-05
+          ]
+        },
+        "lift_outer": {
+          "trapezoidal_mean": -0.0002551228851139385,
+          "first_16_mean": -0.00025512614508135947,
+          "incorrect_17_point_mean": 0.00025992803622365866,
+          "endpoint_difference": 1.0431895746711162e-07,
+          "signed_quarter_integrals": [
+            -0.0003133514319526213,
+            0.0003062857201172337,
+            -0.0005021340664977161,
+            0.0002540768932191651
+          ]
+        },
+        "lift_unresolved_wall": {
+          "trapezoidal_mean": -8.042343694340617e-05,
+          "first_16_mean": -8.041722089481253e-05,
+          "incorrect_17_point_mean": -8.674726579872632e-05,
+          "endpoint_difference": -1.9891355499581233e-07,
+          "signed_quarter_integrals": [
+            -1.9219951496812384e-05,
+            -1.863985270308888e-05,
+            -2.1883873856477658e-05,
+            -2.0679758887027244e-05
+          ]
+        },
+        "lift_surface": {
+          "trapezoidal_mean": -0.0004070286202065167,
+          "first_16_mean": -0.0004070318869703121,
+          "incorrect_17_point_mean": 7.181077136846452e-05,
+          "endpoint_difference": 1.04536441454528e-07,
+          "signed_quarter_integrals": [
+            -0.00032248889771016825,
+            0.0002519516300066079,
+            -0.0005291608091750812,
+            0.00019266945667212494
+          ]
+        },
+        "lift_closure_error": {
+          "trapezoidal_mean": -8.414497192357561e-06,
+          "first_16_mean": -8.415859640532997e-06,
+          "incorrect_17_point_mean": -1.615253202281553e-05,
+          "endpoint_difference": 4.359834161377671e-08,
+          "signed_quarter_integrals": [
+            -7.873706954939692e-06,
+            -2.4062463028134214e-06,
+            -4.7564132948891195e-06,
+            6.621869360284676e-06
+          ]
+        }
+      },
+      "pressure": {
+        "measured_mean": -0.010943651788470878,
+        "predicted_mean": -0.00965829914274682,
+        "signed_mean_error": 0.0012853526457240604,
+        "mean_relative_error": 0.11745189545213579,
+        "rms_error": 0.018399276771621852,
+        "fluctuation_rms": 0.042423419276335285,
+        "normalized_rms_error": 0.4337056532801771,
+        "max_absolute_error": 0.030194978318627018,
+        "phase_r_excluding_duplicate_endpoint": 0.9028491986009872
+      },
+      "lift": {
+        "measured_mean": -7.148229814917204e-05,
+        "predicted_mean": -6.306780095681446e-05,
+        "signed_mean_error": 8.414497192357588e-06,
+        "mean_relative_error": 0.11771441895723454,
+        "rms_error": 0.00013161867059661208,
+        "fluctuation_rms": 0.00030721834851821944,
+        "normalized_rms_error": 0.4284206045356256,
+        "max_absolute_error": 0.00021062508050499157,
+        "phase_r_excluding_duplicate_endpoint": 0.9050772287295973
+      },
+      "lamb_pressure_r": -0.19721487286734343
+    },
+    "upper": {
+      "quantities": {
+        "pressure_unsteady": {
+          "trapezoidal_mean": 0.006785895910348477,
+          "first_16_mean": 0.006787958751221103,
+          "incorrect_17_point_mean": 0.014197722006085614,
+          "endpoint_difference": -6.601090792401898e-05,
+          "signed_quarter_integrals": [
+            -0.010063218553236407,
+            0.0076796640806596275,
+            -0.006196243611950335,
+            0.015365693994875595
+          ]
+        },
+        "pressure_lamb": {
+          "trapezoidal_mean": -0.08646094368643126,
+          "first_16_mean": -0.08647077255580297,
+          "incorrect_17_point_mean": -0.08412487285272909,
+          "endpoint_difference": 0.00031452381989550277,
+          "signed_quarter_integrals": [
+            -0.00815386990720193,
+            -0.015579340875920743,
+            -0.024343183112101596,
+            -0.03838454979120697
+          ]
+        },
+        "pressure_kinetic": {
+          "trapezoidal_mean": 0.005544170826352772,
+          "first_16_mean": 0.005558486128111054,
+          "incorrect_17_point_mean": 0.005578848926830193,
+          "endpoint_difference": -0.0004580896562650823,
+          "signed_quarter_integrals": [
+            -0.0017878191270080358,
+            0.00767340520466364,
+            -0.014290750100314444,
+            0.013949334849011612
+          ]
+        },
+        "pressure_viscous": {
+          "trapezoidal_mean": -2.8368438306386205e-05,
+          "first_16_mean": -2.846163860254643e-05,
+          "incorrect_17_point_mean": 2.1083274673873234e-05,
+          "endpoint_difference": 2.982409477127559e-06,
+          "signed_quarter_integrals": [
+            2.8663797753002315e-05,
+            2.3806099462209118e-05,
+            -0.0001041873316998392,
+            2.3348996178241572e-05
+          ]
+        },
+        "pressure_resolved_prediction": {
+          "trapezoidal_mean": -0.07415924538803642,
+          "first_16_mean": -0.07415278931507341,
+          "incorrect_17_point_mean": -0.06432721864513946,
+          "endpoint_difference": -0.00020659433481662326,
+          "signed_quarter_integrals": [
+            -0.01997624378969336,
+            -0.00020246549113528238,
+            -0.044934364156066206,
+            -0.009046171951141569
+          ]
+        },
+        "pressure_resolved_measured": {
+          "trapezoidal_mean": -0.07588275602261774,
+          "first_16_mean": -0.07587688298927349,
+          "incorrect_17_point_mean": -0.06057664658560021,
+          "endpoint_difference": -0.00018793706701553115,
+          "signed_quarter_integrals": [
+            -0.019952697589905265,
+            0.0005820911387898462,
+            -0.045066089331118234,
+            -0.011446060240384071
+          ]
+        },
+        "pressure_outer": {
+          "trapezoidal_mean": -0.11986803803348094,
+          "first_16_mean": -0.11986879563107242,
+          "incorrect_17_point_mean": -0.09494966646449428,
+          "endpoint_difference": 2.424312292631514e-05,
+          "signed_quarter_integrals": [
+            -0.03978020984095744,
+            -0.008959677956418978,
+            -0.05725732155994214,
+            -0.013870828676162402
+          ]
+        },
+        "pressure_unresolved_wall": {
+          "trapezoidal_mean": -0.02764760454305721,
+          "first_16_mean": -0.027643840294493988,
+          "incorrect_17_point_mean": -0.02984712273360214,
+          "endpoint_difference": -0.00012045595402317144,
+          "signed_quarter_integrals": [
+            -0.012858686552290896,
+            -0.007343741393577104,
+            -0.007447040827153104,
+            1.8642299638984769e-06
+          ]
+        },
+        "pressure_surface": {
+          "trapezoidal_mean": -0.22339839859915586,
+          "first_16_mean": -0.22338951891483982,
+          "incorrect_17_point_mean": -0.1853734357836966,
+          "endpoint_difference": -0.0002841498981130397,
+          "signed_quarter_integrals": [
+            -0.07259159398315353,
+            -0.01572132821120619,
+            -0.1097704517182135,
+            -0.025315024686582643
+          ]
+        },
+        "pressure_closure_error": {
+          "trapezoidal_mean": -0.0017235106345813772,
+          "first_16_mean": -0.0017240936742001587,
+          "incorrect_17_point_mean": 0.003750572059539158,
+          "endpoint_difference": 1.8657267801008848e-05,
+          "signed_quarter_integrals": [
+            2.3546199788086405e-05,
+            0.0007845566299251238,
+            -0.0001317251750520517,
+            -0.002399888289242536
+          ]
+        },
+        "lift_unsteady": {
+          "trapezoidal_mean": -0.00016137104319788954,
+          "first_16_mean": -0.00016141663741514443,
+          "incorrect_17_point_mean": -0.00031317160764294193,
+          "endpoint_difference": 1.4590149521554949e-06,
+          "signed_quarter_integrals": [
+            0.0001997690170938457,
+            -0.00015571703218132725,
+            0.0001269792258321968,
+            -0.00033240225394260477
+          ]
+        },
+        "lift_lamb": {
+          "trapezoidal_mean": 0.0018132104591005278,
+          "first_16_mean": 0.001813431431068162,
+          "incorrect_17_point_mean": 0.001767394058356984,
+          "endpoint_difference": -7.071102964285739e-06,
+          "signed_quarter_integrals": [
+            0.000175664389993385,
+            0.0003296788550777831,
+            0.0004893642796687278,
+            0.0008185029343606321
+          ]
+        },
+        "lift_kinetic": {
+          "trapezoidal_mean": -0.00021748407859635403,
+          "first_16_mean": -0.0002177857742441212,
+          "incorrect_17_point_mean": -0.00022681595683949772,
+          "endpoint_difference": 9.654260728551162e-06,
+          "signed_quarter_integrals": [
+            4.531266099475172e-06,
+            -0.00018179048784175024,
+            0.0002710020122226131,
+            -0.000311226869076692
+          ]
+        },
+        "lift_viscous": {
+          "trapezoidal_mean": 4.764914791389544e-07,
+          "first_16_mean": 4.784750206923234e-07,
+          "incorrect_17_point_mean": -5.873531587312145e-07,
+          "endpoint_difference": -6.347332970780829e-08,
+          "signed_quarter_integrals": [
+            -7.542019388526727e-07,
+            -7.437808320187745e-07,
+            2.2720522002765813e-06,
+            -2.975779502661799e-07
+          ]
+        },
+        "lift_resolved_prediction": {
+          "trapezoidal_mean": 0.0014348318287854247,
+          "first_16_mean": 0.00143470749442959,
+          "incorrect_17_point_mean": 0.0012268191407158145,
+          "endpoint_difference": 3.97869938671214e-06,
+          "signed_quarter_integrals": [
+            0.00037921047124785324,
+            -8.572445777312557e-06,
+            0.0008896175699238141,
+            0.0001745762333910701
+          ]
+        },
+        "lift_resolved_measured": {
+          "trapezoidal_mean": 0.001480769860679014,
+          "first_16_mean": 0.0014806550568583362,
+          "incorrect_17_point_mean": 0.0011581106573909509,
+          "endpoint_difference": 3.6737222616888693e-06,
+          "signed_quarter_integrals": [
+            0.0003830951243625545,
+            -2.3227568760154662e-05,
+            0.0008934714507668608,
+            0.0002274308543097533
+          ]
+        },
+        "lift_outer": {
+          "trapezoidal_mean": 0.0024013446098776043,
+          "first_16_mean": 0.0024013605670476527,
+          "incorrect_17_point_mean": 0.001897467640730074,
+          "endpoint_difference": -5.106294415496704e-07,
+          "signed_quarter_integrals": [
+            0.0008005050769583776,
+            0.00018318687810689284,
+            0.0011375044942775624,
+            0.0002801481605347714
+          ]
+        },
+        "lift_unresolved_wall": {
+          "trapezoidal_mean": 0.0004124746914349589,
+          "first_16_mean": 0.00041240833280286584,
+          "incorrect_17_point_mean": 0.0004477312604668158,
+          "endpoint_difference": 2.123476226977266e-06,
+          "signed_quarter_integrals": [
+            0.00022358930334127197,
+            0.00011429216906340344,
+            0.00010951952852549523,
+            -3.4926309495211723e-05
+          ]
+        },
+        "lift_surface": {
+          "trapezoidal_mean": 0.004294589161991582,
+          "first_16_mean": 0.004294423956708859,
+          "incorrect_17_point_mean": 0.0035033095585878453,
+          "endpoint_difference": 5.2865690471168986e-06,
+          "signed_quarter_integrals": [
+            0.0014071895046622045,
+            0.00027425147841014384,
+            0.00214049547356992,
+            0.0004726527053493137
+          ]
+        },
+        "lift_closure_error": {
+          "trapezoidal_mean": 4.5938031893588756e-05,
+          "first_16_mean": 4.594756242874573e-05,
+          "incorrect_17_point_mean": -6.87084833248639e-05,
+          "endpoint_difference": -3.0497712502348777e-07,
+          "signed_quarter_integrals": [
+            3.884653114701121e-06,
+            -1.4655122982841614e-05,
+            3.853880843046379e-06,
+            5.285462091868287e-05
+          ]
+        }
+      },
+      "pressure": {
+        "measured_mean": -0.07588275602261774,
+        "predicted_mean": -0.07415924538803642,
+        "signed_mean_error": 0.0017235106345813017,
+        "mean_relative_error": 0.02271281019455315,
+        "rms_error": 0.05727892231513798,
+        "fluctuation_rms": 0.15097505793504135,
+        "normalized_rms_error": 0.37939327925135063,
+        "max_absolute_error": 0.09134522379936832,
+        "phase_r_excluding_duplicate_endpoint": 0.925479915688743
+      },
+      "lift": {
+        "measured_mean": 0.001480769860679014,
+        "predicted_mean": 0.0014348318287854247,
+        "signed_mean_error": -4.5938031893589e-05,
+        "mean_relative_error": 0.031023073276575133,
+        "rms_error": 0.001181226637414276,
+        "fluctuation_rms": 0.003065903165583145,
+        "normalized_rms_error": 0.3852785210812758,
+        "max_absolute_error": 0.0019032052153826174,
+        "phase_r_excluding_duplicate_endpoint": 0.923120014028821
+      },
+      "lamb_pressure_r": 0.10729454107300805
+    },
+    "upper_inner": {
+      "quantities": {
+        "pressure_unsteady": {
+          "trapezoidal_mean": 0.007544466883377506,
+          "first_16_mean": 0.007546982364608391,
+          "incorrect_17_point_mean": 0.01648337378331153,
+          "endpoint_difference": -8.049539938842498e-05,
+          "signed_quarter_integrals": [
+            -0.012316212628215069,
+            0.00958700390033638,
+            -0.007747028690890515,
+            0.018020704302146712
+          ]
+        },
+        "pressure_lamb": {
+          "trapezoidal_mean": -0.10268091025945444,
+          "first_16_mean": -0.10269223508705563,
+          "incorrect_17_point_mean": -0.10104690203271297,
+          "endpoint_difference": 0.00036239448323825696,
+          "signed_quarter_integrals": [
+            -0.011449464508385642,
+            -0.01921875205580534,
+            -0.027510404626741584,
+            -0.044502289068521876
+          ]
+        },
+        "pressure_kinetic": {
+          "trapezoidal_mean": 0.002339515816950591,
+          "first_16_mean": 0.002356414948352061,
+          "incorrect_17_point_mean": 0.0029852906685697254,
+          "endpoint_difference": -0.0005407722048469069,
+          "signed_quarter_integrals": [
+            -0.0006698505779385484,
+            0.00955667794546775,
+            -0.020800595080991822,
+            0.014253283530413214
+          ]
+        },
+        "pressure_viscous": {
+          "trapezoidal_mean": -6.354752136451526e-05,
+          "first_16_mean": -6.36710237283173e-05,
+          "incorrect_17_point_mean": -2.8516791287996095e-06,
+          "endpoint_difference": 3.9520756416657745e-06,
+          "signed_quarter_integrals": [
+            3.337380147443597e-05,
+            3.269770176938848e-05,
+            -0.00015359591717925946,
+            2.3976892570919775e-05
+          ]
+        },
+        "pressure_resolved_prediction": {
+          "trapezoidal_mean": -0.09286047508049089,
+          "first_16_mean": -0.09285250879782353,
+          "incorrect_17_point_mean": -0.08158108925996055,
+          "endpoint_difference": -0.00025492104535561333,
+          "signed_quarter_integrals": [
+            -0.024402153913064828,
+            -4.237250823180662e-05,
+            -0.05621162431580321,
+            -0.012204324343391058
+          ]
+        },
+        "pressure_resolved_measured": {
+          "trapezoidal_mean": -0.09613757752881502,
+          "first_16_mean": -0.09613038646770555,
+          "incorrect_17_point_mean": -0.07799108875303198,
+          "endpoint_difference": -0.00023011395550245894,
+          "signed_quarter_integrals": [
+            -0.025197641117621142,
+            0.0002583762053377163,
+            -0.05621411371673358,
+            -0.014984198899798004
+          ]
+        },
+        "pressure_outer": {
+          "trapezoidal_mean": -0.14101848055707034,
+          "first_16_mean": -0.14101957499774642,
+          "incorrect_17_point_mean": -0.12050203230346745,
+          "endpoint_difference": 3.50221016345853e-05,
+          "signed_quarter_integrals": [
+            -0.04274620364883047,
+            -0.0165602908120996,
+            -0.05864247686256212,
+            -0.02306950923357815
+          ]
+        },
+        "pressure_unresolved_wall": {
+          "trapezoidal_mean": -0.03383658349262243,
+          "first_16_mean": -0.03383333414022896,
+          "incorrect_17_point_mean": -0.03662789335897387,
+          "endpoint_difference": -0.00010397927659121231,
+          "signed_quarter_integrals": [
+            -0.015646223518637276,
+            -0.008789275832413006,
+            -0.009029156076922859,
+            -0.00037192806464929123
+          ]
+        },
+        "pressure_surface": {
+          "trapezoidal_mean": -0.2709926415785079,
+          "first_16_mean": -0.270983295605681,
+          "incorrect_17_point_mean": -0.2351210144154734,
+          "endpoint_difference": -0.00029907113045946065,
+          "signed_quarter_integrals": [
+            -0.08359006828508886,
+            -0.025091190439174935,
+            -0.12388574665621856,
+            -0.03842563619802549
+          ]
+        },
+        "pressure_closure_error": {
+          "trapezoidal_mean": -0.0032771024483241465,
+          "first_16_mean": -0.0032778776698820606,
+          "incorrect_17_point_mean": 0.0035900005069285203,
+          "endpoint_difference": 2.4807089853265407e-05,
+          "signed_quarter_integrals": [
+            -0.0007954872045563134,
+            0.00030074871356951943,
+            -2.4894009303790075e-06,
+            -0.002779874556406973
+          ]
+        },
+        "lift_unsteady": {
+          "trapezoidal_mean": -0.00011770049674794035,
+          "first_16_mean": -0.00011773640282577579,
+          "incorrect_17_point_mean": -0.00023675108084906643,
+          "endpoint_difference": 1.1489944907352827e-06,
+          "signed_quarter_integrals": [
+            0.00015765359899863282,
+            -0.0001248270487514318,
+            0.00010278078125231316,
+            -0.0002533078282474545
+          ]
+        },
+        "lift_lamb": {
+          "trapezoidal_mean": 0.0013708347522017209,
+          "first_16_mean": 0.0013709973778780217,
+          "incorrect_17_point_mean": 0.0013526756185702955,
+          "endpoint_difference": -5.204021641629216e-06,
+          "signed_quarter_integrals": [
+            0.00015769119602798172,
+            0.0002605214022006775,
+            0.0003478505302274944,
+            0.0006047716237455674
+          ]
+        },
+        "lift_kinetic": {
+          "trapezoidal_mean": -0.00010764663910591498,
+          "first_16_mean": -0.00010787507786679033,
+          "incorrect_17_point_mean": -0.00012451857720650653,
+          "endpoint_difference": 7.310040348009611e-06,
+          "signed_quarter_integrals": [
+            -1.7754836268973198e-05,
+            -0.0001460446474362274,
+            0.0002598314376109575,
+            -0.00020367859301167194
+          ]
+        },
+        "lift_viscous": {
+          "trapezoidal_mean": 1.0065077823174858e-06,
+          "first_16_mean": 1.008254075202432e-06,
+          "incorrect_17_point_mean": 1.3575936746558773e-07,
+          "endpoint_difference": -5.588137231827215e-08,
+          "signed_quarter_integrals": [
+            -5.321347514478258e-07,
+            -5.017454384554236e-07,
+            2.197696832640794e-06,
+            -1.573088604200588e-07
+          ]
+        },
+        "lift_resolved_prediction": {
+          "trapezoidal_mean": 0.0011464941241301828,
+          "first_16_mean": 0.0011463941512606577,
+          "incorrect_17_point_mean": 0.0009915417198821878,
+          "endpoint_difference": 3.199131824797993e-06,
+          "signed_quarter_integrals": [
+            0.00029705782400619356,
+            -1.0852039425436904e-05,
+            0.0007126604459234052,
+            0.00014762789362602078
+          ]
+        },
+        "lift_resolved_measured": {
+          "trapezoidal_mean": 0.001197790157025301,
+          "first_16_mean": 0.0011976995715756251,
+          "incorrect_17_point_mean": 0.0009498772761888507,
+          "endpoint_difference": 2.8987343896262445e-06,
+          "signed_quarter_integrals": [
+            0.00030958054766178956,
+            -1.3292632122983292e-05,
+            0.0007136054430574447,
+            0.00018789679842905015
+          ]
+        },
+        "lift_outer": {
+          "trapezoidal_mean": 0.0018198154639119447,
+          "first_16_mean": 0.0018198308498283409,
+          "incorrect_17_point_mean": 0.0015457831055940001,
+          "endpoint_difference": -4.923493246767642e-07,
+          "signed_quarter_integrals": [
+            0.0005569970552014947,
+            0.00021138718684235303,
+            0.0007568943378706394,
+            0.00029453688399745746
+          ]
+        },
+        "lift_unresolved_wall": {
+          "trapezoidal_mean": 0.00032699823212599323,
+          "first_16_mean": 0.0003269648505481712,
+          "incorrect_17_point_mean": 0.00035653383421480945,
+          "endpoint_difference": 1.068210490304017e-06,
+          "signed_quarter_integrals": [
+            0.00017420890495394674,
+            9.284173428504386e-05,
+            8.352275913076171e-05,
+            -2.357516624375914e-05
+          ]
+        },
+        "lift_surface": {
+          "trapezoidal_mean": 0.0033446038530632397,
+          "first_16_mean": 0.003344495271952138,
+          "incorrect_17_point_mean": 0.002852194215997661,
+          "endpoint_difference": 3.4745955552429805e-06,
+          "signed_quarter_integrals": [
+            0.0010407865078172318,
+            0.00029093628900441355,
+            0.0015540225400588461,
+            0.00045885851618274827
+          ]
+        },
+        "lift_closure_error": {
+          "trapezoidal_mean": 5.129603289511854e-05,
+          "first_16_mean": 5.130542031496764e-05,
+          "incorrect_17_point_mean": -4.166444369333697e-05,
+          "endpoint_difference": -3.0039743517131477e-07,
+          "signed_quarter_integrals": [
+            1.2522723655596153e-05,
+            -2.440592697546282e-06,
+            9.449971340389765e-07,
+            4.026890480302969e-05
+          ]
+        }
+      },
+      "pressure": {
+        "measured_mean": -0.09613757752881502,
+        "predicted_mean": -0.09286047508049089,
+        "signed_mean_error": 0.0032771024483241127,
+        "mean_relative_error": 0.034087632875312225,
+        "rms_error": 0.07126909871073303,
+        "fluctuation_rms": 0.18465552208498834,
+        "normalized_rms_error": 0.3859570399304451,
+        "max_absolute_error": 0.11347605133589786,
+        "phase_r_excluding_duplicate_endpoint": 0.9228019423287056
+      },
+      "lift": {
+        "measured_mean": 0.001197790157025301,
+        "predicted_mean": 0.0011464941241301828,
+        "signed_mean_error": -5.1296032895118315e-05,
+        "mean_relative_error": 0.042825558879621674,
+        "rms_error": 0.0009497176309139203,
+        "fluctuation_rms": 0.0024169564680979463,
+        "normalized_rms_error": 0.39293948544357205,
+        "max_absolute_error": 0.001529182267826211,
+        "phase_r_excluding_duplicate_endpoint": 0.9199220795827325
+      },
+      "lamb_pressure_r": 0.04641702836384425
+    },
+    "upper_outer": {
+      "quantities": {
+        "pressure_unsteady": {
+          "trapezoidal_mean": 0.005436055597108112,
+          "first_16_mean": 0.005437313379301535,
+          "incorrect_17_point_mean": 0.010131879683644018,
+          "endpoint_difference": -4.0249030189551394e-05,
+          "signed_quarter_integrals": [
+            -0.006057046190509547,
+            0.004288024305917017,
+            -0.003438292440477323,
+            0.010643369922177966
+          ]
+        },
+        "pressure_lamb": {
+          "trapezoidal_mean": -0.05761324620167324,
+          "first_16_mean": -0.05762041438439966,
+          "incorrect_17_point_mean": -0.05402844734978301,
+          "endpoint_difference": 0.0002293818472453345,
+          "signed_quarter_integrals": [
+            -0.0022933312625558135,
+            -0.009107593682451452,
+            -0.018709653712806782,
+            -0.027502667543859192
+          ]
+        },
+        "pressure_kinetic": {
+          "trapezoidal_mean": 0.01124537374391974,
+          "first_16_mean": 0.011255093488870351,
+          "incorrect_17_point_mean": 0.010193079569506455,
+          "endpoint_difference": -0.00031103183841950637,
+          "signed_quarter_integrals": [
+            -0.003775817799315754,
+            0.004324581504775008,
+            -0.002712105490719458,
+            0.013408715529179943
+          ]
+        },
+        "pressure_viscous": {
+          "trapezoidal_mean": 3.4203475613735385e-05,
+          "first_16_mean": 3.4164170075538546e-05,
+          "incorrect_17_point_mean": 6.365639056299991e-05,
+          "endpoint_difference": 1.2577772222985154e-06,
+          "signed_quarter_integrals": [
+            2.028552208611544e-05,
+            7.996194546104178e-06,
+            -1.631034493245943e-05,
+            2.2232103913975196e-05
+          ]
+        },
+        "pressure_resolved_prediction": {
+          "trapezoidal_mean": -0.04089761338503166,
+          "first_16_mean": -0.040893843346152245,
+          "incorrect_17_point_mean": -0.03363983170606954,
+          "endpoint_difference": -0.00012064124414142008,
+          "signed_quarter_integrals": [
+            -0.012105909730295003,
+            -0.0004869916772133106,
+            -0.024876361988936033,
+            -0.0034283499885873142
+          ]
+        },
+        "pressure_resolved_measured": {
+          "trapezoidal_mean": -0.03985855265808971,
+          "first_16_mean": -0.039855023847200355,
+          "incorrect_17_point_mean": -0.029604254602327993,
+          "endpoint_difference": -0.00011292194845963222,
+          "signed_quarter_integrals": [
+            -0.010626139136858198,
+            0.0011578445974153577,
+            -0.025237991987143146,
+            -0.0051522661315037315
+          ]
+        },
+        "pressure_outer": {
+          "trapezoidal_mean": -0.08225224160097894,
+          "first_16_mean": -0.0822524000950131,
+          "incorrect_17_point_mean": -0.049504562263772985,
+          "endpoint_difference": 5.071809092316304e-06,
+          "signed_quarter_integrals": [
+            -0.0345054584167519,
+            0.004556190865502534,
+            -0.054793825567691,
+            0.0024908515179614156
+          ]
+        },
+        "pressure_unresolved_wall": {
+          "trapezoidal_mean": -0.01664143471639155,
+          "first_16_mean": -0.016636754681989118,
+          "incorrect_17_point_mean": -0.017788316923339115,
+          "endpoint_difference": -0.00014976110087776273,
+          "signed_quarter_integrals": [
+            -0.007901656688902966,
+            -0.004773086622726197,
+            -0.004633384052750253,
+            0.0006666926479878639
+          ]
+        },
+        "pressure_surface": {
+          "trapezoidal_mean": -0.1387522289754602,
+          "first_16_mean": -0.13874417862420252,
+          "incorrect_17_point_mean": -0.09689713378944,
+          "endpoint_difference": -0.00025761124024514803,
+          "signed_quarter_integrals": [
+            -0.053033254242513025,
+            0.0009409488401917066,
+            -0.08466520160758446,
+            -0.0019947219655543982
+          ]
+        },
+        "pressure_closure_error": {
+          "trapezoidal_mean": 0.0010390607269419334,
+          "first_16_mean": 0.0010388194989518792,
+          "incorrect_17_point_mean": 0.00403557710374154,
+          "endpoint_difference": 7.719295681725413e-06,
+          "signed_quarter_integrals": [
+            0.0014797705934368071,
+            0.0016448362746286722,
+            -0.0003616299982071409,
+            -0.0017239161429164053
+          ]
+        },
+        "lift_unsteady": {
+          "trapezoidal_mean": -4.3670546449948856e-05,
+          "first_16_mean": -4.3680234589368305e-05,
+          "incorrect_17_point_mean": -7.6420526793875e-05,
+          "endpoint_difference": 3.100204614223806e-07,
+          "signed_quarter_integrals": [
+            4.211541809521275e-05,
+            -3.08899834298954e-05,
+            2.4198444579883664e-05,
+            -7.909442569514988e-05
+          ]
+        },
+        "lift_lamb": {
+          "trapezoidal_mean": 0.00044237570689880865,
+          "first_16_mean": 0.00044243405319014176,
+          "incorrect_17_point_mean": 0.0004147184397866898,
+          "endpoint_difference": -1.867081322658149e-06,
+          "signed_quarter_integrals": [
+            1.797319396540338e-05,
+            6.915745287710564e-05,
+            0.00014151374944123367,
+            0.000213731310615066
+          ]
+        },
+        "lift_kinetic": {
+          "trapezoidal_mean": -0.00010983743949043867,
+          "first_16_mean": -0.00010991069637733059,
+          "incorrect_17_point_mean": -0.00010229737963299091,
+          "endpoint_difference": 2.3442203805416015e-06,
+          "signed_quarter_integrals": [
+            2.2286102368448384e-05,
+            -3.5745840405522846e-05,
+            1.1170574611655845e-05,
+            -0.00010754827606502005
+          ]
+        },
+        "lift_viscous": {
+          "trapezoidal_mean": -5.3001630317853e-07,
+          "first_16_mean": -5.297790545101072e-07,
+          "incorrect_17_point_mean": -7.231125261967998e-07,
+          "endpoint_difference": -7.591957389534024e-09,
+          "signed_quarter_integrals": [
+            -2.220671874048462e-07,
+            -2.4203539356335085e-07,
+            7.435536763578718e-08,
+            -1.4026908984612022e-07
+          ]
+        },
+        "lift_resolved_prediction": {
+          "trapezoidal_mean": 0.00028833770465524274,
+          "first_16_mean": 0.00028831334316893283,
+          "incorrect_17_point_mean": 0.00023527742083362716,
+          "endpoint_difference": 7.795675619168578e-07,
+          "signed_quarter_integrals": [
+            8.215264724165969e-05,
+            2.2795936481239895e-06,
+            0.00017695712400040914,
+            2.6948339765049917e-05
+          ]
+        },
+        "lift_resolved_measured": {
+          "trapezoidal_mean": 0.0002829797036537129,
+          "first_16_mean": 0.00028295548528271087,
+          "incorrect_17_point_mean": 0.0002082333812021002,
+          "endpoint_difference": 7.7498787206501e-07,
+          "signed_quarter_integrals": [
+            7.351457670076474e-05,
+            -9.934936637171167e-06,
+            0.00017986600770941632,
+            3.953405588070303e-05
+          ]
+        },
+        "lift_outer": {
+          "trapezoidal_mean": 0.00058152914596566,
+          "first_16_mean": 0.000581529717219312,
+          "incorrect_17_point_mean": 0.00035168453513607445,
+          "endpoint_difference": -1.8280116866400964e-08,
+          "signed_quarter_integrals": [
+            0.00024350802175688153,
+            -2.8200308735459487e-05,
+            0.00038061015640692325,
+            -1.4388723462685157e-05
+          ]
+        },
+        "lift_unresolved_wall": {
+          "trapezoidal_mean": 8.547645930896596e-05,
+          "first_16_mean": 8.544348225469488e-05,
+          "incorrect_17_point_mean": 9.119742625200657e-05,
+          "endpoint_difference": 1.0552657366737369e-06,
+          "signed_quarter_integrals": [
+            4.938039838732522e-05,
+            2.145043477835963e-05,
+            2.5996769394733667e-05,
+            -1.1351143251452555e-05
+          ]
+        },
+        "lift_surface": {
+          "trapezoidal_mean": 0.0009499853089283385,
+          "first_16_mean": 0.0009499286847567179,
+          "incorrect_17_point_mean": 0.000651115342590181,
+          "endpoint_difference": 1.8119734918652444e-06,
+          "signed_quarter_integrals": [
+            0.00036640299684497147,
+            -1.668481059427137e-05,
+            0.0005864729335110732,
+            1.3794189166565303e-05
+          ]
+        },
+        "lift_closure_error": {
+          "trapezoidal_mean": -5.358001001529463e-06,
+          "first_16_mean": -5.357857886221574e-06,
+          "incorrect_17_point_mean": -2.7044039631526597e-05,
+          "endpoint_difference": -4.579689852335627e-09,
+          "signed_quarter_integrals": [
+            -8.638070540894927e-06,
+            -1.2214530285295086e-05,
+            2.908883709007382e-06,
+            1.258571611565317e-05
+          ]
+        }
+      },
+      "pressure": {
+        "measured_mean": -0.03985855265808971,
+        "predicted_mean": -0.04089761338503166,
+        "signed_mean_error": -0.0010390607269419425,
+        "mean_relative_error": 0.026068701888277274,
+        "rms_error": 0.03332707858325275,
+        "fluctuation_rms": 0.09186103292032198,
+        "normalized_rms_error": 0.3627988661107245,
+        "max_absolute_error": 0.05620795071879064,
+        "phase_r_excluding_duplicate_endpoint": 0.9323258464031104
+      },
+      "lift": {
+        "measured_mean": 0.0002829797036537129,
+        "predicted_mean": 0.00028833770465524274,
+        "signed_mean_error": 5.358001001529785e-06,
+        "mean_relative_error": 0.01893422366462883,
+        "rms_error": 0.000237918235176896,
+        "fluctuation_rms": 0.0006538380313711302,
+        "normalized_rms_error": 0.3638794682499118,
+        "max_absolute_error": 0.0004075146409416086,
+        "phase_r_excluding_duplicate_endpoint": 0.9320901090776015
+      },
+      "lamb_pressure_r": 0.25101228050753216
+    }
+  },
+  "interval_sensitivity": [
+    {
+      "method": "central",
+      "h0": 0.008,
+      "h1": 0.03,
+      "area_fraction": 0.21945655787367574,
+      "mean_pressure": -0.09137647702894694,
+      "lamb": -0.16525764144748512,
+      "kinetic": 0.06798279831720955,
+      "unsteady": 0.006096573408198998,
+      "mean_relative_error": 0.004254028578550611,
+      "unfitted_R2": 0.7698552809310498,
+      "resolved_lift_fraction": 0.3769432177118947,
+      "lamb_lift_fraction": 0.7217844956763709
+    },
+    {
+      "method": "central",
+      "h0": 0.012,
+      "h1": 0.03,
+      "area_fraction": 0.9791640776533916,
+      "mean_pressure": -0.06169668396038626,
+      "lamb": -0.08055984003543433,
+      "kinetic": 0.015465221241829223,
+      "unsteady": 0.00565017196298181,
+      "mean_relative_error": 0.03499036507639195,
+      "unfitted_R2": 0.6925005107584559,
+      "resolved_lift_fraction": 0.2810604041608075,
+      "lamb_lift_fraction": 0.3892919829398419
+    },
+    {
+      "method": "central",
+      "h0": 0.012,
+      "h1": 0.04,
+      "area_fraction": 0.9788076436821381,
+      "mean_pressure": -0.07588275602261774,
+      "lamb": -0.08646094368643126,
+      "kinetic": 0.005544170826352772,
+      "unsteady": 0.006729458281662881,
+      "mean_relative_error": 0.021969062449429606,
+      "unfitted_R2": 0.6477820805435034,
+      "resolved_lift_fraction": 0.3447989562736936,
+      "lamb_lift_fraction": 0.4222081299762014
+    },
+    {
+      "method": "central",
+      "h0": 0.016,
+      "h1": 0.04,
+      "area_fraction": 0.9788076436821381,
+      "mean_pressure": -0.059244847695248806,
+      "lamb": -0.052368186508922526,
+      "kinetic": -0.01101841316506056,
+      "unsteady": 0.004986759166334424,
+      "mean_relative_error": 0.015352723192902583,
+      "unfitted_R2": 0.6260941535660957,
+      "resolved_lift_fraction": 0.27078078367961167,
+      "lamb_lift_fraction": 0.2644768290377955
+    },
+    {
+      "method": "central",
+      "h0": 0.02,
+      "h1": 0.06,
+      "area_fraction": 0.9751342562744866,
+      "mean_pressure": -0.05835969157615899,
+      "lamb": -0.03647359782949884,
+      "kinetic": -0.026388439392136784,
+      "unsteady": 0.004120516174150088,
+      "mean_relative_error": 0.003395150973823587,
+      "unfitted_R2": 0.5857829829112278,
+      "resolved_lift_fraction": 0.2625398524052763,
+      "lamb_lift_fraction": 0.18854149565276004
+    },
+    {
+      "method": "fourier",
+      "h0": 0.008,
+      "h1": 0.03,
+      "area_fraction": 0.21945655787367574,
+      "mean_pressure": -0.09137647702894694,
+      "lamb": -0.16525764144748512,
+      "kinetic": 0.06798279831720955,
+      "unsteady": 0.006125903537588379,
+      "mean_relative_error": 0.004575009758204534,
+      "unfitted_R2": 0.8925903692903302,
+      "resolved_lift_fraction": 0.3769432177118947,
+      "lamb_lift_fraction": 0.7217844956763709
+    },
+    {
+      "method": "fourier",
+      "h0": 0.012,
+      "h1": 0.03,
+      "area_fraction": 0.9791640776533916,
+      "mean_pressure": -0.06169668396038626,
+      "lamb": -0.08055984003543433,
+      "kinetic": 0.015465221241829223,
+      "unsteady": 0.00569158547544848,
+      "mean_relative_error": 0.03566160880957672,
+      "unfitted_R2": 0.8733716327202391,
+      "resolved_lift_fraction": 0.2810604041608075,
+      "lamb_lift_fraction": 0.3892919829398419
+    },
+    {
+      "method": "fourier",
+      "h0": 0.012,
+      "h1": 0.04,
+      "area_fraction": 0.9788076436821381,
+      "mean_pressure": -0.07588275602261774,
+      "lamb": -0.08646094368643126,
+      "kinetic": 0.005544170826352772,
+      "unsteady": 0.006785895910348477,
+      "mean_relative_error": 0.022712810194554147,
+      "unfitted_R2": 0.8560847096214085,
+      "resolved_lift_fraction": 0.3447989562736936,
+      "lamb_lift_fraction": 0.4222081299762014
+    },
+    {
+      "method": "fourier",
+      "h0": 0.016,
+      "h1": 0.04,
+      "area_fraction": 0.9788076436821381,
+      "mean_pressure": -0.059244847695248806,
+      "lamb": -0.052368186508922526,
+      "kinetic": -0.01101841316506056,
+      "unsteady": 0.005033086842814699,
+      "mean_relative_error": 0.016134692904742027,
+      "unfitted_R2": 0.845469658269616,
+      "resolved_lift_fraction": 0.27078078367961167,
+      "lamb_lift_fraction": 0.2644768290377955
+    },
+    {
+      "method": "fourier",
+      "h0": 0.02,
+      "h1": 0.06,
+      "area_fraction": 0.9751342562744866,
+      "mean_pressure": -0.05835969157615899,
+      "lamb": -0.03647359782949884,
+      "kinetic": -0.026388439392136784,
+      "unsteady": 0.004174815217171161,
+      "mean_relative_error": 0.0024647306519448575,
+      "unfitted_R2": 0.8298307086956962,
+      "resolved_lift_fraction": 0.2625398524052763,
+      "lamb_lift_fraction": 0.18854149565276004
+    }
+  ],
+  "same_release_pairs": [
+    {
+      "offset": [
+        0.0,
+        -0.001,
+        0.0
+      ],
+      "completed": true,
+      "baseline_start": -9.068664877097458,
+      "baseline_end": 25.94752599699658,
+      "isolated_start": -25.324274670492724,
+      "isolated_end": -16.83238947245638
+    },
+    {
+      "offset": [
+        0.0,
+        0.0,
+        0.001
+      ],
+      "completed": true,
+      "baseline_start": -7.977369957617119,
+      "baseline_end": 30.629326920708234,
+      "isolated_start": -22.715218809367038,
+      "isolated_end": -15.719576914319367
+    },
+    {
+      "offset": [
+        -0.001,
+        -0.001,
+        0.0
+      ],
+      "completed": true,
+      "baseline_start": -8.685335801602584,
+      "baseline_end": 19.946328765127717,
+      "isolated_start": -26.202471569052307,
+      "isolated_end": -15.992747000767626
+    },
+    {
+      "offset": [
+        -0.001,
+        0.0,
+        0.001
+      ],
+      "completed": true,
+      "baseline_start": -7.425164706312529,
+      "baseline_end": 27.78298741895595,
+      "isolated_start": -23.559090606749272,
+      "isolated_end": -15.94518903041674
+    },
+    {
+      "offset": [
+        0.0,
+        -0.001,
+        -0.001
+      ],
+      "completed": false,
+      "baseline_start": -18.55016120331103,
+      "baseline_end": -18.55016120331103,
+      "isolated_start": -34.569144537262716,
+      "isolated_end": -15.301286582897458
+    },
+    {
+      "offset": [
+        0.0,
+        -0.001,
+        0.001
+      ],
+      "completed": true,
+      "baseline_start": -5.568134878038694,
+      "baseline_end": 35.020707579241815,
+      "isolated_start": -18.602126924181732,
+      "isolated_end": -16.397172560133008
+    },
+    {
+      "offset": [
+        0.0,
+        0.001,
+        0.001
+      ],
+      "completed": true,
+      "baseline_start": -9.24368804913839,
+      "baseline_end": 25.3609812383275,
+      "isolated_start": -25.266328317733095,
+      "isolated_end": -16.685516566195254
+    }
+  ],
+  "scope": "Reanalysis of saved derived outputs; no new CFD simulation, independent replicate, or native time/grid convergence test.",
+  "checks": "Phase grid, budget identities, original means, quarter additivity and paired trajectory endpoints passed.",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2"
+  },
+  "source_manifest": [
+    {
+      "id": "budget",
+      "path_relative_to_study": "pressure_origin_v7/data/paired_pressure_budget.json",
+      "sha256": "2ffcda09bdf56dd8b179ed4b57fca4ffabbef684df39ef2f6be77e7233e2ef47"
+    },
+    {
+      "id": "phases",
+      "path_relative_to_study": "pressure_origin_v7/data/paired_pressure_budget_phases.csv",
+      "sha256": "e39cb151fd3058c0b6cdceec9f67b14368b0db5132ffbce3a534dab41f1f0a07"
+    },
+    {
+      "id": "incident",
+      "path_relative_to_study": "pressure_origin_v7/data/incident_pressure_phases.csv",
+      "sha256": "55163a392f7915467034178bc0675b052bec3654a719376de8b1aa5c92267299"
+    },
+    {
+      "id": "rotation",
+      "path_relative_to_study": "vortex_discovery_v9/rotation_reversal_verification.json",
+      "sha256": "13962cc52cc3f134c0276908b10fcbb3a769cece5eed7483fc0cf5047fe7523c"
+    },
+    {
+      "id": "core",
+      "path_relative_to_study": "vortex_discovery_v9/report_metrics.json",
+      "sha256": "a2f335a35aead7d396f4c24666ef15b296806b6e89fed7428cc0bc6b9a2758d0"
+    }
+  ],
+  "figure_structure": {
+    "01_pressure_evidence": {
+      "embedded_images": 4,
+      "editable_text_nodes": 62
+    },
+    "02_branch_evidence": {
+      "embedded_images": 3,
+      "editable_text_nodes": 38
+    }
+  }
+}

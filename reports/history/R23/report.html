@@ -1,0 +1,59 @@
+<div style="padding:14px;background:#fff0c0">历史报告快照；部分判断后续已更新。请先阅读最新总报告。原始数据附件保留本地，本合集不包含数据或论文全文。</div># Local solver binary audit, 2026-10-03
+
+The pressure force in the inspected solver executable is a Cartesian body-interface pressure flux. It is not the triangle integration of the exported marker pressure. The force writer doubles the accumulated pressure and shear components. The marker writer exports raw, geometrically averaged nearby-cell pressure as `P`, and a filtered copy as `Ps`, without that factor of two.
+
+## Inspected artifact and scope
+
+- Executable: `picar_in/Sweep_35/picar3d-3.5ie`, ELF64 x86-64, 8,711,336 bytes, symbols retained.
+- SHA256: `399e0f61ab9dbce2cfea0c319781f18d4d2bc109f6ff160e04b00b2e724f5635`.
+- Evidence: GNU objdump disassembly saved beside this report. Addresses below identify instructions in this exact artifact.
+- This establishes the behavior of the locally stored executable. It does not by itself prove which executable generated the current Result files. The available copied input files have inconsistent mesh counts and step limits, so source or mesh provenance cannot be certified from those files. Incompatible older source copies were not treated as the generating source.
+
+## Pressure-force reconstruction
+
+The inspected `drag_lift_solid_` function references current `pressure_arrays_mp_p_`, `boundary_arrays_mp_iblank_`, the six directional boundary masks, `gcm_arrays_mp_bodynum_`, `amr_parameters_mp_amr_status_`, and ordinary `grid_arrays_mp_dx_/dy_/dz_` arrays. It has no reference to previous pressure `pp_`, a pressure-time-centering switch, or marker triangle pressure/area arrays.
+
+For each body, the loop rejects an inactive AMR cell (`AMR_status == 0`, comparison at `0x7ae6e6`) and rejects cells with no matching body number in the six axial neighbors (`0x7ae6fa` through `0x7ae74e`). The pressure terms have this structure:
+
+```text
+xp = p[i,j,k] * dy[j] * dz[k]
+     * (iup[i,j,k] * iblank[i+1,j,k]
+        - ium[i,j,k] * iblank[i-1,j,k])
+yp = p[i,j,k] * dx[i] * dz[k]
+     * (jup[i,j,k] * iblank[i,j+1,k]
+        - jum[i,j,k] * iblank[i,j-1,k])
+zp = p[i,j,k] * dx[i] * dy[j]
+     * (kup[i,j,k] * iblank[i,j,k+1]
+        - kum[i,j,k] * iblank[i,j,k-1])
+Cartesian sums -> MPI_Allreduce -> output pressure coefficients = 2 * sums
+```
+
+The current pressure load is at `0x7ae8ad`. The X mask products and signed difference are at `0x7ae8ce`/`0x7ae8f8`/`0x7ae92e`; analogous Y and Z operations appear at `0x7ae982`/`0x7ae988`/`0x7ae9bf` and `0x7ae9f6`/`0x7aea11`/`0x7aea2e`. Cartesian face areas are multiplied at `0x7ae8a2`, `0x7ae950`, and `0x7ae956`. These are boundary fluxes on Cartesian faces, not an interior-volume pressure-gradient evaluation.
+
+The directional masks are not exported. `ssm_set_internal_iup_solid_` selects current `iblank == 0`, checks neighboring `ghostcellsolid` bytes against -1, and writes +1 to the relevant mask. The zero comparison is at `0x75e1cb`; -1 is constructed by `vpcmpeqd ymm1,ymm1,ymm1` at `0x75db88`; the write constant at rodata `0xa96d00` is bytes `01`. Therefore replacing these masks by a simple fluid/solid adjacency test is a reconstruction assumption until checked against the actual run's geometry/ghost-cell state.
+
+## Metric indexing and output scaling
+
+`make_grid_IP_init_metrics_` initializes `dx[i] = x[i+1] - x[i]`: the loads are at `0x54c87a` and `0x54c885`, subtraction at `0x54c88c`, and store to dx at `0x54c894`. The Y and Z blocks follow the same pattern. These are nodal-coordinate differences for ordinary current-cell widths, not cell-center distances or dual-area averages.
+
+In the force kernel, the stored dz, dy, and dx pointers are at stack offsets `0x4a8`, `0x400`, and `0x408` respectively (stores at `0x7ad703`, `0x7ad90d`, `0x7ad9cd`). Current dz[k] and dy[j] are read at `0x7ae895`/`0x7ae89c`; current dx[i] is read at `0x7ae938`. No averaging of neighboring widths appears in these pressure-area products.
+
+After `MPI_Allreduce` (`0x7ac22a`), rank-zero output explicitly doubles the pressure X/Y/Z registers and shear registers with self-add instructions at `0x7ac3a2` through `0x7ac3ef`. The subsequent write uses these doubled values. No additional freestream-speed or reference-area division appears between these instructions and the write. Thus multiplying a geometrical marker force by two is needed to express it in this writer's force convention, but it cannot remove differences between the two spatial discretizations.
+
+## Marker P/Ps and pressure timing
+
+The SZPLT marker writer is `write_dump_IP_write_dump_markersurfpres_`, not the older ASCII `write_marker_`. It calls `getsurfacepressure_` at `0x81ac80`.
+
+- Variable 4 (`P`) is written from `trielemp_orig_`, sourced at `0x81ba23`; conversion to float is at `0x81bb18`, variable number 4 at `0x81bbb7`, TecIO write at `0x81bbd4`.
+- Variable 5 (`Ps`) is written from `trielemp_`, sourced at `0x81bbfd`; conversion at `0x81bcf8`, variable number 5 at `0x81bd97`, write at `0x81bdb4`.
+- `getsurfacepressure_` loops cells in a triangle bounding box, classifies cell-center positions using triangle centroids/normals/neighbors, and accumulates several pressure sums and counts. A selected sum is divided by its count at `0x855214` through `0x85521d`, with fallbacks at `0x8552be` through `0x8552ef`. For solid bodies, the negative-side subtraction is bypassed at `0x85522e`; membrane pressure uses a difference of opposite-side means. This is nearby-cell geometric averaging; it is not demonstrated as exact pressure interpolation at the exported triangle center.
+- The raw averages are copied to `trielemp_orig_` at `0x854a3f` through `0x854c9c` before the filter call at `0x854cd5`.
+- Both pressure routines read current p. In `time_step_viscous_`, `update_pressure_` is called at `0x6d429c`, `drag_lift_solid_` at `0x6d6f38`, then `write_dump_` at `0x6d708a`, with no pressure-update call between force and dump. This local binary gives no support for shifting marker pressure by one saved frame to repair the discrepancy.
+
+## Available Eulerian files and reproducibility limits
+
+`Result/Sweep35/marker_q` contains `q000004320_p000.szplt` through `p002` and `q000004800_p000.szplt` through `p002`, plus the corresponding `meshXYZ_p000..p002.szplt` and `meshXYZ_Center_p000..p002.szplt`. The q fields are U, V, W, P, Q/Wz, lvs, iblank, AMR_status, and T, all cell centered. Each file has one ordered zone. The three dimensions are (259,147,98), (259,147,131), and (387,195,195). TecIO solution-time metadata is zero; the solver time column and dump step numbers must provide timing.
+
+These files permit an independent Cartesian adjacency reconstruction and comparison with solver force at the same dump step. They do not contain directional masks, bodyNum, ghostcellsolid, or the solver's double-precision metric arrays. Bit-for-bit exact reconstruction is therefore not established. Mesh-coordinate export precision and omitted mask state should be assessed before attributing any small remaining residual to a code error.
+
+For a defensible segmentation, integrate the verified Cartesian interface terms and assign each term to a clearly specified surface-region label. Check that the regions plus the true remainder sum to the reconstructed whole body. Compare that total directly with the same-step solver pressure coefficients. Keep any remaining difference explicit; do not rescale regional terms independently or distribute a total residual without a supported spatial rule.

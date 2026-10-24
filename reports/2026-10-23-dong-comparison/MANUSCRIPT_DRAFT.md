@@ -1,0 +1,9 @@
+# Matched flow and pressure evidence at lift-enhancement phases
+
+Exploratory results draft; human author verification is pending.
+
+Following the comparison sequence used by Wang et al. (2019, DOI: 10.1088/1748-3190/ab2208), the pressure-load increment was first used to select phases for matched flow and surface-pressure comparisons. Among the saved phases, the material-paired fin increment reached its half-cycle maxima at t/T=0 and 0.5. At t/T=0.5, the chord-averaged pressure-jump increment decreased from 2.725 at span fraction 0.2 to 0.317 at span fraction 0.9. Thus the largest pressure enhancement occurred toward the fin root. [Evidence: dong_comparison.json, phase=0.5 records]
+
+At the same phase, the magnitude of the mean local spanwise velocity was larger with the body present at all six examined stations. Within identical upper-front fluid windows, the negative spanwise-vorticity integral increased by approximately 77% and 85% at span fractions 0.2 and 0.3, respectively. The coexistence of these flow changes and enhanced pressure loading in the inner-fin region supports a body–fin interaction associated with strengthened near-fin flow. However, the window integral decreased at span fraction 0.9 despite a positive pressure-jump increment there. The mechanism should therefore not be expressed as a universal proportional relationship between local vorticity and pressure enhancement. [Evidence: same records; fixed-window entries]
+
+The integrals refer to common fluid windows, not complete isolated-vortex circulation. Connected vorticity contours intersected unresolved regions or the sampled-domain boundary and were retained only as flagged diagnostics. The origin of the enhanced spanwise flow and its temporal relationship to the root-region vortical structures require further examination of the existing phase-resolved fields.

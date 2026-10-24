@@ -1,0 +1,191 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Orca 胸鳍增升机制：原始数据定量研究</title>
+
+<style>body{max-width:1120px;margin:44px auto;padding:0 24px;font:17px/1.78 "Microsoft YaHei","Segoe UI",sans-serif;color:#20292e;background:#fff}h1{font-size:32px;line-height:1.35}h2{font-size:24px;margin-top:44px;border-bottom:1px solid #bbc9cc;padding-bottom:8px}h3{font-size:19px;margin-top:28px}p{margin:13px 0}.lead{font-size:20px;color:#234f61}.meta,figcaption{color:#53616a;font-size:14px}table{border-collapse:collapse;width:100%;margin:20px 0;font-size:14px;line-height:1.55}td,th{border-bottom:1px solid #d5dfe3;text-align:left;vertical-align:top;padding:10px 12px}th{background:#edf3f5}tr:nth-child(even){background:#fafcfc}figure{margin:24px 0}svg{width:100%;height:auto}.equation{padding:14px 20px;background:#f3f6f7;font-family:"Cambria Math","Times New Roman",serif;font-size:19px;overflow:auto}.finding{border-left:4px solid #34758d;padding:6px 20px;background:#f3f8fa}.limit{border-left:4px solid #a8792d;padding:6px 20px;background:#fbf8f1}a{color:#165c80}li{margin:8px 0}code{font-size:14px}@media print{body{margin:12mm;max-width:none;font-size:11pt}h2{break-after:avoid}figure,table{break-inside:avoid}a{color:inherit}}</style></head><body><div style="padding:14px;background:#fff0c0">历史报告快照；部分判断后续已更新。请先阅读最新总报告。原始数据附件保留本地，本合集不包含数据或论文全文。</div>
+
+<p class="meta">2026-10-22 · Sweep35 / Sweep35_OnlyFin · 动态与静态四算例 · 直接读取数值数据</p>
+
+<h1>Orca 胸鳍的约 1.6 倍平均升力来自哪里？</h1>
+
+<p class="lead">现有数据支持的主线是：身体增强胸鳍原有的非定常压力响应，并在内侧、前半弦形成以上表面压力降低为主的周期平均压差。单截面环量、单一时刻的下表面增压，以及“有效迎角增大”，都不足以解释这个平均增益。</p>
+
+<div class="finding"><p><b>已经定量闭合：</b>动态升力比 1.5958，即增加 59.6%；公共几何上的增量仍为正；约 82.5% 的公共面平均增量位于内侧 60% 展长，约 70.0% 位于前半弦。</p>
+
+<p><b>尚未完成的因果归因：</b>本研究没有求解完整的三维辅助势函数和 FPM 力预算，因此没有把升力增量分配成“附加质量占多少、哪个涡占多少”。下文的加速度相关性、Q 和涡量积分均不能替代这一计算。</p></div>
+
+
+
+<h2>1. 数据、对照与文献方法</h2>
+
+<p>采用 Sweep35 作为 baseline。动态 baseline 流场和表面为 t/T=9–10，OnlyFin 为 3–4，每个周期含 17 帧（16 个相位间隔，包含两个端点）。两静态算例为 9–10。力时序分别覆盖 10、6、10、10 个周期，每周期 480 步；实际运动从 fort.41 读取 480 步并核对导出的 marker。表面及流场均来自原始 szplt；动态已有保守力缓存在四个原始快照上独立重读复核。没有查看已有结果图片。</p>
+
+<p>已有 PPT 主文件被其他程序独占，读取的是同日保存的 <code>Document/saved/Orca_Fig_saved1022.pptx</code>，只提取了文字。其 “Enhanced TEV”“WBI-Vortex” 作为待检验假设使用，不作为已经成立的因果结论。直接阅读了指定文献库的九篇原始论文，提取全文和页码，未以自动生成的文献摘要代替原文。</p>
+
+<ul><li><b>Dong 等：</b>借鉴部件删减对照、公共运动检查、表面压力与区域力积分，以及分辨不同方向涡量的流程。[1,2,3] 本研究没有把单个截面涡量阈值或净环量等同于完整涡管的贡献。</li>
+
+<li><b>Mittal 等：</b>以 Q=½(‖Ω‖²−‖S‖²) 同时考虑旋转区和应变区；由 U、V、W 的全部九个空间导数重新计算 Q 和三分量涡量，没有依赖名为 Q/Wz 的不明确导出列。[4,5] 本次完成的是诊断量，不是完整 FPM。</li>
+
+<li><b>Quinn 及合作者：</b>把局部相对速度和有效迎角纳入比较，区分附加质量、准定常和尾迹效应的概念，同时检查周期收敛。[6,7] 近地俯仰翼文献中的平均附加质量结论，不能直接外推到此处变形、三维、带身体的几何。</li></ul>
+
+<p>统一参考值 U=0.29、L=1、S=0.548382、ρ=1。全鳍表格采用 C<sub>L,p</sub>=F<sub>y,p</sub>/(½ρU²S)。保存的 native_force 已含求解器输出因子 2，计算时为 native_Fy/(U²S)，不再重复乘 2。Cp=2P/U²。截面力使用单位展长归一化，数值不能直接与全鳍 CL 相加。</p>
+
+
+
+<h2>2. 先核对“1.6 倍”和“static 为零”</h2>
+
+<table><thead><tr><th>运动条件</th><th>带身体胸鳍 CL,p</th><th>OnlyFin CL,p</th><th>比值</th><th>差值</th></tr></thead><tbody><tr><td>动态</td><td>0.01574253</td><td>0.00986496</td><td>1.5958</td><td>0.00587757</td></tr><tr><td>静态</td><td>0.00757706</td><td>0.00685988</td><td>1.1045</td><td>0.00071718</td></tr></tbody></table>
+
+<p>动态结果重现了约 1.6 倍，但表中是<strong>压力升力</strong>。baseline 没有每一步的局部胸鳍黏性力记录，不能据此声称局部总升力已做同等精度的分解。OnlyFin 的密集历史显示黏性力对其周期平均总升力约占 1%，不能将这个比例自动搬到带体胸鳍。</p>
+
+<p>按本次相同口径，static 不是严格为零：增量约 0.000717，约为动态增量的 12.2%。动态减静态的差分为 0.005160，占动态净差约 87.8%。这个数是四算例的代数比较，不能作为严格的因果百分比；尤其 baseline 的细网格与其他三算例不同，静态算例完整运行输入也未保存在对应文件夹中。</p>
+
+<p>4855 个三角面在两动态算例中严格对应，覆盖 baseline / OnlyFin 胸鳍面积约 90.8% / 92.8%；17 帧的公共顶点运动完全一致。公共面平均增量 0.006158，比完整分区的 0.005878 略高，说明不同鳍根与封口几何并不是全部增益的来源。非公共区域合计抵消约 0.000281。static 的公共面也完全重合，但其残余差不能简单按完全闭合独立鳍的升力解释。</p>
+
+<figure><img alt="Original report figure" src="figure-eee7e3f8525d.svg">
+
+<figcaption>图 1：全部力曲线从数值积分得到。实线连接保存的相位，不作时间平滑；上/下表面指固定材料分区，局部面片随运动翻转时不重新换组。</figcaption></figure>
+
+
+
+<h2>3. 平均增量主要来自上表面，强增升瞬间却可由下表面主导</h2>
+
+<table><thead><tr><th>压力贡献分区</th><th>平均 ΔCL,p</th><th>占净增量的代数比例</th></tr></thead><tbody><tr><td>上表面</td><td>+0.00832074</td><td>141.6%</td></tr><tr><td>下表面</td><td>-0.00244317</td><td>-41.6%</td></tr><tr><td>合计</td><td>+0.00587757</td><td>100%</td></tr></tbody></table>
+
+<p>上表面正贡献大于净增量，是因为下表面抵消了其中一部分。141.6% 和 −41.6% 是可严格相加的压力分区账目，绝不是某个涡的力占比。分别对两个半周期积分，贡献为 +0.003417 与 +0.002461；正的周期平均来自正负较大的瞬时增量抵消。</p>
+
+<p>在 t/T=0.5，整体升力差约 +0.06668，上表面约 −0.00654，下表面约 +0.07322。这个时刻的“下表面增压”解释成立；它不能代表整个周期。以 η=0.2 截面为例，该相位的下表面 ΔCp≈+1.98，而周期平均下表面 ΔCp≈−0.029，上表面平均 ΔCp≈−0.323。周期平均上下压差增大约 +0.294。后一个压差量不受任意常压基准影响。</p>
+
+<table><thead><tr><th>展向 η</th><th>平均 ΔCp 上表面</th><th>平均 ΔCp 下表面</th><th>平均压差增量 Δ(Cp下−Cp上)</th><th>corr(Δ截面升力, ay)</th></tr></thead><tbody><tr><td>0.2</td><td>-0.3229</td><td>-0.0292</td><td>+0.2937</td><td>-0.945</td></tr><tr><td>0.3</td><td>-0.2585</td><td>-0.0328</td><td>+0.2258</td><td>-0.940</td></tr><tr><td>0.4</td><td>-0.2126</td><td>-0.0292</td><td>+0.1835</td><td>-0.929</td></tr><tr><td>0.5</td><td>-0.1798</td><td>-0.0475</td><td>+0.1323</td><td>-0.931</td></tr><tr><td>0.7</td><td>-0.1365</td><td>-0.0380</td><td>+0.0985</td><td>-0.936</td></tr><tr><td>0.9</td><td>-0.0834</td><td>-0.0768</td><td>+0.0065</td><td>-0.842</td></tr></tbody></table>
+
+<p>全周期的空间积分进一步把问题定位到内侧和前缘附近：公共面内侧 60% 占 82.5%，前半弦占 70.0%，最外侧 20% 只占约 4.3%。因此，下一步的涡追踪或力分解应首先覆盖鳍根附近和前半弦，不应只分析下游 TEV 或单一中展长截面。</p>
+
+<div class="equation">平均[Δp(t) A<sub>y</sub>(t)] = 平均[Δp] · 平均[A<sub>y</sub>] + cov(Δp, A<sub>y</sub>)</div>
+
+<p>在公共面上，上式给出 marker 压力积分增量 0.006135；“平均压力乘平均投影面积”为 0.006163，压力与几何投影的协方差为 −0.0000274（约 −0.45%）。所以这里的平均增升主要体现为实际的平均压力场改变，不是仅由相同鳍在不同投影方向上积分而产生的表观差异。这是一个代数分解，仍不等于附加质量/涡力分解。</p>
+
+<figure><img alt="Original report figure" src="figure-a8ed0634777e.svg">
+
+<figcaption>图 2：上排比较同一数据的周期平均与相位 0.5；下排将共同三角面上的力增量按固定材料位置分箱，分箱总和与公共面净力差闭合。Cp 曲线为 5%–95% 弦向范围的平均，避免端点插值影响。</figcaption></figure>
+
+
+
+<h2>4. 身体主要放大原有非定常响应，瞬时差值具有明显加速度特征</h2>
+
+<div class="equation">C<sub>L,p</sub><sup>attached</sup>(t) ≈ 1.6866 C<sub>L,p</sub><sup>isolated</sup>(t) − 0.000896</div>
+
+<p>两条曲线相关系数 0.999113；该线性描述的残差 RMS 为 attached 波动标准差的 4.21%。主要的第 5、6 谐波振幅比为 1.695、1.673，相位差约 −0.57°、−1.41°。这说明在保存的周期中，身体主要增强已有运动驱动的压力响应，没有证据表明主要升力差来自一个明显延迟的新波形。相关和相位接近仍不能排除相位锁定的涡作用。</p>
+
+<p>η=0.2–0.7 的截面升力差与局部垂向加速度的相关系数为 −0.929 至 −0.945；η=0.9 为 −0.842。带截距的“加速度＋局部速度/迎角代理量”模型，在连续四分之一周期留出检查中的 R² 约为 0.83–0.89（η=0.2–0.7），优于只用准定常代理量。它支持“非定常加速度响应重要”，但回归系数不是流体附加质量的直接测量，R² 也不是力贡献百分比。</p>
+
+<p>运动输入并非纯单频正弦。面积加权垂向速度的第 5、6 谐波各含约 18.2% 的能量，而仅用 16 相位的坐标二次差分，加速度相对 L2 误差达到 37.9%。本研究因此使用原始 fort.41 的 480 步运动数据。固定系数乘周期平均为零的加速度无法单独生成这里的非零平均增量；是否存在随几何变化的附加质量、身体运动耦合等平均作用，需要完整力分解，而不能只凭回归推断。</p>
+
+<figure><img alt="Original report figure" src="figure-7804a957692b.svg">
+
+<figcaption>图 3：加速度来自高频率运动输入；回归只描述同一个确定性周期，并未将 16 个相位当作独立实验，也没有用显著性 p 值来证明因果。</figcaption></figure>
+
+
+
+<h2>5. “流速更快／迎角更大”解释到什么程度？</h2>
+
+<p>在前缘上游 0.15c、0.30c、0.50c 三个位置采样真实流体速度，再扣除局部胸鳍运动速度。弦向为 LE→TE，迎角定义为相对流向角减弦线倾角；静止的抬头翼对应正迎角，已经通过解析符号检查。</p>
+
+<p>η=0.2 处，body 引起的平均有效迎角变化约 −2.16°、−2.67°、−2.65°；η=0.5 处约 −0.06°、−0.53°、−1.22°。内侧的主要趋势是迎角降低。0.30c 处平均相对速度平方比约为 1.12（η=0.2）、1.09（η=0.5）；到 0.50c 时只约 1.04–1.05。更近的 0.15c 处可达 1.31，说明采样点会包含不同程度的翼自身诱导流。</p>
+
+<p>这些是局部描述，不代表可以用平均速度平方直接预测平均升力：速度、迎角和非定常响应之间还存在协方差。但它们已足以排除“身体仅仅增大迎角，所以升力增大”的简单解释。static 也存在局部流向和速度变化，却没有动态算例同等幅度的压力增益。</p>
+
+
+
+<h2>6. 涡结构证据支持哪里，尚不能支持什么？</h2>
+
+<p>重新从原生网格计算全部三维速度梯度。差分模板穿过固体或无效 AMR 区域的点被排除；然后在六个实际展向截面上积分，分别保留正负 ωz、正负 Q、跨展向与展向涡量平方。这里是<strong>三维梯度构成的截面诊断</strong>，不是完整三维涡管体积分。</p>
+
+<p>在表面外 0.03L 的上侧区域，动态 attached / isolated 的正 Q 积分比从 η=0.2 的约 4.91 倍，降至 η=0.5 的 1.87 倍和 η=0.9 的 1.57 倍。下侧对应比值约 1.09、0.98、1.11。内侧上表面同时出现更强负 Q（应变）区域；η=0.2 的跨展向涡量平方积分约增加到 2.28 倍，不能只分析 ωz。</p>
+
+<p>改变区域宽度到 0.02、0.04L 后，η=0.2 的上侧正 Q 比值为 4.51–5.05，趋势保持。为减少两套网格的掩码差异，又把两算例放到相同物理采样点、使用公共有效流体区域，并额外排除一层近固体点：</p>
+
+<table><thead><tr><th>展向 η</th><th>原生网格 Q+上表面比值</th><th>相同采样点、相同流体掩码</th><th>再排除一层近固体采样点</th></tr></thead><tbody><tr><td>0.2</td><td>4.909</td><td>5.394</td><td>5.875</td></tr><tr><td>0.5</td><td>1.874</td><td>1.943</td><td>2.076</td></tr><tr><td>0.9</td><td>1.572</td><td>1.586</td><td>1.769</td></tr></tbody></table>
+
+<p>对应 static 的内侧上侧正 Q 并未出现类似倍数增强。因此，“运动条件下身体附近的上侧旋转/应变场增强，并伴随局部平均低压”是与数据一致的机制候选。当前证据尚不能把该结构唯一命名为某个 TEV、LEV 或 WBI 涡，也未证明一个特定涡贡献了多少平均升力。</p>
+
+<p>此前环量数值复核 <small>[original local attachment: sources/prior_circulation_load_audit.json]</small>给出中展长单截面净环量差与全鳍升力差的相关系数仅约 0.035，且随路径改变会变号（来源：PicarGeom/outputs/orca_circulation_audit_20261015；本次读取数值与计算说明 <small>[original local attachment: sources/prior_circulation_notes.txt]</small>，未查看旧图）。本次正 Q 上侧积分与瞬时截面升力差也没有简单正相关。因此，“Q 更大”或“净环量更大”不能直接替代力解释。Mittal 的严格关系需要加权：</p>
+
+<div class="equation">F<sub>Q,y</sub> = −2ρ ∫<sub>V</sub> Q φ<sub>y</sub> dV，　∇²φ<sub>y</sub>=0</div>
+
+<p>φy 由瞬时几何及边界条件决定；还必须保留运动边界加速度、黏性及外边界项。[4,5] 对连续的身体与胸鳍，若只提取一个开放的胸鳍分区，辅助势边界通量的兼容性和压力基准还需明确处理。不能把整身辅助势的涡力直接冠名为胸鳍的涡力。</p>
+
+<figure><img alt="Original report figure" src="figure-921ef8328e41.svg">
+
+<figcaption>图 4：相对来流采样显示内侧迎角降低；Q 增强主要在上侧且受运动状态影响。所有 Q 比值是未乘辅助势的诊断量，图中没有用它们换算升力百分比。</figcaption></figure>
+
+
+
+<h2>7. 可信度、数值限制和未完成的部分</h2>
+
+<table><thead><tr><th>核查项目</th><th>数值／结果</th><th>解释范围</th></tr></thead><tbody><tr><td>公共三角面</td><td>4855</td><td>两侧鳍合计；保留原始面片身份</td></tr><tr><td>公共面全部相位几何差</td><td>0.0e+00</td><td>位置和运动一致</td></tr><tr><td>动态原始 q 重读</td><td>4 个代表快照逐面力差 = 0</td><td>验证既有缓存与当前原始数据一致</td></tr><tr><td>公共面压力增量：Cartesian / marker</td><td>0.00615828 / 0.00613532</td><td>两种独立积分方式相差约 0.37%</td></tr><tr><td>统一上游压力参考后的全鳍增量</td><td>0.00583564</td><td>保持增升及上下表面贡献符号</td></tr><tr><td>动态整机升力重建最大误差／峰值</td><td>0.223%</td><td>不等于局部胸鳍平均力误差上限</td></tr><tr><td>OnlyFin 升力重建最大误差／峰值</td><td>0.055%</td><td>全孤立鳍</td></tr><tr><td>静态带体升力重建最大误差／峰值</td><td>0.699%</td><td>静态残余增益应保持审慎</td></tr><tr><td>静态带体 X 方向压力闭合</td><td>失败：最大系数差 0.17443</td><td>本报告不采用该算例的轴向力结论</td></tr><tr><td>480 步 vs 16 相位，整机压力平均值</td><td>-0.563%</td><td>验证整机时间积分，未验证局部胸鳍密集积分</td></tr><tr><td>480 步 vs 16 相位，OnlyFin 压力平均值</td><td>+0.772%</td><td>孤立鳍时间积分误差较小</td></tr><tr><td>由稀疏位置二次差分得到加速度</td><td>相对 L2 误差 37.9%</td><td>机制拟合使用 fort.41 的 480 步运动数据</td></tr><tr><td>解析流场、迎角与压力闭合测试</td><td>5 项通过</td><td>旋转 Q&gt;0、纯剪切 Q=0、纯应变 Q&lt;0、迎角符号、常压闭合轮廓零合力</td></tr></tbody></table>
+
+<p>压力参考检查在三处共同上游点 (8,6,6)、(8,5,5)、(8,7,7) 取平均，并逐相位扣除。修正后全鳍 marker 积分增量为 0.005836，上表面 +0.008414、下表面 −0.002578，主要结论保持。共同截面的上下压力差本身不依赖常压参考。</p>
+
+<p>baseline 细网格约 Δx=Δy=0.00295；OnlyFin 与 static 约 Δx=0.003038、Δy=0.003125。相同采样点的 Q 检查只能验证后处理积分稳健性，不能代替 CFD 网格收敛。静态带体算例的 X 压力闭合失败尚未查明，故不使用它判断阻力机制，也不能把静态小残差当作精确的物理零点。</p>
+
+<p>只用 8 或 4 个相位间隔会把动态净增量平均值改变到 0.02006、0.03089。16 相位的整机/OnlyFin 平均值与 480 步求解器记录相差约 −0.56% / +0.77%，说明当前平均数并非完全没有时间分辨率依据；但 baseline 的局部胸鳍没有密集独立记录，不能宣布局部积分已收敛。OnlyFin 的后几周期整体均值已变化很小，仍不能从中证明所有远尾迹统计已经长期收敛。[7]</p>
+
+<p>本次四算例切换的是“身体存在”和“整体模型运动”。它不能独立区分“躯干自身 undulation”与“胸鳍在身体边界附近运动”的作用。另一个边界是：完整 FPM 尚未实现，本研究的结果能定位压力来源、检验若干候选解释，不能给出严格的涡力/附加质量比例。</p>
+
+<figure><img alt="Original report figure" src="figure-887ae3c775c4.svg">
+
+<figcaption>图 5：区域宽度、时间采样及升力闭合检查。柱状图中的误差按整机峰值归一化，不是局部平均胸鳍力的置信区间。</figcaption></figure>
+
+
+
+<h2>8. 当前可写入论文的结论，与下一步判别实验</h2>
+
+<div class="finding"><p>在本研究的配对算例中，身体的存在使运动胸鳍的周期平均压力升力增加约 59.6%。几何和运动严格一致的公共表面仍保留该增益，其中主要增量集中于内侧及前半弦，并体现为上表面占优的平均压差增强。瞬时升力响应表现为近乎同相位的幅值放大，并与局部运动加速度密切相关。与此同时，内侧上表面旋转和应变诊断量显著增强。上述结果支持非定常身体—胸鳍水动力耦合，并排除了仅凭平均迎角增大、单一相位下表面增压或单截面净环量来解释整个周期增益的简单图景。</p></div>
+
+<p>这一表述的“支持”有明确范围。下一步要把机制候选提升为严格因果归因，最有判别力的工作如下，优先级按对结论的影响排列：</p>
+
+<ol><li><b>统一网格并输出区域密集载荷。</b>在相同网格、相同时间步与运行输入下重算四对照；每一步输出真实胸鳍两侧的压力力和黏性力，避免以整机相减代替局部力。对 16/32/64/128 相位进行积分检查，建议以局部平均增量变化低于 2% 为接受标准，并检查多个后期周期。</li>
+
+<li><b>完成具有闭合验证的三维 FPM。</b>针对要测量的闭合表面或经严格定义的区域力泛函求解瞬时 φy；在原生 AMR 上积分 Qφy，同时计算运动边界、黏性和外边界项。先使各项之和重现压力力，再将贡献分到鳍根/前缘/后缘、Q 正负区及涡量方向。建议将力预算残差按“平均增量”而非整机峰值控制在 5% 以下。这些是建议的验证标准，不是本次已通过的结果。</li>
+
+<li><b>对运动来源做专门控制。</b>设计保持胸鳍轨迹和鳍根闭合几何的控制，改变远离连接处的躯干运动，并单独评估过渡带的影响；或采用带完整边界项的力分解直接量化躯干加速度耦合。未经该控制，不能把四算例差分全部归因于躯干自身的波动。</li></ol>
+
+<p>上述新 CFD 和 FPM 计算尚未执行。本次交付的是已经完成的数据分析、复核和可以继续运行的研究工作流，不将未执行的判别实验写成研究结果。</p>
+
+
+
+<h2>9. 可复算文件</h2>
+
+<p>本报告包含所有新图的矢量内容，可单独复制或浏览器打印。图件另存 PNG/SVG。主要数值文件：</p>
+
+<ul><li>load_summary.json <small>[original local attachment: load_summary.json]</small>、load_signals.csv <small>[original local attachment: load_signals.csv]</small>：四算例力预算、周期统计与全部相位曲线。</li>
+
+<li>section_metrics.csv <small>[original local attachment: section_metrics.csv]</small>：240 条截面记录，包含压力、速度、迎角、加速度、正负 Q、正负 ωz 及三维涡量诊断。</li>
+
+<li>diagnostics_summary.json <small>[original local attachment: diagnostics_summary.json]</small>：压力恒等式、相关和描述性模型。</li>
+
+<li>validation.json <small>[original local attachment: validation.json]</small>、pressure_datum_audit.json <small>[original local attachment: pressure_datum_audit.json]</small>、q_common_grid_validation.json <small>[original local attachment: q_common_grid_validation.json]</small>：独立复核和敏感性。</li>
+
+<li>source_manifest.json <small>[original local attachment: source_manifest.json]</small>：原始数据路径、大小及修改时间。literature_read.json <small>[original local attachment: sources/literature_read.json]</small> 保存阅读论文路径及 SHA-256。</li></ul>
+
+<p>源码位于 Fish_Schooling_py/python_scripts/postprocessing/orca_body_fin_mechanism，遵循读取、统计、绘图与 runner 分离结构。输出目录内的 <code>code</code> 为本次源码快照，<code>复算说明.txt</code> 给出执行顺序。原始算例、已有 PPT 和其他研究结果未修改。</p>
+
+
+
+<h2>参考文献与实际使用的方法</h2>
+
+<ol><li>Liu, Ren, Dong et al. (2017). <a href="https://doi.org/10.1017/jfm.2017.533">Computational analysis of vortex dynamics and performance enhancement due to body–fin and fin–fin interactions in fish-like locomotion.</a> 本地 PDF 第 17–19 页：按涡分别计算环量、表面压力及空间载荷，而不是只用整条截面的净环量。</li>
+
+<li>Guo et al. (2023). <a href="https://doi.org/10.1103/PhysRevFluids.8.073101">Vortex dynamics and fin-fin interactions resulting in performance enhancement in fish-like propulsion.</a> 本地 PDF 第 12–14 页：上游结构、局部涡量重组与下游受力位置的对应。</li>
+
+<li>Liu, Dong &amp; Li (2016). <a href="https://doi.org/10.1017/jfm.2016.175">Vortex dynamics and new lift enhancement mechanism of wing–body interaction in insect forward flight.</a> 本地 PDF 第 1 页及方法部分：带体、单体、单翼对照及局部结构；其昆虫结论不直接等同于 Orca。</li>
+
+<li>Menon, Kumar &amp; Mittal (2022). <a href="https://doi.org/10.1103/PhysRevFluids.7.114102">Contribution of spanwise and cross-span vortices to the lift generation of low-aspect-ratio wings: Insights from force partitioning.</a> 本地稿第 3–4 页：辅助势、−2Qφ 及边界项；第 9–12 页：应变区与旋转区均影响载荷。</li>
+
+<li>Prakhar, Seo &amp; Mittal (2025). <a href="https://doi.org/10.1017/jfm.2025.10252">Modal force partitioning.</a> 本地 PDF 第 6–7 页，式 (2.5)：压力力、运动边界、外边界、Q 与黏性项的完整关系。</li>
+
+<li>Han, Zhong, Mivehchi, Quinn &amp; Moored. <a href="https://doi.org/10.1017/jfm.2023.1004">Revealing the mechanism and scaling laws behind equilibrium altitudes of near-ground pitching hydrofoils.</a> 正式卷期 JFM 978 (2024), A5；本地为 2023 预印本，第 2、9–12 页：局部有效来流与平均/瞬时分解。引用时不要把本地文件名中的 2023 当作最终卷期年份。</li>
+
+<li>Zhong &amp; Quinn (2024). <a href="https://doi.org/10.1103/PhysRevFluids.9.064702">Predicting the slowly converging dynamics of asymmetric vortex wakes.</a> 本地 PDF 第 1–2 页：局部载荷近周期性并不能保证远尾迹已长期收敛。本研究不把其特定算例的周期数当作 Orca 的通用要求。</li></ol>
+
+<p class="meta">所有本研究数值均由配套脚本产生。文献用于选择诊断方法；文献中的力比例、涡类型和参数规律没有被直接移植为本算例结论。</p>
+
+</body></html>

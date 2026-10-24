@@ -1,0 +1,62 @@
+{
+  "gate_count": 102,
+  "gate_positive_negative_identity": "passed",
+  "gate_fluid_coverage": 1,
+  "four_case_rows": 120,
+  "four_case_common_coverage": 1,
+  "paired_path_control": [
+    {
+      "release": 0.375,
+      "common_valid_seeds": 10,
+      "approached_upper": {
+        "baseline": 4,
+        "isolated": 2
+      }
+    },
+    {
+      "release": 0.5,
+      "common_valid_seeds": 11,
+      "approached_upper": {
+        "baseline": 3,
+        "isolated": 4
+      }
+    }
+  ],
+  "transport_rows": 90,
+  "transport_coverage": 1,
+  "transport_residual": [
+    {
+      "case": "baseline",
+      "span": 0.2,
+      "residual_rms_over_time_rms": 1.811844637458248
+    },
+    {
+      "case": "baseline",
+      "span": 0.3,
+      "residual_rms_over_time_rms": 1.6478698837917283
+    },
+    {
+      "case": "baseline",
+      "span": 0.4,
+      "residual_rms_over_time_rms": 1.6678783992420014
+    },
+    {
+      "case": "isolated",
+      "span": 0.2,
+      "residual_rms_over_time_rms": 6.079553013120811
+    },
+    {
+      "case": "isolated",
+      "span": 0.3,
+      "residual_rms_over_time_rms": 2.3010351889585765
+    },
+    {
+      "case": "isolated",
+      "span": 0.4,
+      "residual_rms_over_time_rms": 2.448310789072926
+    }
+  ],
+  "scientific_verdict": "Flow diversion and moving/static pressure contrasts supported. Complete lower-to-upper root leakage suppression not established. Vorticity budget fails quantitative closure; no dominant production pathway or force fraction inferred.",
+  "gates_remapping": "Baseline Cartesian W linearly remapped to isolated-grid gate coordinates; fluid mask nearest-neighbour. Native grids are different.",
+  "exclusions": "Requested gate z=5.925 lacked the defined isolated lower-fin voxel window; omitted, not counted as zero flux. Vorticity time derivatives use only 15 interior native phases at fixed physical positions, not a moving-coordinate time derivative."
+}

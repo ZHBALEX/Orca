@@ -1,0 +1,2869 @@
+{
+  "rows": [
+    {
+      "group": "moving",
+      "phase": 0.0,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 4.54367080721877,
+          "negative_integral": 0.0003241095579626039,
+          "rotation_negative": 8.882256072409847e-05
+        },
+        "isolated": {
+          "jump": 1.769439211973738,
+          "negative_integral": 0.00025603688602553795,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 2.7742315952450314,
+        "negative_integral": 6.807267193706596e-05,
+        "rotation_negative": 8.882256072409847e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.0,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 4.275436854937275,
+          "negative_integral": 0.0009096832678974034,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 2.1528770897027103,
+          "negative_integral": 0.0005791217891388432,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 2.1225597652345645,
+        "negative_integral": 0.0003305614787585602,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.0,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 4.244835025546978,
+          "negative_integral": 0.0013362391183921146,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 2.4972458380812843,
+          "negative_integral": 0.0013634029892588323,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 1.7475891874656937,
+        "negative_integral": -2.7163870866717685e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.0,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 3.913533405826865,
+          "negative_integral": 0.001280851537092457,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 2.6918396296170672,
+          "negative_integral": 0.0010812033605590637,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 1.221693776209798,
+        "negative_integral": 0.00019964817653339334,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.0,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 3.210082739663408,
+          "negative_integral": 0.0006492176034014824,
+          "rotation_negative": 2.354923743095951e-05
+        },
+        "isolated": {
+          "jump": 2.476712987346817,
+          "negative_integral": 0.000624107333558975,
+          "rotation_negative": 2.8979965086974957e-05
+        }
+      },
+      "difference": {
+        "jump": 0.733369752316591,
+        "negative_integral": 2.511026984250745e-05,
+        "rotation_negative": -5.430727656015446e-06
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.0,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 2.1274296615818513,
+          "negative_integral": 0.00015656312467235347,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 1.8360022946388705,
+          "negative_integral": 0.00011573388842307412,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.29142736694298077,
+        "negative_integral": 4.082923624927935e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.0625,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -4.275963254450874,
+          "negative_integral": 0.0003373443423311195,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": -2.0859754238754884,
+          "negative_integral": 0.00024425669510013125,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -2.1899878305753853,
+        "negative_integral": 9.308764723098826e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.0625,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -4.00655076304093,
+          "negative_integral": 0.0008012898767864171,
+          "rotation_negative": 0.00011007444063126351
+        },
+        "isolated": {
+          "jump": -2.546352672142951,
+          "negative_integral": 0.0006048064230530746,
+          "rotation_negative": 0.00023093266946743395
+        }
+      },
+      "difference": {
+        "jump": -1.460198090897979,
+        "negative_integral": 0.00019648345373334247,
+        "rotation_negative": -0.00012085822883617045
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.0625,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -3.931654340294913,
+          "negative_integral": 0.0009835611541639297,
+          "rotation_negative": 0.00026867791301241496
+        },
+        "isolated": {
+          "jump": -2.858341343559433,
+          "negative_integral": 0.0008396219725818096,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -1.07331299673548,
+        "negative_integral": 0.00014393918158212005,
+        "rotation_negative": 0.00026867791301241496
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.0625,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -3.7211735429667225,
+          "negative_integral": 0.000974035214997841,
+          "rotation_negative": 5.847685937797822e-05
+        },
+        "isolated": {
+          "jump": -2.7868986982734065,
+          "negative_integral": 0.0007252053136745033,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.934274844693316,
+        "negative_integral": 0.0002488299013233377,
+        "rotation_negative": 5.847685937797822e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.0625,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -2.918140703222139,
+          "negative_integral": 0.00042570567225777876,
+          "rotation_negative": 1.2827705868451113e-05
+        },
+        "isolated": {
+          "jump": -2.4016426976681027,
+          "negative_integral": 0.0008166216671750856,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.5164980055540362,
+        "negative_integral": -0.00039091599491730683,
+        "rotation_negative": 1.2827705868451113e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.0625,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.6703849175482162,
+          "negative_integral": 0.00011978388915126458,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": -1.571131699227653,
+          "negative_integral": 0.00018013187797353102,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.09925321832056322,
+        "negative_integral": -6.034798882226644e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.125,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 3.2625773138045417,
+          "negative_integral": 0.0004124465209096781,
+          "rotation_negative": 5.513577555641652e-05
+        },
+        "isolated": {
+          "jump": 1.403606847832966,
+          "negative_integral": 0.00033025271339702376,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 1.8589704659715758,
+        "negative_integral": 8.219380751265434e-05,
+        "rotation_negative": 5.513577555641652e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.125,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 3.0059721295274646,
+          "negative_integral": 0.0006509579550591005,
+          "rotation_negative": 2.4671441244387922e-05
+        },
+        "isolated": {
+          "jump": 1.7356953658165486,
+          "negative_integral": 0.0006466435088766288,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 1.270276763710916,
+        "negative_integral": 4.314446182471666e-06,
+        "rotation_negative": 2.4671441244387922e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.125,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 2.8773282561910722,
+          "negative_integral": 0.0006255134302890898,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 1.9083619145427528,
+          "negative_integral": 0.0006466447394739985,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.9689663416483194,
+        "negative_integral": -2.1131309184908658e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.125,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 2.705311994642111,
+          "negative_integral": 0.0009678787299100388,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 1.9281797231541344,
+          "negative_integral": 0.000646333355556172,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.7771322714879765,
+        "negative_integral": 0.0003215453743538668,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.125,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 2.2289434737794953,
+          "negative_integral": 0.000456580165283518,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 1.8430997318652025,
+          "negative_integral": 0.0007026134205009666,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.3858437419142928,
+        "negative_integral": -0.00024603325521744857,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.125,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.7646172012268366,
+          "negative_integral": 0.000401955931196633,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 1.4580246135572008,
+          "negative_integral": 0.00025856694209038135,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.3065925876696358,
+        "negative_integral": 0.00014338898910625165,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.1875,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -2.27873605388566,
+          "negative_integral": 0.0005798090123678017,
+          "rotation_negative": 0.00017563903082750884
+        },
+        "isolated": {
+          "jump": -1.14652107727055,
+          "negative_integral": 0.0004499247786183512,
+          "rotation_negative": 1.9061090153298678e-05
+        }
+      },
+      "difference": {
+        "jump": -1.1322149766151097,
+        "negative_integral": 0.0001298842337494505,
+        "rotation_negative": 0.00015657794067421016
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.1875,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.9879228083836726,
+          "negative_integral": 0.0012083367498150516,
+          "rotation_negative": 0.0006327529757465837
+        },
+        "isolated": {
+          "jump": -1.314750656132945,
+          "negative_integral": 0.0009302973237869104,
+          "rotation_negative": 0.00020220091718320992
+        }
+      },
+      "difference": {
+        "jump": -0.6731721522507277,
+        "negative_integral": 0.00027803942602814115,
+        "rotation_negative": 0.0004305520585633737
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.1875,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.858152658427191,
+          "negative_integral": 0.001563849053158081,
+          "rotation_negative": 0.0009342245338240857
+        },
+        "isolated": {
+          "jump": -1.4456837306042425,
+          "negative_integral": 0.0010483336399224215,
+          "rotation_negative": 0.00032671679870283847
+        }
+      },
+      "difference": {
+        "jump": -0.41246892782294853,
+        "negative_integral": 0.0005155154132356595,
+        "rotation_negative": 0.0006075077351212473
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.1875,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.652251970398873,
+          "negative_integral": 0.0021509461153260572,
+          "rotation_negative": 0.0004976376438026842
+        },
+        "isolated": {
+          "jump": -1.398904035657286,
+          "negative_integral": 0.0011365284217629502,
+          "rotation_negative": 0.00011281540641907317
+        }
+      },
+      "difference": {
+        "jump": -0.253347934741587,
+        "negative_integral": 0.001014417693563107,
+        "rotation_negative": 0.0003848222373836111
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.1875,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.2455289388179016,
+          "negative_integral": 0.0009687196255222788,
+          "rotation_negative": 0.0001582492784683523
+        },
+        "isolated": {
+          "jump": -1.0219601991224865,
+          "negative_integral": 0.000646601066270895,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.22356873969541513,
+        "negative_integral": 0.00032211855925138374,
+        "rotation_negative": 0.0001582492784683523
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.1875,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.6170480516488693,
+          "negative_integral": 0.00037171021466443453,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": -0.41952591747440626,
+          "negative_integral": 0.00029767810120036027,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.19752213417446307,
+        "negative_integral": 7.403211346407426e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.25,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -2.3760493753708123,
+          "negative_integral": 0.0004693808277357341,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": -1.207187150437887,
+          "negative_integral": 0.00031163508740425765,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -1.1688622249329252,
+        "negative_integral": 0.00015774574033147645,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.25,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.7447500565352168,
+          "negative_integral": 0.0006737977006103007,
+          "rotation_negative": 0.0001765330885582787
+        },
+        "isolated": {
+          "jump": -1.0086749646994833,
+          "negative_integral": 0.0006159636185131986,
+          "rotation_negative": 7.643024552168424e-05
+        }
+      },
+      "difference": {
+        "jump": -0.7360750918357335,
+        "negative_integral": 5.783408209710211e-05,
+        "rotation_negative": 0.00010010284303659446
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.25,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.4460062237538476,
+          "negative_integral": 0.0009398382100621728,
+          "rotation_negative": 0.0003137604243198661
+        },
+        "isolated": {
+          "jump": -1.0707565530174112,
+          "negative_integral": 0.0008072550914045699,
+          "rotation_negative": 0.00018570066655119403
+        }
+      },
+      "difference": {
+        "jump": -0.37524967073643634,
+        "negative_integral": 0.00013258311865760287,
+        "rotation_negative": 0.00012805975776867206
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.25,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.4136749789229333,
+          "negative_integral": 0.0010947491968925603,
+          "rotation_negative": 0.00012238142500989064
+        },
+        "isolated": {
+          "jump": -0.9506143178176907,
+          "negative_integral": 0.0006719820118299188,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.4630606611052426,
+        "negative_integral": 0.00042276718506264153,
+        "rotation_negative": 0.00012238142500989064
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.25,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.8194770441525715,
+          "negative_integral": 0.00046442754145237426,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": -0.7323430928397744,
+          "negative_integral": 0.00040126223822587874,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.08713395131279711,
+        "negative_integral": 6.316530322649552e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.25,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.4652362413892376,
+          "negative_integral": 0.0002493320865329901,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": -0.16942110229209587,
+          "negative_integral": 7.776533082335097e-05,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.29581513909714174,
+        "negative_integral": 0.00017156675570963913,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.3125,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 3.442910418407529,
+          "negative_integral": 0.00014035843717132533,
+          "rotation_negative": 2.2022793544121554e-05
+        },
+        "isolated": {
+          "jump": 1.6933045021278388,
+          "negative_integral": 0.00016536705525197973,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 1.7496059162796902,
+        "negative_integral": -2.5008618080654395e-05,
+        "rotation_negative": 2.2022793544121554e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.3125,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 3.4455664841222915,
+          "negative_integral": 0.0004339758793069315,
+          "rotation_negative": 0.0002096911403199006
+        },
+        "isolated": {
+          "jump": 2.1057274624658566,
+          "negative_integral": 0.0004181316850558755,
+          "rotation_negative": 0.00012665696989555227
+        }
+      },
+      "difference": {
+        "jump": 1.3398390216564349,
+        "negative_integral": 1.584419425105599e-05,
+        "rotation_negative": 8.303417042434833e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.3125,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 3.343996161272551,
+          "negative_integral": 0.000698072783483076,
+          "rotation_negative": 0.0002535792522439065
+        },
+        "isolated": {
+          "jump": 2.322747337073684,
+          "negative_integral": 0.000538844656879466,
+          "rotation_negative": 0.000206625117257962
+        }
+      },
+      "difference": {
+        "jump": 1.0212488241988669,
+        "negative_integral": 0.00015922812660361006,
+        "rotation_negative": 4.6954134985944526e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.3125,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 3.035797420035469,
+          "negative_integral": 0.000491903912679218,
+          "rotation_negative": 0.0002121096558389369
+        },
+        "isolated": {
+          "jump": 2.31675355474781,
+          "negative_integral": 0.0005000662969301174,
+          "rotation_negative": 0.0001793609306631747
+        }
+      },
+      "difference": {
+        "jump": 0.719043865287659,
+        "negative_integral": -8.162384250899363e-06,
+        "rotation_negative": 3.274872517576222e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.3125,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 2.4119910877592057,
+          "negative_integral": 0.00039707689913243935,
+          "rotation_negative": 3.0441027662493e-05
+        },
+        "isolated": {
+          "jump": 2.0561820498813477,
+          "negative_integral": 0.00028718585006442464,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.355809037877858,
+        "negative_integral": 0.00010989104906801472,
+        "rotation_negative": 3.0441027662493e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.3125,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.521020040561364,
+          "negative_integral": 0.00017931695258639803,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 1.3678074883045541,
+          "negative_integral": 7.173997337502586e-05,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.15321255225680996,
+        "negative_integral": 0.00010757697921137217,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.375,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.8297286835443773,
+          "negative_integral": 0.00011585069854530801,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 0.794223258084063,
+          "negative_integral": 0.00012899006016413764,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 1.0355054254603142,
+        "negative_integral": -1.3139361618829632e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.375,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.7969119796475441,
+          "negative_integral": 0.0005143730170878975,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 0.9566701554818785,
+          "negative_integral": 0.00042412380240988197,
+          "rotation_negative": 0.0001126539015124533
+        }
+      },
+      "difference": {
+        "jump": 0.8402418241656656,
+        "negative_integral": 9.024921467801558e-05,
+        "rotation_negative": -0.0001126539015124533
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.375,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.6499881244522268,
+          "negative_integral": 0.0005947538759810192,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 1.0446136349188566,
+          "negative_integral": 0.000558216708109892,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.6053744895333701,
+        "negative_integral": 3.653716787112727e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.375,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.4163727105800432,
+          "negative_integral": 0.00035748022334928305,
+          "rotation_negative": 3.812444737433048e-05
+        },
+        "isolated": {
+          "jump": 1.0642736461864968,
+          "negative_integral": 0.0004035672374381788,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.35209906439354643,
+        "negative_integral": -4.6087014088895734e-05,
+        "rotation_negative": 3.812444737433048e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.375,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.0083626608114418,
+          "negative_integral": 0.00028976092966679474,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 0.8285149464140135,
+          "negative_integral": 0.00021299408754091043,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.1798477143974283,
+        "negative_integral": 7.67668421258843e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.375,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 0.6440919528398936,
+          "negative_integral": 0.0001442569786342326,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 0.5149322595916218,
+          "negative_integral": 6.324767895065538e-05,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.1291596932482718,
+        "negative_integral": 8.100929968357721e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.4375,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.5294170551233149,
+          "negative_integral": 0.0002063767440350257,
+          "rotation_negative": 7.783327557175117e-05
+        },
+        "isolated": {
+          "jump": -0.1681774565619985,
+          "negative_integral": 0.00013352909222504616,
+          "rotation_negative": 2.260040616842712e-05
+        }
+      },
+      "difference": {
+        "jump": -0.36123959856131643,
+        "negative_integral": 7.284765180997954e-05,
+        "rotation_negative": 5.523286940332405e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.4375,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.5599613164692006,
+          "negative_integral": 0.0008757666662455286,
+          "rotation_negative": 0.00040472995759792543
+        },
+        "isolated": {
+          "jump": -0.2357412630420216,
+          "negative_integral": 0.0005461844308728563,
+          "rotation_negative": 0.00028226830987555443
+        }
+      },
+      "difference": {
+        "jump": -0.32422005342717897,
+        "negative_integral": 0.00032958223537267234,
+        "rotation_negative": 0.000122461647722371
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.4375,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.5691897406624058,
+          "negative_integral": 0.0008278099572694843,
+          "rotation_negative": 0.00020444140331943672
+        },
+        "isolated": {
+          "jump": -0.3634131189487332,
+          "negative_integral": 0.0006253077250629216,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.20577662171367261,
+        "negative_integral": 0.0002025022322065627,
+        "rotation_negative": 0.00020444140331943672
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.4375,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.5876903924838847,
+          "negative_integral": 0.00025003848279961524,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": -0.44329009208230435,
+          "negative_integral": 0.0003324802327414622,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.1444003004015803,
+        "negative_integral": -8.244174994184695e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.4375,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.5741294483689422,
+          "negative_integral": 0.0002422066948463656,
+          "rotation_negative": 3.332956164554038e-05
+        },
+        "isolated": {
+          "jump": -0.4708490314932794,
+          "negative_integral": 0.0001476223061301801,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.1032804168756628,
+        "negative_integral": 9.45843887161855e-05,
+        "rotation_negative": 3.332956164554038e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.4375,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.38971487920150755,
+          "negative_integral": 8.026929865041996e-05,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": -0.34792842365626425,
+          "negative_integral": 6.882458794025981e-05,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.041786455545243295,
+        "negative_integral": 1.1444710710160151e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.5,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 4.556118716050353,
+          "negative_integral": 0.00038641276098722217,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 1.8308084723210123,
+          "negative_integral": 0.00021849852732974247,
+          "rotation_negative": 6.292545389308841e-05
+        }
+      },
+      "difference": {
+        "jump": 2.7253102437293406,
+        "negative_integral": 0.0001679142336574797,
+        "rotation_negative": -6.292545389308841e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.5,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 4.138253042373859,
+          "negative_integral": 0.0016997747420168035,
+          "rotation_negative": 0.000208999636450922
+        },
+        "isolated": {
+          "jump": 2.2429744988683744,
+          "negative_integral": 0.0009177118370484519,
+          "rotation_negative": 0.000561970924907042
+        }
+      },
+      "difference": {
+        "jump": 1.8952785435054844,
+        "negative_integral": 0.0007820629049683516,
+        "rotation_negative": -0.00035297128845612
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.5,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 4.112077918733927,
+          "negative_integral": 0.0018452597220104388,
+          "rotation_negative": 0.0005139650862261932
+        },
+        "isolated": {
+          "jump": 2.5259274188460483,
+          "negative_integral": 0.0013470254486607363,
+          "rotation_negative": 0.00047409985322784825
+        }
+      },
+      "difference": {
+        "jump": 1.586150499887879,
+        "negative_integral": 0.0004982342733497024,
+        "rotation_negative": 3.986523299834494e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.5,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 3.8177108836861233,
+          "negative_integral": 0.0007888644715686697,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 2.5456720709973863,
+          "negative_integral": 0.00045296562149393097,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 1.272038812688737,
+        "negative_integral": 0.0003358988500747387,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.5,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 3.0583578549004757,
+          "negative_integral": 0.00043085477805379917,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 2.321858376715046,
+          "negative_integral": 0.0003697853929166101,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.7364994781854297,
+        "negative_integral": 6.106938513718909e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.5,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 2.0308453996066804,
+          "negative_integral": 0.00016568341029464184,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 1.7139382948313022,
+          "negative_integral": 0.0002456862109805551,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.3169071047753782,
+        "negative_integral": -8.000280068591324e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.5625,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.5466190282755221,
+          "negative_integral": 0.0008789500689412065,
+          "rotation_negative": 0.0004515491891219793
+        },
+        "isolated": {
+          "jump": -0.8949294611044913,
+          "negative_integral": 0.0004604903529599517,
+          "rotation_negative": 8.358887099756585e-05
+        }
+      },
+      "difference": {
+        "jump": -0.6516895671710308,
+        "negative_integral": 0.00041845971598125474,
+        "rotation_negative": 0.00036796031812441344
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.5625,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.6914356555795065,
+          "negative_integral": 0.0037258822965846546,
+          "rotation_negative": 0.002856582395147916
+        },
+        "isolated": {
+          "jump": -1.2222611963157157,
+          "negative_integral": 0.0013657312354644219,
+          "rotation_negative": 0.001067831093667824
+        }
+      },
+      "difference": {
+        "jump": -0.46917445926379076,
+        "negative_integral": 0.0023601510611202326,
+        "rotation_negative": 0.001788751301480092
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.5625,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.7213381549028504,
+          "negative_integral": 0.004244590013656774,
+          "rotation_negative": 0.002863693496796127
+        },
+        "isolated": {
+          "jump": -1.3592698999728765,
+          "negative_integral": 0.002887154624749609,
+          "rotation_negative": 0.0022294365598261494
+        }
+      },
+      "difference": {
+        "jump": -0.36206825492997385,
+        "negative_integral": 0.0013574353889071649,
+        "rotation_negative": 0.0006342569369699774
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.5625,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.8052413242062904,
+          "negative_integral": 0.003022946757241174,
+          "rotation_negative": 0.0018465448105752507
+        },
+        "isolated": {
+          "jump": -1.4623546627468433,
+          "negative_integral": 0.0011943434110814263,
+          "rotation_negative": 0.0009390333659017573
+        }
+      },
+      "difference": {
+        "jump": -0.342886661459447,
+        "negative_integral": 0.0018286033461597478,
+        "rotation_negative": 0.0009075114446734934
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.5625,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.6036269510482832,
+          "negative_integral": 0.0015154354778660292,
+          "rotation_negative": 0.0006524484876662265
+        },
+        "isolated": {
+          "jump": -1.3529955394312014,
+          "negative_integral": 0.0012012235854216148,
+          "rotation_negative": 0.0004175349545361629
+        }
+      },
+      "difference": {
+        "jump": -0.2506314116170818,
+        "negative_integral": 0.0003142118924444144,
+        "rotation_negative": 0.00023491353313006365
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.5625,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.0482727214586027,
+          "negative_integral": 0.0003226234876900721,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": -0.8369042846740677,
+          "negative_integral": 0.0004680437822877623,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.21136843678453499,
+        "negative_integral": -0.0001454202945976902,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.625,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.838549549677298,
+          "negative_integral": 0.0028131974492835565,
+          "rotation_negative": 0.00201710425835067
+        },
+        "isolated": {
+          "jump": -0.4445272401957643,
+          "negative_integral": 0.0007804057260382204,
+          "rotation_negative": 2.972371243267069e-05
+        }
+      },
+      "difference": {
+        "jump": -0.3940223094815337,
+        "negative_integral": 0.002032791723245336,
+        "rotation_negative": 0.001987380545917999
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.625,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.8856162321918484,
+          "negative_integral": 0.004698900233981669,
+          "rotation_negative": 0.002384346919993818
+        },
+        "isolated": {
+          "jump": -0.6011187863801298,
+          "negative_integral": 0.001734312310328485,
+          "rotation_negative": 0.0007304303880985689
+        }
+      },
+      "difference": {
+        "jump": -0.28449744581171854,
+        "negative_integral": 0.0029645879236531838,
+        "rotation_negative": 0.001653916531895249
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.625,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.8786329597673617,
+          "negative_integral": 0.008612981350295874,
+          "rotation_negative": 0.005347442179920681
+        },
+        "isolated": {
+          "jump": -0.5836659195562833,
+          "negative_integral": 0.0036179329695297897,
+          "rotation_negative": 0.0014756695331109833
+        }
+      },
+      "difference": {
+        "jump": -0.29496704021107834,
+        "negative_integral": 0.004995048380766085,
+        "rotation_negative": 0.0038717726468096977
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.625,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.8608974340265778,
+          "negative_integral": 0.006514774847746618,
+          "rotation_negative": 0.003768222868037576
+        },
+        "isolated": {
+          "jump": -0.6001403391582606,
+          "negative_integral": 0.0014740062699272194,
+          "rotation_negative": 0.0005192314576169406
+        }
+      },
+      "difference": {
+        "jump": -0.2607570948683172,
+        "negative_integral": 0.005040768577819398,
+        "rotation_negative": 0.0032489914104206355
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.625,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.6296863641945375,
+          "negative_integral": 0.0027669075995882344,
+          "rotation_negative": 0.001288815803074359
+        },
+        "isolated": {
+          "jump": -0.5026697560916982,
+          "negative_integral": 0.0019153247996618861,
+          "rotation_negative": 0.0011472841462440006
+        }
+      },
+      "difference": {
+        "jump": -0.12701660810283932,
+        "negative_integral": 0.0008515827999263483,
+        "rotation_negative": 0.0001415316568303584
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.625,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.33098438257645263,
+          "negative_integral": 0.0005025948232136203,
+          "rotation_negative": 0.00011966446595704463
+        },
+        "isolated": {
+          "jump": -0.24934102728114485,
+          "negative_integral": 0.0008079714961954881,
+          "rotation_negative": 0.0001438129952971117
+        }
+      },
+      "difference": {
+        "jump": -0.08164335529530778,
+        "negative_integral": -0.0003053766729818678,
+        "rotation_negative": -2.4148529340067073e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.6875,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 0.10693162588054501,
+          "negative_integral": 0.0073086695699076795,
+          "rotation_negative": 0.006135073716264865
+        },
+        "isolated": {
+          "jump": 0.01051321948433342,
+          "negative_integral": 0.0010699579975079726,
+          "rotation_negative": 0.0006353621222107643
+        }
+      },
+      "difference": {
+        "jump": 0.09641840639621159,
+        "negative_integral": 0.006238711572399707,
+        "rotation_negative": 0.0054997115940541
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.6875,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 0.03173707809770429,
+          "negative_integral": 0.009673321758095758,
+          "rotation_negative": 0.008483085337115925
+        },
+        "isolated": {
+          "jump": 0.014782625517813161,
+          "negative_integral": 0.0038666276483426388,
+          "rotation_negative": 0.0026187367301879236
+        }
+      },
+      "difference": {
+        "jump": 0.01695445257989113,
+        "negative_integral": 0.005806694109753119,
+        "rotation_negative": 0.005864348606928001
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.6875,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.051263939154981675,
+          "negative_integral": 0.01708195121001486,
+          "rotation_negative": 0.013015482751264481
+        },
+        "isolated": {
+          "jump": 0.06324800148745455,
+          "negative_integral": 0.006923052929320262,
+          "rotation_negative": 0.003927439596009662
+        }
+      },
+      "difference": {
+        "jump": -0.11451194064243622,
+        "negative_integral": 0.010158898280694599,
+        "rotation_negative": 0.00908804315525482
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.6875,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.05516610967671178,
+          "negative_integral": 0.015618038186877238,
+          "rotation_negative": 0.012359770846165435
+        },
+        "isolated": {
+          "jump": 0.05587316536602697,
+          "negative_integral": 0.004200257398006467,
+          "rotation_negative": 0.002285349070944059
+        }
+      },
+      "difference": {
+        "jump": -0.11103927504273875,
+        "negative_integral": 0.011417780788870771,
+        "rotation_negative": 0.010074421775221377
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.6875,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 0.0742440245893542,
+          "negative_integral": 0.006546758940145322,
+          "rotation_negative": 0.0045507665839287425
+        },
+        "isolated": {
+          "jump": 0.09635331808068608,
+          "negative_integral": 0.0037396627338792316,
+          "rotation_negative": 0.002072771954571211
+        }
+      },
+      "difference": {
+        "jump": -0.02210929349133188,
+        "negative_integral": 0.00280709620626609,
+        "rotation_negative": 0.0024779946293575317
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.6875,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 0.16020680570463572,
+          "negative_integral": 0.0014919677663993748,
+          "rotation_negative": 0.0006545651891690594
+        },
+        "isolated": {
+          "jump": 0.16587243726660958,
+          "negative_integral": 0.0012996005799280588,
+          "rotation_negative": 0.0004456217005116885
+        }
+      },
+      "difference": {
+        "jump": -0.005665631561973861,
+        "negative_integral": 0.00019236718647131596,
+        "rotation_negative": 0.00020894348865737087
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.75,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.631236430081108,
+          "negative_integral": 0.006970416786110944,
+          "rotation_negative": 0.006091834492062299
+        },
+        "isolated": {
+          "jump": 0.6695204269117188,
+          "negative_integral": 0.0008415025014623711,
+          "rotation_negative": 0.00035034203914855816
+        }
+      },
+      "difference": {
+        "jump": 0.9617160031693892,
+        "negative_integral": 0.006128914284648573,
+        "rotation_negative": 0.00574149245291374
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.75,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.5897200672789245,
+          "negative_integral": 0.014026079687014957,
+          "rotation_negative": 0.012639987610399625
+        },
+        "isolated": {
+          "jump": 0.8318459225709699,
+          "negative_integral": 0.005228444554773571,
+          "rotation_negative": 0.004510388380706285
+        }
+      },
+      "difference": {
+        "jump": 0.7578741447079546,
+        "negative_integral": 0.008797635132241386,
+        "rotation_negative": 0.00812959922969334
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.75,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.4214080753841505,
+          "negative_integral": 0.022082877474658265,
+          "rotation_negative": 0.01892644302548673
+        },
+        "isolated": {
+          "jump": 0.981381341540279,
+          "negative_integral": 0.011075306510786288,
+          "rotation_negative": 0.009003386881411947
+        }
+      },
+      "difference": {
+        "jump": 0.4400267338438715,
+        "negative_integral": 0.011007570963871977,
+        "rotation_negative": 0.009923056144074781
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.75,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.2640291885483028,
+          "negative_integral": 0.02258866048960167,
+          "rotation_negative": 0.018760272759205086
+        },
+        "isolated": {
+          "jump": 0.9964903615544142,
+          "negative_integral": 0.007142498418831823,
+          "rotation_negative": 0.004623998245846485
+        }
+      },
+      "difference": {
+        "jump": 0.26753882699388865,
+        "negative_integral": 0.015446162070769848,
+        "rotation_negative": 0.0141362745133586
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.75,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.0997752140158183,
+          "negative_integral": 0.011454443282425286,
+          "rotation_negative": 0.00896175368332436
+        },
+        "isolated": {
+          "jump": 0.9287871291449994,
+          "negative_integral": 0.00654149455825772,
+          "rotation_negative": 0.004631472172327199
+        }
+      },
+      "difference": {
+        "jump": 0.17098808487081896,
+        "negative_integral": 0.0049129487241675665,
+        "rotation_negative": 0.004330281510997161
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.75,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 0.8292880640766682,
+          "negative_integral": 0.002302343693384855,
+          "rotation_negative": 0.0015181505302700295
+        },
+        "isolated": {
+          "jump": 0.7064521225725667,
+          "negative_integral": 0.0019041836556159555,
+          "rotation_negative": 0.0013289756910455455
+        }
+      },
+      "difference": {
+        "jump": 0.12283594150410149,
+        "negative_integral": 0.0003981600377688994,
+        "rotation_negative": 0.00018917483922448403
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.8125,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.28635584151602145,
+          "negative_integral": 0.0026039090241750436,
+          "rotation_negative": 0.00020842245385331937
+        },
+        "isolated": {
+          "jump": -0.20526759452724583,
+          "negative_integral": 0.00048574768036871403,
+          "rotation_negative": 1.021728170670793e-05
+        }
+      },
+      "difference": {
+        "jump": -0.08108824698877562,
+        "negative_integral": 0.0021181613438063297,
+        "rotation_negative": 0.00019820517214661144
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.8125,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.21546502355174318,
+          "negative_integral": 0.008004593191977685,
+          "rotation_negative": 0.00552151938445861
+        },
+        "isolated": {
+          "jump": -0.25089453596584615,
+          "negative_integral": 0.004359840294595868,
+          "rotation_negative": 0.003263972662825347
+        }
+      },
+      "difference": {
+        "jump": 0.03542951241410297,
+        "negative_integral": 0.0036447528973818167,
+        "rotation_negative": 0.0022575467216332627
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.8125,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.3019728530420198,
+          "negative_integral": 0.017659563446536273,
+          "rotation_negative": 0.01467298206845579
+        },
+        "isolated": {
+          "jump": -0.19499994712656743,
+          "negative_integral": 0.012094392853878018,
+          "rotation_negative": 0.009924700516314802
+        }
+      },
+      "difference": {
+        "jump": -0.10697290591545239,
+        "negative_integral": 0.005565170592658255,
+        "rotation_negative": 0.004748281552140989
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.8125,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.39887665005796374,
+          "negative_integral": 0.020735976066896644,
+          "rotation_negative": 0.018015548534206782
+        },
+        "isolated": {
+          "jump": -0.24626396097607708,
+          "negative_integral": 0.009847279216934731,
+          "rotation_negative": 0.007952611188570134
+        }
+      },
+      "difference": {
+        "jump": -0.15261268908188666,
+        "negative_integral": 0.010888696849961913,
+        "rotation_negative": 0.010062937345636649
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.8125,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.3338328409974052,
+          "negative_integral": 0.014106718166971623,
+          "rotation_negative": 0.011798006952761895
+        },
+        "isolated": {
+          "jump": -0.24507816608999483,
+          "negative_integral": 0.008715433605264302,
+          "rotation_negative": 0.007379413962678667
+        }
+      },
+      "difference": {
+        "jump": -0.08875467490741035,
+        "negative_integral": 0.005391284561707321,
+        "rotation_negative": 0.004418592990083228
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.8125,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.19354537020977022,
+          "negative_integral": 0.0019949845927123466,
+          "rotation_negative": 0.0014778914846593453
+        },
+        "isolated": {
+          "jump": -0.0397268348120613,
+          "negative_integral": 0.0010540056102635918,
+          "rotation_negative": 0.0006173787971617871
+        }
+      },
+      "difference": {
+        "jump": -0.15381853539770893,
+        "negative_integral": 0.0009409789824487548,
+        "rotation_negative": 0.0008605126874975581
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.875,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.5602743867024371,
+          "negative_integral": 0.0006501766228847386,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": -0.7905184974690318,
+          "negative_integral": 0.00025349971458094684,
+          "rotation_negative": 4.285371601824566e-05
+        }
+      },
+      "difference": {
+        "jump": -0.7697558892334053,
+        "negative_integral": 0.00039667690830379177,
+        "rotation_negative": -4.285371601824566e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.875,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.2091790902762285,
+          "negative_integral": 0.0018675022173779976,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": -0.8668158080223616,
+          "negative_integral": 0.00145015574558389,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": -0.3423632822538669,
+        "negative_integral": 0.00041734647179410755,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.875,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -1.0552159461225903,
+          "negative_integral": 0.00460017542623187,
+          "rotation_negative": 0.0018653542306349038
+        },
+        "isolated": {
+          "jump": -0.8509455860854361,
+          "negative_integral": 0.006409726387380464,
+          "rotation_negative": 0.0031409850139843625
+        }
+      },
+      "difference": {
+        "jump": -0.20427036003715415,
+        "negative_integral": -0.001809550961148594,
+        "rotation_negative": -0.0012756307833494587
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.875,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.974377797785113,
+          "negative_integral": 0.005662137593709368,
+          "rotation_negative": 0.003743198680690477
+        },
+        "isolated": {
+          "jump": -0.796970715245624,
+          "negative_integral": 0.0048178707355360055,
+          "rotation_negative": 0.0029792960619807914
+        }
+      },
+      "difference": {
+        "jump": -0.177407082539489,
+        "negative_integral": 0.0008442668581733629,
+        "rotation_negative": 0.0007639026187096858
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.875,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.750082336636103,
+          "negative_integral": 0.004154133584959309,
+          "rotation_negative": 0.002686914664493689
+        },
+        "isolated": {
+          "jump": -0.720863670554505,
+          "negative_integral": 0.004978741280411733,
+          "rotation_negative": 0.003399410379171293
+        }
+      },
+      "difference": {
+        "jump": -0.029218666081598066,
+        "negative_integral": -0.0008246076954524237,
+        "rotation_negative": -0.000712495714677604
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.875,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": -0.4320675898791566,
+          "negative_integral": 0.00046332092456679154,
+          "rotation_negative": 0.00015533186492918733
+        },
+        "isolated": {
+          "jump": -0.4399225147866718,
+          "negative_integral": 0.0004441816617208595,
+          "rotation_negative": 3.616248253287323e-05
+        }
+      },
+      "difference": {
+        "jump": 0.007854924907515215,
+        "negative_integral": 1.9139262845932026e-05,
+        "rotation_negative": 0.0001191693823963141
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.9375,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.3449870493832856,
+          "negative_integral": 0.0004079763353164411,
+          "rotation_negative": 0.0002239267293155443
+        },
+        "isolated": {
+          "jump": 0.5325169793397433,
+          "negative_integral": 0.00020440569290553596,
+          "rotation_negative": 2.7938366538516626e-05
+        }
+      },
+      "difference": {
+        "jump": 0.8124700700435423,
+        "negative_integral": 0.00020357064241090516,
+        "rotation_negative": 0.00019598836277702765
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.9375,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.4151991866760407,
+          "negative_integral": 0.0009801672497535953,
+          "rotation_negative": 0.00013187445135879656
+        },
+        "isolated": {
+          "jump": 0.7168399645070885,
+          "negative_integral": 0.0006772740186649817,
+          "rotation_negative": 0.00011196077155382866
+        }
+      },
+      "difference": {
+        "jump": 0.6983592221689522,
+        "negative_integral": 0.00030289323108861357,
+        "rotation_negative": 1.9913679804967903e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.9375,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.5002147039407452,
+          "negative_integral": 0.0015272636814541245,
+          "rotation_negative": 9.330389355923315e-05
+        },
+        "isolated": {
+          "jump": 0.8998336395459202,
+          "negative_integral": 0.002208921680364224,
+          "rotation_negative": 7.323191249722142e-05
+        }
+      },
+      "difference": {
+        "jump": 0.600381064394825,
+        "negative_integral": -0.0006816579989100996,
+        "rotation_negative": 2.007198106201173e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.9375,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.3949298485353068,
+          "negative_integral": 0.0015509710028322487,
+          "rotation_negative": 0.0005941244618885758
+        },
+        "isolated": {
+          "jump": 0.9445647812486833,
+          "negative_integral": 0.0014504239053336888,
+          "rotation_negative": 5.971559546713533e-05
+        }
+      },
+      "difference": {
+        "jump": 0.4503650672866235,
+        "negative_integral": 0.00010054709749855988,
+        "rotation_negative": 0.0005344088664214404
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.9375,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 1.1308513323994958,
+          "negative_integral": 0.0007902257551756573,
+          "rotation_negative": 0.00019875789453534232
+        },
+        "isolated": {
+          "jump": 0.8575554625069275,
+          "negative_integral": 0.0008418697867260883,
+          "rotation_negative": 0.00017927127721279108
+        }
+      },
+      "difference": {
+        "jump": 0.27329586989256827,
+        "negative_integral": -5.164403155043099e-05,
+        "rotation_negative": 1.948661732255124e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 0.9375,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 0.7315721506502115,
+          "negative_integral": 0.00019243464421411105,
+          "rotation_negative": 0.00011255357272384554
+        },
+        "isolated": {
+          "jump": 0.5380299896769966,
+          "negative_integral": 9.612286939403262e-05,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.19354216097321497,
+        "negative_integral": 9.631177482007842e-05,
+        "rotation_negative": 0.00011255357272384554
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 1.0,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 4.543821862993496,
+          "negative_integral": 0.0003243262879379484,
+          "rotation_negative": 8.889290280796024e-05
+        },
+        "isolated": {
+          "jump": 1.7689166823752533,
+          "negative_integral": 0.0002558623946329082,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 2.7749051806182425,
+        "negative_integral": 6.846389330504018e-05,
+        "rotation_negative": 8.889290280796024e-05
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 1.0,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 4.27557768110282,
+          "negative_integral": 0.0009102771074256396,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 2.15231056376154,
+          "negative_integral": 0.0005815468815581111,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 2.1232671173412796,
+        "negative_integral": 0.0003287302258675285,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 1.0,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 4.244947473001719,
+          "negative_integral": 0.0013371304072503903,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 2.497228253389736,
+          "negative_integral": 0.0013676683333096254,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 1.7477192196119833,
+        "negative_integral": -3.0537926059235124e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 1.0,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 3.913638924245764,
+          "negative_integral": 0.001281355944949107,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 2.6919709813395754,
+          "negative_integral": 0.0010832758859997255,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 1.2216679429061887,
+        "negative_integral": 0.00019808005894938162,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 1.0,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 3.2101505806595028,
+          "negative_integral": 0.00064967441564475,
+          "rotation_negative": 2.3598382371855296e-05
+        },
+        "isolated": {
+          "jump": 2.476384667988965,
+          "negative_integral": 0.0006265789850353655,
+          "rotation_negative": 2.9252301692299534e-05
+        }
+      },
+      "difference": {
+        "jump": 0.7337659126705378,
+        "negative_integral": 2.3095430609384516e-05,
+        "rotation_negative": -5.653919320444238e-06
+      }
+    },
+    {
+      "group": "moving",
+      "phase": 1.0,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "baseline": {
+          "jump": 2.127482674632898,
+          "negative_integral": 0.00015679765929142587,
+          "rotation_negative": -0.0
+        },
+        "isolated": {
+          "jump": 1.8359757088767854,
+          "negative_integral": 0.00011637368384039049,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.2915069657561127,
+        "negative_integral": 4.042397545103538e-05,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "static",
+      "phase": 0.0,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.17054050893589545,
+          "negative_integral": 0.0005261709289817196,
+          "rotation_negative": 0.00045707192001700055
+        },
+        "static_isolated": {
+          "jump": 0.1419895092410626,
+          "negative_integral": 0.00014580515127815097,
+          "rotation_negative": 8.475886749834206e-05
+        }
+      },
+      "difference": {
+        "jump": 0.02855099969483285,
+        "negative_integral": 0.00038036577770356867,
+        "rotation_negative": 0.00037231305251865846
+      }
+    },
+    {
+      "group": "static",
+      "phase": 0.0,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.18300323447483982,
+          "negative_integral": 0.0012350487543260715,
+          "rotation_negative": 0.0010651747593934597
+        },
+        "static_isolated": {
+          "jump": 0.15034536091127032,
+          "negative_integral": 0.00047661822386541703,
+          "rotation_negative": 0.0003927770922558589
+        }
+      },
+      "difference": {
+        "jump": 0.0326578735635695,
+        "negative_integral": 0.0007584305304606545,
+        "rotation_negative": 0.0006723976671376007
+      }
+    },
+    {
+      "group": "static",
+      "phase": 0.0,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.2028702773762406,
+          "negative_integral": 0.0014714375829415493,
+          "rotation_negative": 0.0012796823161604124
+        },
+        "static_isolated": {
+          "jump": 0.1639947128242348,
+          "negative_integral": 0.0008857567124642295,
+          "rotation_negative": 0.0007414655011617811
+        }
+      },
+      "difference": {
+        "jump": 0.038875564552005804,
+        "negative_integral": 0.0005856808704773199,
+        "rotation_negative": 0.0005382168149986313
+      }
+    },
+    {
+      "group": "static",
+      "phase": 0.0,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.18012147956472066,
+          "negative_integral": 0.0010736591151283216,
+          "rotation_negative": 0.0009453991177439424
+        },
+        "static_isolated": {
+          "jump": 0.14351281739128377,
+          "negative_integral": 0.0006810794102019627,
+          "rotation_negative": 0.000569009818711652
+        }
+      },
+      "difference": {
+        "jump": 0.03660866217343689,
+        "negative_integral": 0.0003925797049263589,
+        "rotation_negative": 0.00037638929903229044
+      }
+    },
+    {
+      "group": "static",
+      "phase": 0.0,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.1498043737045132,
+          "negative_integral": 0.00028993630258005137,
+          "rotation_negative": 0.00018753955258726755
+        },
+        "static_isolated": {
+          "jump": 0.11496521366311474,
+          "negative_integral": 0.00022783931135033755,
+          "rotation_negative": 0.00014838150056621695
+        }
+      },
+      "difference": {
+        "jump": 0.03483916004139845,
+        "negative_integral": 6.209699122971382e-05,
+        "rotation_negative": 3.91580520210506e-05
+      }
+    },
+    {
+      "group": "static",
+      "phase": 0.0,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.10938605639489327,
+          "negative_integral": 4.039900053315964e-05,
+          "rotation_negative": -0.0
+        },
+        "static_isolated": {
+          "jump": 0.085552546164487,
+          "negative_integral": 3.5148511652072e-05,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.023833510230406266,
+        "negative_integral": 5.250488881087643e-06,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "static",
+      "phase": 0.5,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.1702942404060309,
+          "negative_integral": 0.0005266856142259293,
+          "rotation_negative": 0.000457471218397457
+        },
+        "static_isolated": {
+          "jump": 0.1419861384280066,
+          "negative_integral": 0.0001458115041048451,
+          "rotation_negative": 8.476372377177406e-05
+        }
+      },
+      "difference": {
+        "jump": 0.028308101978024303,
+        "negative_integral": 0.00038087411012108414,
+        "rotation_negative": 0.000372707494625683
+      }
+    },
+    {
+      "group": "static",
+      "phase": 0.5,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.1827917420764863,
+          "negative_integral": 0.0012363122796400288,
+          "rotation_negative": 0.0010661153207632383
+        },
+        "static_isolated": {
+          "jump": 0.1503411516802107,
+          "negative_integral": 0.00047665668859612744,
+          "rotation_negative": 0.0003928060472325548
+        }
+      },
+      "difference": {
+        "jump": 0.0324505903962756,
+        "negative_integral": 0.0007596555910439015,
+        "rotation_negative": 0.0006733092735306835
+      }
+    },
+    {
+      "group": "static",
+      "phase": 0.5,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.20267122563108111,
+          "negative_integral": 0.0014724804877877268,
+          "rotation_negative": 0.0012804646875443193
+        },
+        "static_isolated": {
+          "jump": 0.1639900378979397,
+          "negative_integral": 0.0008858237365661108,
+          "rotation_negative": 0.0007415192285763053
+        }
+      },
+      "difference": {
+        "jump": 0.038681187733141414,
+        "negative_integral": 0.000586656751221616,
+        "rotation_negative": 0.000538945458968014
+      }
+    },
+    {
+      "group": "static",
+      "phase": 0.5,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.17993963648461228,
+          "negative_integral": 0.001074351755683398,
+          "rotation_negative": 0.0009458887125785205
+        },
+        "static_isolated": {
+          "jump": 0.1435080906564431,
+          "negative_integral": 0.000681155613574521,
+          "rotation_negative": 0.0005690661642095935
+        }
+      },
+      "difference": {
+        "jump": 0.03643154582816918,
+        "negative_integral": 0.00039319614210887714,
+        "rotation_negative": 0.00037682254836892695
+      }
+    },
+    {
+      "group": "static",
+      "phase": 0.5,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.14969489427286023,
+          "negative_integral": 0.0002900402085863282,
+          "rotation_negative": 0.00018757844723609127
+        },
+        "static_isolated": {
+          "jump": 0.1149600684019446,
+          "negative_integral": 0.0002278681362316835,
+          "rotation_negative": 0.00014839709694385305
+        }
+      },
+      "difference": {
+        "jump": 0.03473482587091563,
+        "negative_integral": 6.21720723546447e-05,
+        "rotation_negative": 3.9181350292238226e-05
+      }
+    },
+    {
+      "group": "static",
+      "phase": 0.5,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.1093267828557407,
+          "negative_integral": 4.0432357790682595e-05,
+          "rotation_negative": -0.0
+        },
+        "static_isolated": {
+          "jump": 0.08555096572436999,
+          "negative_integral": 3.515222730503552e-05,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.02377581713137071,
+        "negative_integral": 5.280130485647078e-06,
+        "rotation_negative": 0.0
+      }
+    },
+    {
+      "group": "static",
+      "phase": 1.0,
+      "span": 0.2,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.1700643798586155,
+          "negative_integral": 0.0005270684216999707,
+          "rotation_negative": 0.00045776475246413185
+        },
+        "static_isolated": {
+          "jump": 0.14198134961898934,
+          "negative_integral": 0.0001458129953773613,
+          "rotation_negative": 8.476516424557143e-05
+        }
+      },
+      "difference": {
+        "jump": 0.02808303023962616,
+        "negative_integral": 0.0003812554263226094,
+        "rotation_negative": 0.0003729995882185604
+      }
+    },
+    {
+      "group": "static",
+      "phase": 1.0,
+      "span": 0.3,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.182589829963157,
+          "negative_integral": 0.0012373004444161618,
+          "rotation_negative": 0.0010668521159079242
+        },
+        "static_isolated": {
+          "jump": 0.150335613191574,
+          "negative_integral": 0.0004766724825676769,
+          "rotation_negative": 0.00039281916584371244
+        }
+      },
+      "difference": {
+        "jump": 0.032254216771582994,
+        "negative_integral": 0.000760627961848485,
+        "rotation_negative": 0.0006740329500642117
+      }
+    },
+    {
+      "group": "static",
+      "phase": 1.0,
+      "span": 0.4,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.20248150580123542,
+          "negative_integral": 0.0014732686326348764,
+          "rotation_negative": 0.0012810566610703996
+        },
+        "static_isolated": {
+          "jump": 0.16398394476778294,
+          "negative_integral": 0.0008858577139595516,
+          "rotation_negative": 0.0007415480445137522
+        }
+      },
+      "difference": {
+        "jump": 0.038497561033452476,
+        "negative_integral": 0.0005874109186753247,
+        "rotation_negative": 0.0005395086165566474
+      }
+    },
+    {
+      "group": "static",
+      "phase": 1.0,
+      "span": 0.5,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.1797662159726955,
+          "negative_integral": 0.0010748578041884565,
+          "rotation_negative": 0.000946242231033804
+        },
+        "static_isolated": {
+          "jump": 0.14350199288712281,
+          "negative_integral": 0.0006811988376244128,
+          "rotation_negative": 0.0005690998387412276
+        }
+      },
+      "difference": {
+        "jump": 0.03626422308557267,
+        "negative_integral": 0.0003936589665640437,
+        "rotation_negative": 0.00037714239229257637
+      }
+    },
+    {
+      "group": "static",
+      "phase": 1.0,
+      "span": 0.7,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.14958274136671743,
+          "negative_integral": 0.0002901155261679535,
+          "rotation_negative": 0.00018760761058064733
+        },
+        "static_isolated": {
+          "jump": 0.11495427782099846,
+          "negative_integral": 0.00022788376235963306,
+          "rotation_negative": 0.00014840672352976625
+        }
+      },
+      "difference": {
+        "jump": 0.03462846354571897,
+        "negative_integral": 6.223176380832046e-05,
+        "rotation_negative": 3.9200887050881076e-05
+      }
+    },
+    {
+      "group": "static",
+      "phase": 1.0,
+      "span": 0.9,
+      "coverage": 1.0,
+      "cases": {
+        "static_body": {
+          "jump": 0.10926459150761013,
+          "negative_integral": 4.0455037104623666e-05,
+          "rotation_negative": -0.0
+        },
+        "static_isolated": {
+          "jump": 0.08554854508197177,
+          "negative_integral": 3.515271882168649e-05,
+          "rotation_negative": -0.0
+        }
+      },
+      "difference": {
+        "jump": 0.023716046425638362,
+        "negative_integral": 5.302318282937174e-06,
+        "rotation_negative": 0.0
+      }
+    }
+  ],
+  "summary": [
+    {
+      "span": 0.2,
+      "moving": {
+        "jump": 0.32910651721388867,
+        "negative_integral": 0.0011419424880005935,
+        "rotation_negative": 0.0008914241491854162,
+        "min_coverage": 1.0,
+        "lower_lateral_velocity_difference": -0.13334375173801996
+      },
+      "static": {
+        "jump": 0.028312558472626904,
+        "negative_integral": 0.00038084235606708657,
+        "rotation_negative": 0.0003726819074971462,
+        "min_coverage": 1.0,
+        "lower_lateral_velocity_difference": -0.11896420429044191
+      }
+    },
+    {
+      "span": 0.3,
+      "moving": {
+        "jump": 0.29296664690352053,
+        "negative_integral": 0.0016486322897910411,
+        "rotation_negative": 0.001243025925851328,
+        "min_coverage": 1.0,
+        "lower_lateral_velocity_difference": -0.10790467952415085
+      },
+      "static": {
+        "jump": 0.03245331778192592,
+        "negative_integral": 0.0007595924185992357,
+        "rotation_negative": 0.0006732622910657949,
+        "min_coverage": 1.0,
+        "lower_lateral_velocity_difference": -0.09400015496671522
+      }
+    },
+    {
+      "span": 0.4,
+      "moving": {
+        "jump": 0.2387627148938336,
+        "negative_integral": 0.0020144669970436177,
+        "rotation_negative": 0.001769084863135555,
+        "min_coverage": 1.0,
+        "lower_lateral_velocity_difference": -0.08936845841611972
+      },
+      "static": {
+        "jump": 0.03868387526293528,
+        "negative_integral": 0.0005866013228989692,
+        "rotation_negative": 0.0005389040873728266,
+        "min_coverage": 1.0,
+        "lower_lateral_velocity_difference": -0.07716822447440097
+      }
+    },
+    {
+      "span": 0.5,
+      "moving": {
+        "jump": 0.13875701398517623,
+        "negative_integral": 0.00299827859769319,
+        "rotation_negative": 0.002522812604297716,
+        "min_coverage": 1.0,
+        "lower_lateral_velocity_difference": -0.07634994047699568
+      },
+      "static": {
+        "jump": 0.03643399422883698,
+        "negative_integral": 0.00039315773892703923,
+        "rotation_negative": 0.0003767941970156802,
+        "min_coverage": 1.0,
+        "lower_lateral_velocity_difference": -0.06484836531097855
+      }
+    },
+    {
+      "span": 0.7,
+      "moving": {
+        "jump": 0.08672749949961174,
+        "negative_integral": 0.0008447263490703268,
+        "rotation_negative": 0.0006962256545749936,
+        "min_coverage": 1.0,
+        "lower_lateral_velocity_difference": -0.05613923176475724
+      },
+      "static": {
+        "jump": 0.03473431883223717,
+        "negative_integral": 6.216822493683091e-05,
+        "rotation_negative": 3.918040991410203e-05,
+        "min_coverage": 1.0,
+        "lower_lateral_velocity_difference": -0.046759146878208396
+      }
+    },
+    {
+      "span": 0.9,
+      "moving": {
+        "jump": 0.027168701594221082,
+        "negative_integral": 0.00010534093381265468,
+        "rotation_negative": 9.16378400724691e-05,
+        "min_coverage": 1.0,
+        "lower_lateral_velocity_difference": -0.044289515537650655
+      },
+      "static": {
+        "jump": 0.023775297729696512,
+        "negative_integral": 5.278267033829743e-06,
+        "rotation_negative": 0.0,
+        "min_coverage": 1.0,
+        "lower_lateral_velocity_difference": -0.035660140306880486
+      }
+    }
+  ],
+  "definition": "Actual upper outline used for each moving/static configuration, matched within each pair. Fixed h=.012\u2013.04L and x/c=0\u2013.5. Difference of moving and static contrasts does not isolate body motion from fin motion."
+}

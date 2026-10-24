@@ -1,0 +1,725 @@
+{
+  "baseline": [
+    {
+      "step": 4320,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.08875275154575055,
+          "signed_area_y": 0.0,
+          "interfaces": 89782
+        },
+        "fin": {
+          "pressure_force_y": 0.007722026128081068,
+          "signed_area_y": 0.0037942916806059657,
+          "interfaces": 11414
+        },
+        "common": {
+          "pressure_force_y": 0.00685557910094699,
+          "signed_area_y": 0.001505525401171326,
+          "interfaces": 10363
+        }
+      }
+    },
+    {
+      "step": 4350,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.08938975133081065,
+          "signed_area_y": 0.0,
+          "interfaces": 89704
+        },
+        "fin": {
+          "pressure_force_y": -0.006965228890426871,
+          "signed_area_y": 0.0037855978989682626,
+          "interfaces": 11438
+        },
+        "common": {
+          "pressure_force_y": -0.006004277717121648,
+          "signed_area_y": 0.0015142234046834346,
+          "interfaces": 10390
+        }
+      }
+    },
+    {
+      "step": 4380,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.03778865738631173,
+          "signed_area_y": 0.0,
+          "interfaces": 89780
+        },
+        "fin": {
+          "pressure_force_y": 0.005222585829081795,
+          "signed_area_y": 0.003794298714637989,
+          "interfaces": 11495
+        },
+        "common": {
+          "pressure_force_y": 0.004585592554609573,
+          "signed_area_y": 0.0015142248107622436,
+          "interfaces": 10433
+        }
+      }
+    },
+    {
+      "step": 4410,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.018502873989820923,
+          "signed_area_y": 0.0,
+          "interfaces": 89938
+        },
+        "fin": {
+          "pressure_force_y": -0.0032641454237267494,
+          "signed_area_y": 0.003707255382778385,
+          "interfaces": 11545
+        },
+        "common": {
+          "pressure_force_y": -0.0027516029918303623,
+          "signed_area_y": 0.0015316306644308497,
+          "interfaces": 10489
+        }
+      }
+    },
+    {
+      "step": 4440,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.03638537039801171,
+          "signed_area_y": 0.0,
+          "interfaces": 89908
+        },
+        "fin": {
+          "pressure_force_y": -0.0032612490227582813,
+          "signed_area_y": 0.0036898621892760275,
+          "interfaces": 11626
+        },
+        "common": {
+          "pressure_force_y": -0.002683714697031283,
+          "signed_area_y": 0.0015055239946377696,
+          "interfaces": 10564
+        }
+      }
+    },
+    {
+      "step": 4470,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.046328282940598965,
+          "signed_area_y": 0.0,
+          "interfaces": 89644
+        },
+        "fin": {
+          "pressure_force_y": 0.005612301786995492,
+          "signed_area_y": 0.0036637456737480534,
+          "interfaces": 11688
+        },
+        "common": {
+          "pressure_force_y": 0.004933614551614294,
+          "signed_area_y": 0.001531632070964406,
+          "interfaces": 10628
+        }
+      }
+    },
+    {
+      "step": 4500,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.03914720439848584,
+          "signed_area_y": 0.0,
+          "interfaces": 90202
+        },
+        "fin": {
+          "pressure_force_y": 0.0028503065293722417,
+          "signed_area_y": 0.003576709375010978,
+          "interfaces": 11766
+        },
+        "common": {
+          "pressure_force_y": 0.002524647922807271,
+          "signed_area_y": 0.0014968288051022682,
+          "interfaces": 10707
+        }
+      }
+    },
+    {
+      "step": 4530,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.022728638380037372,
+          "signed_area_y": 0.0,
+          "interfaces": 90164
+        },
+        "fin": {
+          "pressure_force_y": -0.0010307901601995903,
+          "signed_area_y": 0.003594113821236533,
+          "interfaces": 11813
+        },
+        "common": {
+          "pressure_force_y": -0.0009022565983227771,
+          "signed_area_y": 0.001531634884486266,
+          "interfaces": 10750
+        }
+      }
+    },
+    {
+      "step": 4560,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.09772124326527282,
+          "signed_area_y": 0.0,
+          "interfaces": 90116
+        },
+        "fin": {
+          "pressure_force_y": 0.007267925015626421,
+          "signed_area_y": 0.003550602705217898,
+          "interfaces": 11787
+        },
+        "common": {
+          "pressure_force_y": 0.006472208464453084,
+          "signed_area_y": 0.0015055366548040183,
+          "interfaces": 10734
+        }
+      }
+    },
+    {
+      "step": 4590,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.06859465191066613,
+          "signed_area_y": 0.0,
+          "interfaces": 90170
+        },
+        "fin": {
+          "pressure_force_y": -0.003085600241081971,
+          "signed_area_y": 0.0035419089222159528,
+          "interfaces": 11769
+        },
+        "common": {
+          "pressure_force_y": -0.002669074767455801,
+          "signed_area_y": 0.0014794243593314604,
+          "interfaces": 10710
+        }
+      }
+    },
+    {
+      "step": 4620,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.037047526737526836,
+          "signed_area_y": 0.0,
+          "interfaces": 89810
+        },
+        "fin": {
+          "pressure_force_y": -0.0015912216336678615,
+          "signed_area_y": 0.0036376375978761644,
+          "interfaces": 11743
+        },
+        "common": {
+          "pressure_force_y": -0.001362894501477856,
+          "signed_area_y": 0.0015490379241782648,
+          "interfaces": 10703
+        }
+      }
+    },
+    {
+      "step": 4650,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.011838125288041094,
+          "signed_area_y": 0.0,
+          "interfaces": 89614
+        },
+        "fin": {
+          "pressure_force_y": 2.9018914186388386e-05,
+          "signed_area_y": 0.003681164187128161,
+          "interfaces": 11652
+        },
+        "common": {
+          "pressure_force_y": 7.490724373921754e-05,
+          "signed_area_y": 0.0015142205911615747,
+          "interfaces": 10612
+        }
+      }
+    },
+    {
+      "step": 4680,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.03102828369486564,
+          "signed_area_y": 0.0,
+          "interfaces": 89250
+        },
+        "fin": {
+          "pressure_force_y": 0.002540873293523369,
+          "signed_area_y": 0.0037594940417875478,
+          "interfaces": 11575
+        },
+        "common": {
+          "pressure_force_y": 0.0022733874123202855,
+          "signed_area_y": 0.0015229368809741572,
+          "interfaces": 10530
+        }
+      }
+    },
+    {
+      "step": 4710,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.007559419145267268,
+          "signed_area_y": 0.0,
+          "interfaces": 89342
+        },
+        "fin": {
+          "pressure_force_y": -0.0006201920817184462,
+          "signed_area_y": 0.0037855993050470715,
+          "interfaces": 11461
+        },
+        "common": {
+          "pressure_force_y": -0.0004987485673479455,
+          "signed_area_y": 0.0015403357006107399,
+          "interfaces": 10411
+        }
+      }
+    },
+    {
+      "step": 4740,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.011616428681799577,
+          "signed_area_y": 0.0,
+          "interfaces": 89852
+        },
+        "fin": {
+          "pressure_force_y": -0.0022307566207893943,
+          "signed_area_y": 0.003698567225910665,
+          "interfaces": 11381
+        },
+        "common": {
+          "pressure_force_y": -0.0018378106826021198,
+          "signed_area_y": 0.001514224811216991,
+          "interfaces": 10350
+        }
+      }
+    },
+    {
+      "step": 4770,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.027768549480884523,
+          "signed_area_y": 0.0,
+          "interfaces": 89820
+        },
+        "fin": {
+          "pressure_force_y": 0.002420604086439947,
+          "signed_area_y": 0.003837807016680017,
+          "interfaces": 11410
+        },
+        "common": {
+          "pressure_force_y": 0.002182255136491271,
+          "signed_area_y": 0.0015229326618282357,
+          "interfaces": 10366
+        }
+      }
+    },
+    {
+      "step": 4800,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.08884718231285933,
+          "signed_area_y": 0.0,
+          "interfaces": 89782
+        },
+        "fin": {
+          "pressure_force_y": 0.007722026337114847,
+          "signed_area_y": 0.0037942916806059657,
+          "interfaces": 11414
+        },
+        "common": {
+          "pressure_force_y": 0.006855685949881313,
+          "signed_area_y": 0.001505525401171326,
+          "interfaces": 10363
+        }
+      }
+    }
+  ],
+  "isolated": [
+    {
+      "step": 1440,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.004468016399445176,
+          "signed_area_y": 0.0,
+          "interfaces": 10002
+        },
+        "fin": {
+          "pressure_force_y": 0.004468016399445176,
+          "signed_area_y": 0.0,
+          "interfaces": 10002
+        },
+        "common": {
+          "pressure_force_y": 0.004355285768528524,
+          "signed_area_y": 0.0013766824372396513,
+          "interfaces": 9479
+        }
+      }
+    },
+    {
+      "step": 1470,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.004233537864213498,
+          "signed_area_y": 0.0,
+          "interfaces": 10054
+        },
+        "fin": {
+          "pressure_force_y": -0.004233537864213498,
+          "signed_area_y": 0.0,
+          "interfaces": 10054
+        },
+        "common": {
+          "pressure_force_y": -0.004179742223709339,
+          "signed_area_y": 0.0014336516883304284,
+          "interfaces": 9519
+        }
+      }
+    },
+    {
+      "step": 1500,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.0031461184496347928,
+          "signed_area_y": 0.0,
+          "interfaces": 10052
+        },
+        "fin": {
+          "pressure_force_y": 0.0031461184496347928,
+          "signed_area_y": 0.0,
+          "interfaces": 10052
+        },
+        "common": {
+          "pressure_force_y": 0.003051417376296152,
+          "signed_area_y": 0.0013766809051958262,
+          "interfaces": 9531
+        }
+      }
+    },
+    {
+      "step": 1530,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.0019158875592182704,
+          "signed_area_y": 0.0,
+          "interfaces": 10138
+        },
+        "fin": {
+          "pressure_force_y": -0.0019158875592182704,
+          "signed_area_y": 0.0,
+          "interfaces": 10138
+        },
+        "common": {
+          "pressure_force_y": -0.0019100882761847252,
+          "signed_area_y": 0.0014906104652254726,
+          "interfaces": 9597
+        }
+      }
+    },
+    {
+      "step": 1560,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.0017585638333471028,
+          "signed_area_y": 0.0,
+          "interfaces": 10152
+        },
+        "fin": {
+          "pressure_force_y": -0.0017585638333471028,
+          "signed_area_y": 0.0,
+          "interfaces": 10152
+        },
+        "common": {
+          "pressure_force_y": -0.0017464887846507387,
+          "signed_area_y": 0.001405169317877153,
+          "interfaces": 9631
+        }
+      }
+    },
+    {
+      "step": 1590,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.003457961574640238,
+          "signed_area_y": 0.0,
+          "interfaces": 10240
+        },
+        "fin": {
+          "pressure_force_y": 0.003457961574640238,
+          "signed_area_y": 0.0,
+          "interfaces": 10240
+        },
+        "common": {
+          "pressure_force_y": 0.003358091859204059,
+          "signed_area_y": 0.0013956705729469832,
+          "interfaces": 9715
+        }
+      }
+    },
+    {
+      "step": 1620,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.0016670074830369228,
+          "signed_area_y": 0.0,
+          "interfaces": 10250
+        },
+        "fin": {
+          "pressure_force_y": 0.0016670074830369228,
+          "signed_area_y": 0.0,
+          "interfaces": 10250
+        },
+        "common": {
+          "pressure_force_y": 0.0015929582473964738,
+          "signed_area_y": 0.001357694217858807,
+          "interfaces": 9717
+        }
+      }
+    },
+    {
+      "step": 1650,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.0005559503937387207,
+          "signed_area_y": 0.0,
+          "interfaces": 10346
+        },
+        "fin": {
+          "pressure_force_y": -0.0005559503937387207,
+          "signed_area_y": 0.0,
+          "interfaces": 10346
+        },
+        "common": {
+          "pressure_force_y": -0.0005823578972960774,
+          "signed_area_y": 0.0013671853057530825,
+          "interfaces": 9818
+        }
+      }
+    },
+    {
+      "step": 1680,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.004192589622388275,
+          "signed_area_y": 0.0,
+          "interfaces": 10340
+        },
+        "fin": {
+          "pressure_force_y": 0.004192589622388275,
+          "signed_area_y": 0.0,
+          "interfaces": 10340
+        },
+        "common": {
+          "pressure_force_y": 0.004079366566976621,
+          "signed_area_y": 0.0013007219877181342,
+          "interfaces": 9813
+        }
+      }
+    },
+    {
+      "step": 1710,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.0019510561369646066,
+          "signed_area_y": 0.0,
+          "interfaces": 10306
+        },
+        "fin": {
+          "pressure_force_y": -0.0019510561369646066,
+          "signed_area_y": 0.0,
+          "interfaces": 10306
+        },
+        "common": {
+          "pressure_force_y": -0.00196320196694283,
+          "signed_area_y": 0.0013766793736067484,
+          "interfaces": 9784
+        }
+      }
+    },
+    {
+      "step": 1740,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.0008855575730568533,
+          "signed_area_y": 0.0,
+          "interfaces": 10292
+        },
+        "fin": {
+          "pressure_force_y": -0.0008855575730568533,
+          "signed_area_y": 0.0,
+          "interfaces": 10292
+        },
+        "common": {
+          "pressure_force_y": -0.0008984428542193143,
+          "signed_area_y": 0.0013766898468929867,
+          "interfaces": 9760
+        }
+      }
+    },
+    {
+      "step": 1770,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.0001848341927984595,
+          "signed_area_y": 0.0,
+          "interfaces": 10160
+        },
+        "fin": {
+          "pressure_force_y": 0.0001848341927984595,
+          "signed_area_y": 0.0,
+          "interfaces": 10160
+        },
+        "common": {
+          "pressure_force_y": 0.00015533220651589382,
+          "signed_area_y": 0.0013766883980679268,
+          "interfaces": 9627
+        }
+      }
+    },
+    {
+      "step": 1800,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.00166886847801255,
+          "signed_area_y": 0.0,
+          "interfaces": 10048
+        },
+        "fin": {
+          "pressure_force_y": 0.00166886847801255,
+          "signed_area_y": 0.0,
+          "interfaces": 10048
+        },
+        "common": {
+          "pressure_force_y": 0.0016122606549214733,
+          "signed_area_y": 0.001405164723564667,
+          "interfaces": 9527
+        }
+      }
+    },
+    {
+      "step": 1830,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.00025632043264993545,
+          "signed_area_y": 0.0,
+          "interfaces": 10090
+        },
+        "fin": {
+          "pressure_force_y": -0.00025632043264993545,
+          "signed_area_y": 0.0,
+          "interfaces": 10090
+        },
+        "common": {
+          "pressure_force_y": -0.00028428797633377195,
+          "signed_area_y": 0.0014146633034215483,
+          "interfaces": 9553
+        }
+      }
+    },
+    {
+      "step": 1860,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": -0.0013789455083326944,
+          "signed_area_y": 0.0,
+          "interfaces": 10048
+        },
+        "fin": {
+          "pressure_force_y": -0.0013789455083326944,
+          "signed_area_y": 0.0,
+          "interfaces": 10048
+        },
+        "common": {
+          "pressure_force_y": -0.0013726197693253981,
+          "signed_area_y": 0.001348198619325558,
+          "interfaces": 9510
+        }
+      }
+    },
+    {
+      "step": 1890,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.0014299903393465519,
+          "signed_area_y": 0.0,
+          "interfaces": 9960
+        },
+        "fin": {
+          "pressure_force_y": 0.0014299903393465519,
+          "signed_area_y": 0.0,
+          "interfaces": 9960
+        },
+        "common": {
+          "pressure_force_y": 0.0013803275488572962,
+          "signed_area_y": 0.0013576971991824394,
+          "interfaces": 9440
+        }
+      }
+    },
+    {
+      "step": 1920,
+      "cache_error": 0.0,
+      "regions": {
+        "whole": {
+          "pressure_force_y": 0.004467645535803651,
+          "signed_area_y": 0.0,
+          "interfaces": 10002
+        },
+        "fin": {
+          "pressure_force_y": 0.004467645535803651,
+          "signed_area_y": 0.0,
+          "interfaces": 10002
+        },
+        "common": {
+          "pressure_force_y": 0.004354965260552003,
+          "signed_area_y": 0.0013766824372396513,
+          "interfaces": 9479
+        }
+      }
+    }
+  ],
+  "reader_provenance": {
+    "tecio_read.py": "40391123a930bd83fec7dc09ea35c7c1dde42eb76ecb44a6107a671845f38d27",
+    "read_cartesian.py": "a495236bd6d5893791167d48474d42af91856a31a87c59e24c5cdce36f4f4e87"
+  },
+  "limitation": "Reconstructs exported P/iblank/AMR_status interfaces. Six internal boundary masks, body ownership and solver double-precision metrics were not exported; agreement with mapped cache is not bitwise identity to solver internals."
+}

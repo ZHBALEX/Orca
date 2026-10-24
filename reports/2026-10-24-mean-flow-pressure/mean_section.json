@@ -1,0 +1,64 @@
+{
+  "span": 0.3,
+  "common_valid_fraction": 1.0,
+  "sampled_coordinates": "x/c=.05\u2013.9, equal upper/lower normal-coordinate offsets .012\u2013.04L in each moving local section",
+  "means": {
+    "baseline": [
+      -9.787766029256494,
+      -0.5596866927682146,
+      0.33283083044195494
+    ],
+    "isolated": [
+      -7.195167228048233,
+      -0.47892340251154003,
+      0.12204089406307862
+    ],
+    "difference": [
+      -2.59259880120826,
+      -0.08076329025667447,
+      0.21078993637887633
+    ]
+  },
+  "columns": [
+    "upper_span_vorticity_over_U",
+    "upper_span_velocity_over_U",
+    "lower_minus_upper_fluid_Cp"
+  ],
+  "scope": "Unweighted averages over the plotted sampling grid. Not surface pressure or a force integral. Local-coordinate phase means, not stationary Eulerian means.",
+  "sources": [
+    "baseline_00_sections.npz",
+    "baseline_01_sections.npz",
+    "baseline_02_sections.npz",
+    "baseline_03_sections.npz",
+    "baseline_04_sections.npz",
+    "baseline_05_sections.npz",
+    "baseline_06_sections.npz",
+    "baseline_07_sections.npz",
+    "baseline_08_sections.npz",
+    "baseline_09_sections.npz",
+    "baseline_10_sections.npz",
+    "baseline_11_sections.npz",
+    "baseline_12_sections.npz",
+    "baseline_13_sections.npz",
+    "baseline_14_sections.npz",
+    "baseline_15_sections.npz",
+    "baseline_16_sections.npz",
+    "isolated_00_sections.npz",
+    "isolated_01_sections.npz",
+    "isolated_02_sections.npz",
+    "isolated_03_sections.npz",
+    "isolated_04_sections.npz",
+    "isolated_05_sections.npz",
+    "isolated_06_sections.npz",
+    "isolated_07_sections.npz",
+    "isolated_08_sections.npz",
+    "isolated_09_sections.npz",
+    "isolated_10_sections.npz",
+    "isolated_11_sections.npz",
+    "isolated_12_sections.npz",
+    "isolated_13_sections.npz",
+    "isolated_14_sections.npz",
+    "isolated_15_sections.npz",
+    "isolated_16_sections.npz"
+  ]
+}

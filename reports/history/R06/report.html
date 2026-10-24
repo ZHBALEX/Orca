@@ -1,0 +1,29 @@
+<div style="padding:14px;background:#fff0c0">历史报告快照；部分判断后续已更新。请先阅读最新总报告。原始数据附件保留本地，本合集不包含数据或论文全文。</div><!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>均匀密度质心处的俯仰载荷</title>
+
+<style>body{max-width:1000px;margin:40px auto;font:17px/1.8 "Microsoft YaHei",sans-serif;color:#234;padding:0 20px}table{width:100%;border-collapse:collapse}td,th{padding:9px;border-bottom:1px solid #ccc;text-align:right}img{width:100%}</style>
+
+<h1>假定密度均匀：各自质心处的俯仰水动力矩</h1>
+
+<p><strong>结论：在均匀密度假设下，Baseline 的质心处平均总俯仰水动力矩绝对值降低 13.0%，波动标准差降低 3.1%，峰峰值降低 6.0%。因此，“平均配平补偿需求较小、周期性俯仰水动力载荷较弱”得到条件性支持；改善幅度有限，尚非自由游动稳定性证明。</strong></p>
+
+<p>Baseline＝Sweep35；NoFin 为去胸鳍对照。将完整闭合表面内视为均匀密度实体，分别对两工况 17 帧实际运动几何积分。质心等于体积形心，密度数值不影响质心。不是将两工况继续放在同一个 Baseline 参考点比较。</p>
+
+<p>周期平均质心：Baseline [10.415717488120531, 5.9945894550010514, 5.995661595229437]；NoFin [10.42165974153884, 5.996170379211815, 5.995573999449206]。质心纵向位置分别在各自参考鼻端后 0.41310L、0.41896L。</p>
+
+<p>每一时刻使用 M<sub>CG</sub>＝M<sub>origin</sub>−r<sub>CG</sub>×F 转换。以下主表使用求解器<strong>压力＋黏性总水动力矩</strong>，t/T＝9–10 的 481 个输出点；质心在 17 个实际几何帧之间作线性插值。</p>
+
+<table><tr><th>总俯仰力矩系数</th><th>NoFin</th><th>Baseline</th><th>Baseline 相对变化</th></tr><tr><td>平均值</td><td>0.044588</td><td>0.038771</td><td>-13.04%</td></tr><tr><td>标准差</td><td>0.125319</td><td>0.121463</td><td>-3.08%</td></tr><tr><td>均方根（含均值）</td><td>0.133014</td><td>0.127501</td><td>-4.14%</td></tr><tr><td>峰峰值</td><td>0.572103</td><td>0.538037</td><td>-5.95%</td></tr></table>
+
+<p>把工况差都先算到同一个随动的 Baseline 质心，平均总力矩差为 -0.006366；再改为各自质心，参考点差异带来 +0.000550 的修正，净变化为 -0.005816。因此可以区分水动力变化与质心位置改变的作用。</p>
+
+<p>压力分部方差之和由 0.013069 增至 0.013781，两倍协方差之和由 0.002564 降至 0.000753。整体波动减小主要来自部位之间的载荷配合变化，而不是每个部位单独波动都变小。此分解使用 17 个实际几何相位，仅作为分部压力载荷的解释。</p>
+
+<img src="figure-e78c75ac488c.png">
+
+<p>同一输出相位的精确质心结果、各自周期平均固定质心结果与完整统计见数据文件，用于判断插值或质心移动是否改变结论。分部力矩仍为压力分量，不能与总水动力矩混为一谈。</p>
+
+<p>以 2×10<sup>−6</sup>L 容差合并导出接缝处的重复节点后，各帧封闭性及相邻三角面定向检查通过；最大质心修正分别为 5.56e-09L 和 6.27e-09L。体积的周期峰峰变化／均值分别为 0.5399% 和 0.5099%。这些几何体积变化保留在形心积分中，不用于推导质量随时间改变的动力学。</p>
+
+<p>该假设把几何参考点升级为指定质量模型的质心，可以比较质心处平均水动力矩及载荷波动是否下降。若以零平均水动力矩作为目标，可讨论平均配平所需补偿力矩大小；但单个规定运动工况仍不给出姿态扰动后的恢复力矩、阻尼或自由运动稳定性。此处也没有把力矩直接换算为变形游动体的角加速度。</p>
+
+<p>全部统计及分部协方差 <small>[original local attachment: summary.json]</small> · 逐帧质心与惯量积分 <small>[original local attachment: centroid_geometry.csv]</small> · 水动力矩统计 <small>[original local attachment: moment_statistics.csv]</small> · 前述两条物理假设分析 <small>[original local attachment: ../mechanism/report.html]</small></p></html>
