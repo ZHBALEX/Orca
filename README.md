@@ -4,6 +4,8 @@
 
 ## 从这里开始
 
+- **[v18：固定周期内的压差与增升机制](reports/2026-10-23-phase-mechanism/README.md)**
+
 - **[v17：周期稳定性、采样误差与发表证据边界](reports/2026-10-23-cycle-evidence/README.md)**
 - [v17 英文结果草稿](reports/2026-10-23-cycle-evidence/MANUSCRIPT_DRAFT.md)
 
