@@ -4,6 +4,8 @@
 
 ## 从这里开始
 
+- **[v20：全周期演化与上侧流动来源回溯](reports/2026-10-24-dong-evolution/README.md)**
+
 - **[v19：Dong 组路线的同相位流场—压差对照](reports/2026-10-23-dong-comparison/README.md)**
 
 - **[v18：固定周期内的压差与增升机制](reports/2026-10-23-phase-mechanism/README.md)**
